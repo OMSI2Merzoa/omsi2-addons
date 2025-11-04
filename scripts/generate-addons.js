@@ -78,7 +78,7 @@ function normalizeVersion(raw) {
         const sizeMB = (asset.size / (1024 * 1024)).toFixed(1);
 
         addons.push({
-          id: asset.name.replace(".zip", "").toLowerCase().replace(/\s+/g, "_"),
+          id: asset.name.replace(".zip|7z", "").toLowerCase().replace(/\s+/g, "_"),
           name: (rel.name || asset.name).replace(/^\[.*?\]\s*/, ""), // [map] 제거
           author: owner,
           category: category,
