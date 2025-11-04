@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2025-11-04T12:26:24.246Z",
+  "generatedAt": "2025-11-04T12:34:16.554Z",
   "addons": [
+    {
+      "id": "omsi.7z",
+      "name": "Test",
+      "author": "OMSI2Merzoa",
+      "category": "맵",
+      "description": "테스트용 맵 입니다.",
+      "version": "0.2",
+      "sizeMB": 273.6,
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Testmap_0.2/OMSI.7z"
+    },
     {
       "id": "omsi.7z",
       "name": "test",
