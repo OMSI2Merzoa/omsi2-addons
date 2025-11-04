@@ -1,8 +1,10 @@
 name: Generate omsi-addons.json on release
 
 on:
+  workflow_dispatch:
   release:
     types: [published]
+
 
 permissions:
   contents: write
