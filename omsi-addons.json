@@ -7,7 +7,17 @@
       "Description": "인천광역시 서구 일대를 재현한 맵입니다.",
       "SizeMB": 249,
       "DownloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Map/Incheon.Metropolitan.City.V2.5.zip"
+    },
+
+    {
+      "Name": "인천광역시",
+      "Version": "2.5",
+      "Author": "메르는안조아",
+      "Description": "인천광역시 서구 일대를 재현한 맵입니다.",
+      "SizeMB": 249,
+      "DownloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Map/Incheon.Metropolitan.City.V2.5.zip"
     }
   ]
 }
+
 
