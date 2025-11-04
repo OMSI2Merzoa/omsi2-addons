@@ -1,7 +1,7 @@
 name: Generate omsi-addons.json on release
 
 on:
-  workflow_dispatch: # ✅ 수동 테스트용
+  workflow_dispatch: # 수동 실행용
   release:
     types: [published]
 
@@ -21,15 +21,14 @@ jobs:
         with:
           node-version: 20
 
-      # ✅ 완전히 안전한 방식: npm ci를 절대 사용하지 않음
+      # ✅ npm ci 제거, npm install만 사용
       - name: Install dependencies
         run: |
-          if [ -f "package-lock.json" ]; then
-            echo "package-lock.json detected. Using npm ci"
-            npm ci
-          else
-            echo "No lock file found. Using npm install instead."
+          echo "Installing dependencies..."
+          if [ -f "package.json" ]; then
             npm install
+          else
+            echo "⚠️ No package.json found — skipping dependency installation."
           fi
 
       - name: Generate omsi-addons.json
