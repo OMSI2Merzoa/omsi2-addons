@@ -28,6 +28,7 @@ const CATEGORY_KEYWORDS = {
   patch: "패치",
 };
 
+// 이름에서 [tag] 제거하고 카테고리 감지
 function detectCategory(name = "") {
   const lower = name.toLowerCase();
   for (const key in CATEGORY_KEYWORDS) {
@@ -36,12 +37,31 @@ function detectCategory(name = "") {
   return "기타";
 }
 
+// 버전 정규화: "현대_4.1.0.7" -> "4.1.0.7", "v1.2.3" -> "1.2.3"
+function normalizeVersion(raw) {
+  if (!raw) return "";
+  // 기본적으로 v 접두사 제거
+  let s = String(raw).trim();
+  s = s.replace(/^v/i, "");
+
+  // 첫 번째로 나타나는 숫자+(.숫자)* 패턴을 찾는다
+  const m = s.match(/\d+(?:\.\d+)*/);
+  if (m) return m[0];
+
+  // 숫자 패턴이 없다면, 맨 앞의 비숫자/언더스코어 접두를 제거
+  // ex: "현대_4_1_0_7" 같은 경우는 언더스코어 대신 점으로 바꿔서 처리할 수도 있음,
+  // 여기서는 단순히 비숫자 접두만 제거.
+  const fallback = s.replace(/^[^\d]+/, "");
+  return fallback || s;
+}
+
 (async () => {
   try {
     const [owner, repo] = REPO.split("/");
     console.log(`🔍 ${REPO} 저장소의 릴리스 목록을 가져오는 중...`);
 
-    const releases = await octokit.repos.listReleases({ owner, repo });
+    // 최신 릴리스 목록 가져오기 (필요하면 per_page 늘리기)
+    const releases = await octokit.repos.listReleases({ owner, repo, per_page: 100 });
     const addons = [];
 
     for (const rel of releases.data) {
