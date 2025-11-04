@@ -68,8 +68,8 @@ function normalizeVersion(raw) {
       const category = detectCategory(rel.name || rel.tag_name);
 
       for (const asset of rel.assets) {
-        // zip 파일만 포함 (필요하면 확장자 필터 조정)
-        if (!asset.name.toLowerCase().endsWith(".zip")) continue;
+        // zip,7z 파일만 포함 (필요하면 확장자 필터 조정)
+        if (!lowerName.endsWith(".zip") && !lowerName.endsWith(".7z")) continue;
 
         // 정규화된 버전 얻기 (tag_name 우선 -> name)
         const rawVersion = rel.tag_name || rel.name || "";
