@@ -57,7 +57,7 @@ function detectCategory(name = "") {
           id: asset.name.replace(".zip", "").toLowerCase().replace(/\s+/g, "_"),
           name: (rel.name || asset.name).replace(/^\[.*?\]\s*/, ""), // [map] 제거
           author: owner,
-          category,
+          category: category,
           description: rel.body ? rel.body.split("\n")[0] : "OMSI 2 애드온입니다.",
           version: version,
           sizeMB: parseFloat(sizeMB),
