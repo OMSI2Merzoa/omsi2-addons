@@ -1,70 +1,69 @@
-// scripts/generate-addons.js
-// Node 18+ 권장
-const fs = require('fs');
-const path = require('path');
-const { Octokit } = require('@octokit/rest');
+/**
+ * scripts/generate-addons.js
+ * --------------------------
+ * GitHub Releases → omsi-addons.json 자동 생성 스크립트
+ * (OMSI2Installer용)
+ */
+
+const fs = require("fs");
+const path = require("path");
+const { Octokit } = require("@octokit/rest");
+
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const REPO = process.env.REPO;
+
+if (!GITHUB_TOKEN || !REPO) {
+  console.error("❌ 환경 변수 누락: GITHUB_TOKEN 또는 REPO 값이 필요합니다.");
+  process.exit(1);
+}
+
+const octokit = new Octokit({ auth: GITHUB_TOKEN });
 
 (async () => {
   try {
-    const repoEnv = process.env.REPO; // "owner/repo"
-    if (!repoEnv) throw new Error('Environment variable REPO not set');
-    const [owner, repo] = repoEnv.split('/');
+    console.log(`🔍 ${REPO} 저장소의 릴리스 목록을 가져오는 중...`);
+    const [owner, repo] = REPO.split("/");
 
-    const token = process.env.GITHUB_TOKEN || '';
-    const octokit = new Octokit({ auth: token });
-
-    // 최신 릴리스(또는 필요시 모든 릴리스) 가져오기
-    const releasesResp = await octokit.repos.listReleases({
-      owner,
-      repo,
-      per_page: 100
-    });
-
+    const releases = await octokit.repos.listReleases({ owner, repo });
     const addons = [];
 
-    // 릴리스 역순(최신 먼저)으로 처리(선택)
-    for (const rel of releasesResp.data) {
-      const version = rel.tag_name || rel.name || '';
-      const author = rel.author?.login || '';
-      const description = rel.body ? rel.body.trim() : '';
+    for (const rel of releases.data) {
+      console.log(`📦 릴리스: ${rel.name || rel.tag_name}`);
 
-      // 릴리스의 각 asset을 애드온 항목으로 변환
       for (const asset of rel.assets) {
-        // id 생성 규칙: asset name에서 안전한 문자열로
-        const rawName = asset.name || asset.label || 'asset';
-        const id = rawName
-          .toLowerCase()
-          .replace(/\s+/g, '_')
-          .replace(/[^a-z0-9_\-\.]/g, '')
-          .slice(0, 80);
+        if (!asset.name.toLowerCase().endsWith(".zip")) continue; // zip만 포함
 
-        const name = asset.label || asset.name || `${repo} - ${version}`;
-        const sizeMB = Math.round((asset.size / 1024 / 1024) * 10) / 10; // 1자리 소수
+        const sizeMB = (asset.size / (1024 * 1024)).toFixed(1);
+        const version = rel.tag_name.replace(/^v/i, "");
 
         addons.push({
-          id,
-          name,
-          author,
-          description,
-          version,
-          sizeMB,
-          downloadUrl: asset.browser_download_url
+          id: asset.name.replace(".zip", "").toLowerCase().replace(/\s+/g, "_"),
+          name: asset.name.replace(".zip", ""),
+          author: owner,
+          description: rel.body ? rel.body.split("\n")[0] : "OMSI 2 Addon",
+          version: version,
+          sizeMB: parseFloat(sizeMB),
+          downloadUrl: asset.browser_download_url,
         });
       }
     }
 
-    const output = { addons };
+    const output = {
+      generatedAt: new Date().toISOString(),
+      addons,
+    };
 
-    const outDir = path.join(process.cwd(), 'docs');
-    const outPath = path.join(outDir, 'omsi-addons.json');
+    const outputDir = path.join("docs");
+    const outputFile = path.join(outputDir, "omsi-addons.json");
 
-    fs.mkdirSync(outDir, { recursive: true });
-    fs.writeFileSync(outPath, JSON.stringify(output, null, 2), 'utf8');
+    if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
 
-    console.log(`Wrote ${outPath} (${addons.length} addons)`);
-    process.exit(0);
+    fs.writeFileSync(outputFile, JSON.stringify(output, null, 2), "utf-8");
+
+    console.log(`✅ 생성 완료: ${outputFile}`);
+    console.log(`📁 총 ${addons.length}개의 애드온이 포함되었습니다.`);
   } catch (err) {
-    console.error('Error generating omsi-addons.json:', err);
+    console.error("❌ 오류 발생:", err.message);
     process.exit(1);
   }
 })();
