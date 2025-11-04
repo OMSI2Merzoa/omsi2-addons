@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-04T07:12:49.727Z",
+  "generatedAt": "2025-11-04T07:15:20.170Z",
   "addons": [
     {
       "id": "incheon.metropolitan.city.v2.5",
@@ -7,7 +7,7 @@
       "author": "OMSI2Merzoa",
       "category": "맵",
       "description": "인천광역시 서구 일대를 재현한 맵입니다.",
-      "version": "Incheon_2.5",
+      "version": "2.5",
       "sizeMB": 250,
       "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Incheon_2.5/Incheon.Metropolitan.City.V2.5.zip"
     }
