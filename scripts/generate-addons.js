@@ -1,8 +1,7 @@
 /**
  * scripts/generate-addons.js
  * --------------------------
- * GitHub Releases → omsi-addons.json 자동 생성 스크립트
- * (OMSI2Installer용)
+ * OMSI2 자동 Addon JSON 생성기 (카테고리 인식 버전)
  */
 
 const fs = require("fs");
@@ -19,28 +18,47 @@ if (!GITHUB_TOKEN || !REPO) {
 
 const octokit = new Octokit({ auth: GITHUB_TOKEN });
 
+// 🔹 카테고리 매칭 규칙
+const CATEGORY_KEYWORDS = {
+  map: "맵",
+  bus: "버스",
+  ai: "AI 차량",
+  sound: "사운드",
+  script: "스크립트",
+  patch: "패치",
+};
+
+function detectCategory(name = "") {
+  const lower = name.toLowerCase();
+  for (const key in CATEGORY_KEYWORDS) {
+    if (lower.includes(`[${key}]`)) return CATEGORY_KEYWORDS[key];
+  }
+  return "기타";
+}
+
 (async () => {
   try {
-    console.log(`🔍 ${REPO} 저장소의 릴리스 목록을 가져오는 중...`);
     const [owner, repo] = REPO.split("/");
+    console.log(`🔍 ${REPO} 저장소의 릴리스 목록을 가져오는 중...`);
 
     const releases = await octokit.repos.listReleases({ owner, repo });
     const addons = [];
 
     for (const rel of releases.data) {
-      console.log(`📦 릴리스: ${rel.name || rel.tag_name}`);
+      const category = detectCategory(rel.name || rel.tag_name);
 
       for (const asset of rel.assets) {
-        if (!asset.name.toLowerCase().endsWith(".zip")) continue; // zip만 포함
+        if (!asset.name.toLowerCase().endsWith(".zip")) continue;
 
         const sizeMB = (asset.size / (1024 * 1024)).toFixed(1);
         const version = rel.tag_name.replace(/^v/i, "");
 
         addons.push({
           id: asset.name.replace(".zip", "").toLowerCase().replace(/\s+/g, "_"),
-          name: asset.name.replace(".zip", ""),
+          name: (rel.name || asset.name).replace(/^\[.*?\]\s*/, ""), // [map] 제거
           author: owner,
-          description: rel.body ? rel.body.split("\n")[0] : "OMSI 2 Addon",
+          category,
+          description: rel.body ? rel.body.split("\n")[0] : "OMSI 2 애드온입니다.",
           version: version,
           sizeMB: parseFloat(sizeMB),
           downloadUrl: asset.browser_download_url,
@@ -57,7 +75,6 @@ const octokit = new Octokit({ auth: GITHUB_TOKEN });
     const outputFile = path.join(outputDir, "omsi-addons.json");
 
     if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
-
     fs.writeFileSync(outputFile, JSON.stringify(output, null, 2), "utf-8");
 
     console.log(`✅ 생성 완료: ${outputFile}`);
