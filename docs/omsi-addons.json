@@ -1,25 +1,15 @@
 {
-  "generatedAt": "2025-11-04T06:30:38.787Z",
+  "generatedAt": "2025-11-04T07:01:28.218Z",
   "addons": [
     {
       "id": "incheon.metropolitan.city.v2.5",
-      "name": "Incheon.Metropolitan.City.V2.5",
+      "name": "인천광역시",
       "author": "OMSI2Merzoa",
+      "category": "맵",
       "description": "인천광역시 서구 일대를 재현한 맵입니다.",
-      "version": "2.5",
-      "category": "Map",
+      "version": "Incheon_2.5",
       "sizeMB": 250,
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Map/Incheon.Metropolitan.City.V2.5.zip"
-    },
-    {
-      "id": "hyundai.citybus.series",
-      "name": "Hyundai.Citybus.Series",
-      "author": "OMSI2Merzoa",
-      "description": "SAC, NSAC, UNICITY, GLOBAL900, GREENCITY, LFSAC, LFNSAC",
-      "version": "4.1.0.7",
-      "category": "Bus",
-      "sizeMB": 764.6,
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Bus/Hyundai.Citybus.Series.zip"
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Incheon_2.5/Incheon.Metropolitan.City.V2.5.zip"
     }
   ]
 }
