@@ -76,7 +76,6 @@ function normalizeVersion(raw) {
         const version = normalizeVersion(rawVersion);
 
         const sizeMB = (asset.size / (1024 * 1024)).toFixed(1);
-        const version = rel.tag_name.replace(/^v/i, "");
 
         addons.push({
           id: asset.name.replace(".zip", "").toLowerCase().replace(/\s+/g, "_"),
