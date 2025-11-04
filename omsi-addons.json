@@ -18,7 +18,8 @@
       "sizeMB": 180,
       "downloadUrl": "https://github.com/merunajoa/omsi2-addons/releases/download/v2.0/b7rle_v2.zip"
     },
-      {
+    {
+      "id": "map_incheon",
       "name": "인천광역시",
       "version": "2.5",
       "author": "메르는안조아",
@@ -28,6 +29,7 @@
     }
   ]
 }
+
 
 
 
