@@ -69,6 +69,7 @@ function normalizeVersion(raw) {
 
       for (const asset of rel.assets) {
         // zip,7z 파일만 포함 (필요하면 확장자 필터 조정)
+        const lowerName = asset.name.toLowerCase(); // ← 여기가 반드시 여기 있어야 함
         if (!lowerName.endsWith(".zip") && !lowerName.endsWith(".7z")) continue;
 
         // 정규화된 버전 얻기 (tag_name 우선 -> name)
