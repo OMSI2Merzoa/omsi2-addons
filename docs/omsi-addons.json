@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-04T07:15:20.170Z",
+  "generatedAt": "2025-11-04T07:16:43.912Z",
   "addons": [
     {
       "id": "incheon.metropolitan.city.v2.5",
@@ -10,6 +10,16 @@
       "version": "2.5",
       "sizeMB": 250,
       "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Incheon_2.5/Incheon.Metropolitan.City.V2.5.zip"
+    },
+    {
+      "id": "hyundai.citybus.series",
+      "name": "현대버스시리즈",
+      "author": "OMSI2Merzoa",
+      "category": "버스",
+      "description": "현대 SAC, NSAC, UNICITY, GLOBAL900, GREENCITY, LFSAC, LFNSAC 차종이 포함되어 있습니다.",
+      "version": "4.1.0.7",
+      "sizeMB": 764.6,
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Hyundai_Series_4.1.0.7/Hyundai.Citybus.Series.zip"
     }
   ]
 }
