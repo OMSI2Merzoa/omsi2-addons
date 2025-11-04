@@ -1,0 +1,22 @@
+{
+  "addons": [
+    {
+      "id": "incheon.metropolitan.city.v2.5.zip",
+      "name": "Incheon.Metropolitan.City.V2.5.zip",
+      "author": "OMSI2Merzoa",
+      "description": "인천광역시 2.5버전\r\n\r\nV2.5는 V2버전과 다른부분이 거의 없으나 이번 5/11 개편예정인 인천e음88번과 76번의 노선변경을 마친 버전입니다.\r\n변경되는 노선의 안내방송과 LED, Hof,노선안내화살표 작업은 이루어지지 않은 상태이며 앞으로도 업데이트 예정 없습니다.\r\n\r\n[수록노선]\r\n간선 66 : 드림파크야생화단지(06600/02) ~ 도담공원(06600/01)\r\n간선 75 : 왕길동종점(07500/02) ~ 귤현차량기지,안골공원(07500/01)\r\n간선 76 : 마전지구버스차고지 ~ 박촌역 / hof작업 X\r\n간선 77 : 마전지구버스차고지(07700/02) ~ 귤현차량기지,안골공원(07700/01)\r\n간선 92 : 검단산업단지(09200/02) ~ 걸포북변역(09200/01)\r\n간선 93 : 국제성모병원(09300/02) ~ 인천이음초등학교(09300/01)\r\n지선 587 : 계산역 ~ 계산역(58700/01)\r\n순환 81 : 마전지구(08100/02) ~ 대인고교(08100/01)\r\n순환 83 : 마전지구버스차고지(08300/02) ~ 귤현역(08300/01)\r\n계양공영 1 : 계양역(00100/04) ~ 이화진등마을경로당(00100/03)\r\n인천e음 88 : 창신초등학교 ~ 계양역 / hof작업 X\r\n인천e음 89 : 검단로제비앙라프레(08900/02) ~ 계양역(08900/01)\r\n김포시내 841 : 김포차량등록사업소(84100/02) ~ 이마트(84100/01)\r\n김포마을 52 : 센트럴헤센아파트(05200/06) ~ 길훈아파트(05200/05)\r\n김포마을 52A : 센트럴헤센아파트(05200/04) ~ 길훈아파트(05200/03)\r\n김포마을 52B : 센트럴헤센아파트(05200/02) ~ 길훈아파트(05200/01)\r\n김포마을 52N : 센트럴헤센아파트(05200/08) ~ 걸포북변역(05200/07)",
+      "version": "Map",
+      "sizeMB": 250,
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Map/Incheon.Metropolitan.City.V2.5.zip"
+    },
+    {
+      "id": "hyundai.citybus.series.zip",
+      "name": "Hyundai.Citybus.Series.zip",
+      "author": "OMSI2Merzoa",
+      "description": "[Include]\r\nSAC, NSAC, UNICITY, GLOBAL900, GREENCITY, LFSAC, LFNSAC",
+      "version": "Bus",
+      "sizeMB": 764.6,
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Bus/Hyundai.Citybus.Series.zip"
+    }
+  ]
+}
