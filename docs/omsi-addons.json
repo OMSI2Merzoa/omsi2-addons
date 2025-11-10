@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-10T09:02:03.216Z",
+  "generatedAt": "2025-11-10T09:16:48.401Z",
   "addons": [
     {
       "id": "incheon_map",
@@ -46,14 +46,14 @@
       "repo": "OMSI2Merzoa/omsi2-addons"
     },
     {
-      "id": "ai_torres",
-      "name": "KGM 토레스",
+      "id": "test_ai",
+      "name": "AI테스트",
       "author": "OMSI2Merzoa",
       "category": "AI 차량",
-      "description": "AI전용 KGM 토레스 차량입니다",
-      "version": "1.0",
-      "sizeMB": 1.1,
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/ai_torres-v1.0/ai_torres.zip",
+      "description": "AI테스트용 임시파일입니다.",
+      "version": "0.1",
+      "sizeMB": 0,
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/test_ai-v0.1/ai_test.zip",
       "repo": "OMSI2Merzoa/omsi2-addons"
     }
   ]
