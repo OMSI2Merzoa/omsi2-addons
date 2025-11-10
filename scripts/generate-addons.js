@@ -94,7 +94,7 @@ function cleanDisplayName(relName, addonId) {
 
       const tag = rel.tag_name || "";
       // 태그에서 addonId와 버전 추출: {addonId}-v{...}
-      const m = tag.match(/^([a-z0-9][a-z0-9-]*)-v(.+)$/i);
+      const m = tag.match(/^([a-z0-9][a-z0-9-_]*)-v(.+)$/i);
       if (!m) continue;
 
       const addonId = m[1].toLowerCase();     // ex) seoulmap
