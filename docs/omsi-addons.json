@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-10T05:29:48.058Z",
+  "generatedAt": "2025-11-10T05:50:58.092Z",
   "addons": [
     {
       "id": "incheon_map",
@@ -10,6 +10,17 @@
       "version": "2.5",
       "sizeMB": 250,
       "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5/Incheon.Metropolitan.City.V2.5.zip",
+      "repo": "OMSI2Merzoa/omsi2-addons"
+    },
+    {
+      "id": "county",
+      "name": "현대 카운티",
+      "author": "OMSI2Merzoa",
+      "category": "버스",
+      "description": "현대 카운티 10,13,15,19,21년식",
+      "version": "1.0",
+      "sizeMB": 263,
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/County-v1.0/Hyundai.County.zip",
       "repo": "OMSI2Merzoa/omsi2-addons"
     },
     {
