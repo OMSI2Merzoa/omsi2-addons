@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-10T06:43:35.640Z",
+  "generatedAt": "2025-11-10T08:08:44.768Z",
   "addons": [
     {
       "id": "incheon_map",
@@ -10,6 +10,17 @@
       "version": "2.5.1",
       "sizeMB": 1646.1,
       "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
+      "repo": "OMSI2Merzoa/omsi2-addons"
+    },
+    {
+      "id": "testmap",
+      "name": "테스트용 맵",
+      "author": "OMSI2Merzoa",
+      "category": "맵",
+      "description": "테스트용 맵입니다",
+      "version": "0.1",
+      "sizeMB": 15,
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/testmap-v0.1/test_1.7z",
       "repo": "OMSI2Merzoa/omsi2-addons"
     },
     {
