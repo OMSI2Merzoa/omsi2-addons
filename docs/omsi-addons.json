@@ -1,4 +1,16 @@
 {
-  "generatedAt": "2025-11-10T04:12:20.189Z",
-  "addons": []
+  "generatedAt": "2025-11-10T04:24:14.139Z",
+  "addons": [
+    {
+      "id": "ai_torres",
+      "name": "KGM 토레스",
+      "author": "OMSI2Merzoa",
+      "category": "AI 차량",
+      "description": "AI전용 KGM 토레스 차량입니다",
+      "version": "1.0",
+      "sizeMB": 1.1,
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/ai_torres-v1.0/ai_torres.zip",
+      "repo": "OMSI2Merzoa/omsi2-addons"
+    }
+  ]
 }
