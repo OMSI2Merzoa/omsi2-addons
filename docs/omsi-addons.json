@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2025-11-04T12:34:16.554Z",
+  "generatedAt": "2025-11-10T03:36:33.372Z",
   "addons": [
+    {
+      "id": "omsi.7z",
+      "name": "Test",
+      "author": "OMSI2Merzoa",
+      "category": "맵",
+      "description": "테스트용 맵 입니다. 0.3",
+      "version": "[Map] Test",
+      "sizeMB": 273.6,
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/untagged-0f22701d522b9c6f6a25/OMSI.7z"
+    },
     {
       "id": "omsi.7z",
       "name": "Test",
@@ -20,6 +30,16 @@
       "version": "0.1",
       "sizeMB": 0,
       "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Testmap_0.1/OMSI.7z"
+    },
+    {
+      "id": "ai_staria.zip",
+      "name": "현대 스타리아",
+      "author": "OMSI2Merzoa",
+      "category": "AI 차량",
+      "description": "AI전용 현대 스타리아 차량입니다",
+      "version": "1.0",
+      "sizeMB": 1.6,
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Staria_1.0/ai_staria.zip"
     },
     {
       "id": "2.5.dev.7z",
