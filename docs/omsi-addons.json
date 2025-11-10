@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2025-11-10T04:24:14.139Z",
+  "generatedAt": "2025-11-10T05:29:48.058Z",
   "addons": [
+    {
+      "id": "incheon_map",
+      "name": "인천광역시",
+      "author": "OMSI2Merzoa",
+      "category": "맵",
+      "description": "인천광역시 서구 일대를 재현한 맵입니다.",
+      "version": "2.5",
+      "sizeMB": 250,
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5/Incheon.Metropolitan.City.V2.5.zip",
+      "repo": "OMSI2Merzoa/omsi2-addons"
+    },
     {
       "id": "ai_torres",
       "name": "KGM 토레스",
