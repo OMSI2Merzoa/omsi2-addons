@@ -2,26 +2,6 @@
   "generatedAt": "2025-11-10T03:39:15.885Z",
   "addons": [
     {
-      "id": "ai_torres.zip",
-      "name": "KGM 토레스",
-      "author": "OMSI2Merzoa",
-      "category": "AI 차량",
-      "description": "AI전용 KGM 토레스 차량입니다",
-      "version": "1.0",
-      "sizeMB": 1.1,
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Torres_1.0/ai_torres.zip"
-    },
-    {
-      "id": "ioniq.zip",
-      "name": "현대 아이오닉",
-      "author": "OMSI2Merzoa",
-      "category": "AI 차량",
-      "description": "AI전용 현대 아이오닉 차량입니다.",
-      "version": "1.0",
-      "sizeMB": 12,
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Ioniq_1.0/ioniq.zip"
-    },
-    {
       "id": "omsi.7z",
       "name": "Test",
       "author": "OMSI2Merzoa",
@@ -40,16 +20,6 @@
       "version": "0.1",
       "sizeMB": 0,
       "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Testmap_0.1/OMSI.7z"
-    },
-    {
-      "id": "ai_staria.zip",
-      "name": "현대 스타리아",
-      "author": "OMSI2Merzoa",
-      "category": "AI 차량",
-      "description": "AI전용 현대 스타리아 차량입니다",
-      "version": "1.0",
-      "sizeMB": 1.6,
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Staria_1.0/ai_staria.zip"
     },
     {
       "id": "2.5.dev.7z",
