@@ -10,11 +10,13 @@
         { "id": "incheon_map",    "category": "Map", "tagPrefix": "incheon_map-v" },
         { "id": "test_ai",        "category": "AI",  "tagPrefix": "test_ai-v" },
         { "id": "testmap",        "category": "Map", "tagPrefix": "testmap-v" },
+        { "id": "NCC_Official",        "category": "Map", "tagPrefix": "NCC_Official-v" },
         { "id": "testmap_7z",        "category": "Map", "tagPrefix": "testmap_7z-v" }
       ]
     }
   ]
 }
+
 
 
 
