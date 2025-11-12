@@ -1,21 +1,16 @@
 {
-  "sources": [
+  "repos": [
     {
-      "repo": "OMSI2Merzoa/omsi2-addons",
+      "repo": "OMSI2Merzoa/your-addon-repo",  // 실제 릴리즈가 있는 레포로!
+      "assetPriority": [".7z", ".zip"],
+      "prerelease": true,
       "addons": [
         { "id": "hyundai_series", "category": "Bus", "tagPrefix": "hyundai_series-v" },
-        { "id": "County", "category": "Bus", "tagPrefix": "County-v" },
-        { "id": "incheon_map",  "category": "Map",  "tagPrefix": "incheon_map-v"  },
-        { "id": "test_ai",  "category": "Ai",  "tagPrefix": "test_ai-v"  },
-        { "id": "testmap",  "category": "Map",  "tagPrefix": "testmap-v"  }
-      ],
-      "assetPriority": [".7z", ".zip"],
-      "prerelease": true
+        { "id": "county",         "category": "Bus", "tagPrefix": "county-v" },
+        { "id": "incheon_map",    "category": "Map", "tagPrefix": "incheon_map-v" },
+        { "id": "test_ai",        "category": "AI",  "tagPrefix": "test_ai-v" },
+        { "id": "testmap",        "category": "Map", "tagPrefix": "testmap-v" }
+      ]
     }
   ]
 }
-
-
-
-
-
