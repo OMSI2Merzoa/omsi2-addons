@@ -1,52 +1,65 @@
 {
+  "generatedAt": "2025-11-12T07:42:33.779Z",
   "addons": [
     {
       "id": "test_ai",
       "name": "[AI] AI테스트",
+      "author": "OMSI2Merzoa",
+      "description": "AI테스트용 임시파일입니다.",
       "version": "0.1",
-      "category": "AI",
+      "category": "AI 차량",
       "repo": "OMSI2Merzoa/omsi2-addons",
       "releaseTag": "test_ai-v0.1",
       "publishedAt": "2025-11-10T09:16:37Z",
       "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/test_ai-v0.1/ai_test.zip",
       "fileName": "ai_test.zip",
-      "size": 3056
-    },
-    {
-      "id": "hyundai_series",
-      "name": "[Bus] 현대버스시리즈",
-      "version": "4.1.0.7",
-      "category": "Bus",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "hyundai_series-v4.1.0.7",
-      "publishedAt": "2025-11-10T05:55:16Z",
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/hyundai_series-v4.1.0.7/Hyundai.Citybus.Series.zip",
-      "fileName": "Hyundai.Citybus.Series.zip",
-      "size": 801723533
+      "size": 3056,
+      "sizeMB": 0
     },
     {
       "id": "incheon_map",
       "name": "[Map] 인천광역시",
+      "author": "OMSI2Merzoa",
+      "description": "인천광역시 서구 일대를 재현한 맵입니다.",
       "version": "2.5.1",
-      "category": "Map",
+      "category": "맵",
       "repo": "OMSI2Merzoa/omsi2-addons",
       "releaseTag": "incheon_map-v2.5.1",
       "publishedAt": "2025-11-10T06:43:21Z",
       "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
       "fileName": "2.5.Dev.7z",
-      "size": 1726014748
+      "size": 1726014748,
+      "sizeMB": 1646.1
     },
     {
       "id": "testmap",
       "name": "[Map] 테스트용 맵",
+      "author": "OMSI2Merzoa",
+      "description": "테스트용 맵 입니다.",
       "version": "0.2",
-      "category": "Map",
+      "category": "맵",
       "repo": "OMSI2Merzoa/omsi2-addons",
       "releaseTag": "testmap-v0.2",
       "publishedAt": "2025-11-10T09:01:47Z",
       "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/testmap-v0.2/test_2.7z",
       "fileName": "test_2.7z",
-      "size": 281137821
+      "size": 281137821,
+      "sizeMB": 268.1
+    },
+    {
+      "id": "hyundai_series",
+      "name": "[Bus] 현대버스시리즈",
+      "author": "OMSI2Merzoa",
+      "description": "SAC, NSAC, UNICITY, GLOBAL900, GREENCITY, LFSAC, LFNSAC 차량을 포함합니다",
+      "version": "4.1.0.7",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "hyundai_series-v4.1.0.7",
+      "publishedAt": "2025-11-10T05:55:16Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/hyundai_series-v4.1.0.7/Hyundai.Citybus.Series.zip",
+      "fileName": "Hyundai.Citybus.Series.zip",
+      "size": 801723533,
+      "sizeMB": 764.6
     }
   ]
 }
