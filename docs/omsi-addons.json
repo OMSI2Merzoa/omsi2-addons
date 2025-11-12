@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-12T07:46:01.862Z",
+  "generatedAt": "2025-11-12T08:00:04.304Z",
   "addons": [
     {
       "id": "test_ai",
@@ -14,7 +14,14 @@
       "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/test_ai-v0.1/ai_test.zip",
       "fileName": "ai_test.zip",
       "size": 3056,
-      "sizeMB": 0
+      "sizeMB": 0,
+      "assets": [
+        {
+          "fileName": "ai_test.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/test_ai-v0.1/ai_test.zip",
+          "size": 3056
+        }
+      ]
     },
     {
       "id": "incheon_map",
@@ -29,7 +36,14 @@
       "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
       "fileName": "2.5.Dev.7z",
       "size": 1726014748,
-      "sizeMB": 1646.1
+      "sizeMB": 1646.1,
+      "assets": [
+        {
+          "fileName": "2.5.Dev.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
+          "size": 1726014748
+        }
+      ]
     },
     {
       "id": "testmap",
@@ -44,7 +58,14 @@
       "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/testmap-v0.2/test_2.7z",
       "fileName": "test_2.7z",
       "size": 281137821,
-      "sizeMB": 268.1
+      "sizeMB": 268.1,
+      "assets": [
+        {
+          "fileName": "test_2.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/testmap-v0.2/test_2.7z",
+          "size": 281137821
+        }
+      ]
     },
     {
       "id": "county",
@@ -59,7 +80,14 @@
       "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/County-v1.0/Hyundai.County.zip",
       "fileName": "Hyundai.County.zip",
       "size": 275749535,
-      "sizeMB": 263
+      "sizeMB": 263,
+      "assets": [
+        {
+          "fileName": "Hyundai.County.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/County-v1.0/Hyundai.County.zip",
+          "size": 275749535
+        }
+      ]
     },
     {
       "id": "hyundai_series",
@@ -74,7 +102,14 @@
       "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/hyundai_series-v4.1.0.7/Hyundai.Citybus.Series.zip",
       "fileName": "Hyundai.Citybus.Series.zip",
       "size": 801723533,
-      "sizeMB": 764.6
+      "sizeMB": 764.6,
+      "assets": [
+        {
+          "fileName": "Hyundai.Citybus.Series.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/hyundai_series-v4.1.0.7/Hyundai.Citybus.Series.zip",
+          "size": 801723533
+        }
+      ]
     }
   ]
 }
