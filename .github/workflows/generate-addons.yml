@@ -2,39 +2,56 @@ name: Build omsi-addons.json
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 */6 * * *" # 6시간마다 인덱스 갱신(원하면 조절)
   push:
     paths:
       - "sources.json"
-      - "scripts/**"
+      - "scripts/generate-addons.js"
+      - ".github/workflows/generate-addons.yml"
+  repository_dispatch:
+    types: [omsi-addon-release]
+  schedule:
+    - cron: "*/15 * * * *"  # 백업용(15분마다)
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write    # docs/omsi-addons.json 커밋용
-      actions: read
-      id-token: write
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
 
       - name: Build JSON
         env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}         # 비공개 레포 필요 없으면 생략 가능
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npm ci || true
-          npm run build:addons
+          if [ -f package-lock.json ]; then npm ci; fi
+          node scripts/generate-addons.js
+
+      - name: Debug status
+        run: |
+          git status --porcelain
+          echo "----- docs/omsi-addons.json (head) -----"
+          test -f docs/omsi-addons.json && head -n 20 docs/omsi-addons.json || echo "없음"
+          echo "----- ./omsi-addons.json (head) -----"
+          test -f omsi-addons.json && head -n 20 omsi-addons.json || echo "없음"
 
       - name: Commit & Push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update omsi-addons.json [skip ci]"
-          file_pattern: docs/omsi-addons.json
+          file_pattern: |
+            docs/omsi-addons.json
+            omsi-addons.json
+
+      - name: Upload artifact (debug)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: omsi-addons-json
+          path: |
+            docs/omsi-addons.json
+            omsi-addons.json
