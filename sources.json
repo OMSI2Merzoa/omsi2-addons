@@ -10,10 +10,11 @@
         { "id": "testmap",  "category": "Map",  "tagPrefix": "testmap-v"  }
       ],
       "assetPriority": [".7z", ".zip"],
-      "prerelease": false
+      "prerelease": true
     }
   ]
 }
+
 
 
 
