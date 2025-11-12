@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-12T07:42:59.814Z",
+  "generatedAt": "2025-11-12T07:45:31.794Z",
   "addons": [
     {
       "id": "test_ai",
@@ -45,6 +45,21 @@
       "fileName": "test_2.7z",
       "size": 281137821,
       "sizeMB": 268.1
+    },
+    {
+      "id": "county",
+      "name": "[Bus] 현대 카운티",
+      "author": "OMSI2Merzoa",
+      "description": "현대 카운티 10,13,15,19,21년식",
+      "version": "1.0",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "County-v1.0",
+      "publishedAt": "2025-11-10T05:50:46Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/County-v1.0/Hyundai.County.zip",
+      "fileName": "Hyundai.County.zip",
+      "size": 275749535,
+      "sizeMB": 263
     },
     {
       "id": "hyundai_series",
