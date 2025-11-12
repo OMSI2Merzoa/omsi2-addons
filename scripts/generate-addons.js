@@ -12,19 +12,13 @@
 // scripts/generate-addons.js
 // 레포 단위 스키마(sources.json: { repos: [ { repo, assetPriority?, prerelease?, addons: [ {id, category, tagPrefix, assetPriority?, prerelease?}, ... ] } ] })
 // 여러 레포의 릴리즈를 인덱싱해 docs/omsi-addons.json (그리고 루트에도) 생성
-
+// scripts/generate-addons.js
 import fs from "fs";
 import path from "path";
 import process from "process";
 
-// ──────────────────────────────────────────────────────────────
-// 토큰: GH_TOKEN 우선, 없으면 GITHUB_TOKEN (Actions 환경 호환)
-// 비공개 레포를 긁을 땐 repo scope 가진 PAT를 GH_TOKEN에 넣으세요.
-// ──────────────────────────────────────────────────────────────
 const GH_TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
-if (!GH_TOKEN) {
-  console.warn("⚠️  GH_TOKEN/GITHUB_TOKEN이 없습니다. 공개 레포만 접근 가능합니다.");
-}
+if (!GH_TOKEN) console.warn("⚠️  GH_TOKEN/GITHUB_TOKEN이 없습니다(공개 레포만 접근).");
 
 const headers = {
   "Accept": "application/vnd.github+json",
@@ -32,200 +26,156 @@ const headers = {
   "X-GitHub-Api-Version": "2022-11-28"
 };
 
-// 경로
 const ROOT = process.cwd();
-const INPUT_PATH = path.join(ROOT, "sources.json"); // 레포 단위 스키마 파일
+const INPUT_PATH = path.join(ROOT, "sources.json");      // { repos: [ { repo, addons:[...], ... } ] }
 const OUTPUT_DIR = path.join(ROOT, "docs");
 const OUT_DOCS = path.join(OUTPUT_DIR, "omsi-addons.json");
-// 디버그/호환용: 루트에도 동일 파일 생성(원치 않으면 주석 처리)
-/** @type {string} */
-const OUT_ROOT = path.join(ROOT, "omsi-addons.json");
+const OUT_ROOT = path.join(ROOT, "omsi-addons.json");    // 디버그/호환용(루트에도 기록)
 
-// 카테고리 한글 매핑 (설치기 UI 탭과 동일하게)
-const CATEGORY_MAP = {
-  "Map": "맵",
-  "Bus": "버스",
-  "AI": "AI 차량",
-  "Ai": "AI 차량",
-  // 이미 한글로 들어오면 그대로 통과
-  "맵": "맵",
-  "버스": "버스",
-  "AI 차량": "AI 차량"
-};
+const CATEGORY_MAP = { "Map":"맵", "Bus":"버스", "AI":"AI 차량", "Ai":"AI 차량", "맵":"맵", "버스":"버스", "AI 차량":"AI 차량" };
 
-// ──────────────────────────────────────────────────────────────
-// 유틸
-// ──────────────────────────────────────────────────────────────
-async function gh(url) {
-  const res = await fetch(url, { headers });
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`GitHub API ${res.status}: ${text}`);
-  }
-  return res.json();
-}
+async function gh(url){ const r=await fetch(url,{headers}); if(!r.ok){throw new Error(`GitHub API ${r.status}: ${await r.text()}`);} return r.json(); }
+function toK(cat){ return CATEGORY_MAP[cat] || cat || "기타"; }
+function toMB(bytes){ return Math.round((bytes/1048576)*10)/10; }
 
-function pickRelease(releases, { tagPrefix, prerelease }) {
-  const filtered = (releases || []).filter(r => {
-    if (!r.tag_name || !r.tag_name.startsWith(tagPrefix)) return false;
-    if (r.draft) return false;
-    if (!prerelease && r.prerelease) return false;
+function pickRelease(releases,{tagPrefix,prerelease}){
+  const f=(releases||[]).filter(r=>{
+    if(!r.tag_name?.startsWith(tagPrefix)) return false;
+    if(r.draft) return false;
+    if(!prerelease && r.prerelease) return false;
     return true;
   });
-  filtered.sort((a, b) =>
-    new Date(b.published_at || b.created_at) - new Date(a.published_at || a.created_at)
-  );
-  return filtered[0] || null;
+  f.sort((a,b)=> new Date(b.published_at||b.created_at)-new Date(a.published_at||a.created_at));
+  return f[0]||null;
 }
 
-function pickAsset(assets, assetPriority) {
-  const list = assets || [];
-  for (const ext of assetPriority) {
-    const cand = list.find(a => a.name && a.name.toLowerCase().endsWith(ext.toLowerCase()));
-    if (cand) return cand;
+function pickAsset(assets, prios){ // 단일 패키지(.7z / .zip)
+  for(const ext of prios){
+    const hit=(assets||[]).find(a=>a.name?.toLowerCase().endsWith(ext.toLowerCase()));
+    if(hit) return hit;
   }
   return null;
 }
 
-function toSizeMB(bytes) {
-  if (!bytes || isNaN(bytes)) return 0;
-  return Math.round((bytes / 1048576) * 10) / 10; // 1MB=1,048,576B, 소수1자리
+// ── 멀티볼륨: 같은 릴리즈 내에서 .7z.001+ 묶음을 그룹핑 ──
+function group7zVolumes(assets, preferBase){
+  const map=new Map(); // base -> [asset...]
+  for(const a of (assets||[])){
+    const name=a.name?.toLowerCase()||"";
+    const m=name.match(/^(.*)\.7z\.(\d{3,})$/i);
+    if(!m) continue;
+    const base=m[1]; // ".7z.001" 앞부분
+    if(!map.has(base)) map.set(base,[]);
+    map.get(base).push(a);
+  }
+  if(map.size===0) return null;
+
+  // 정렬(001,002… 순으로)
+  for(const [k,arr] of map){
+    arr.sort((x,y)=>x.name.localeCompare(y.name,undefined,{numeric:true}));
+  }
+
+  // 1) preferBase가 주어지면 그걸 포함하는 그룹 우선
+  if(preferBase){
+    const preferKey=[...map.keys()].find(k=>k.includes(preferBase.toLowerCase()));
+    if(preferKey) return { base: preferKey, files: map.get(preferKey) };
+  }
+  // 2) 하나뿐이면 그거
+  if(map.size===1){
+    const [onlyKey,files]=[...map.entries()][0];
+    return { base: onlyKey, files };
+  }
+  // 3) 가장 파일 수가 많은 그룹
+  let bestKey=null, bestLen=-1;
+  for(const [k,arr] of map){
+    if(arr.length>bestLen){ bestLen=arr.length; bestKey=k; }
+  }
+  return { base: bestKey, files: map.get(bestKey) };
 }
 
-function toKoreanCategory(cat) {
-  return CATEGORY_MAP[cat] || cat || "기타";
-}
+async function run(){
+  if(!fs.existsSync(INPUT_PATH)) { console.error(`❌ ${INPUT_PATH} 없음`); process.exit(1); }
+  let cfg; try{ cfg=JSON.parse(fs.readFileSync(INPUT_PATH,"utf8")); }catch(e){ console.error("❌ sources.json 파싱 오류:",e.message); process.exit(1); }
+  const repos=cfg.repos||[];
+  const out=[];
 
-// ──────────────────────────────────────────────────────────────
-async function run() {
-  if (!fs.existsSync(INPUT_PATH)) {
-    console.error(`❌ ${INPUT_PATH} 파일을 찾을 수 없습니다.`);
-    process.exit(1);
-  }
-
-  const cfgRaw = fs.readFileSync(INPUT_PATH, "utf8").trim();
-  if (!cfgRaw) {
-    console.error("❌ sources.json 내용이 비어있습니다.");
-    process.exit(1);
-  }
-
-  /** @type {{repos: Array<{repo: string, assetPriority?: string[], prerelease?: boolean, addons: Array<{id: string, category?: string, tagPrefix: string, assetPriority?: string[], prerelease?: boolean}>}>}>} */
-  let cfg;
-  try {
-    cfg = JSON.parse(cfgRaw);
-  } catch (e) {
-    console.error("❌ sources.json JSON 파싱 오류:", e.message);
-    process.exit(1);
-  }
-
-  const repos = cfg.repos || [];
-  if (!Array.isArray(repos) || repos.length === 0) {
-    console.warn("⚠️  sources.json의 repos가 비어있습니다. 생성할 항목이 없습니다.");
-  }
-
-  const addonsOut = [];
-
-  for (const repoCfg of repos) {
-    const repo = repoCfg.repo;
-    if (!repo || typeof repo !== "string" || !repo.includes("/")) {
-      console.warn(`⚠️  잘못된 repo 값: ${repo}. 'owner/name' 형식이어야 합니다. 스킵합니다.`);
-      continue;
-    }
-    const repoAssetPriority = repoCfg.assetPriority || [".7z", ".zip"];
-    const repoPrerelease = !!repoCfg.prerelease;
+  for(const repoCfg of repos){
+    const repo=repoCfg.repo;
+    if(!repo?.includes("/")){ console.warn(`⚠️  잘못된 repo: ${repo}`); continue; }
+    const repoPrios=repoCfg.assetPriority||[".7z",".zip"];
+    const repoPre=!!repoCfg.prerelease;
 
     console.log(`📦 레포 조회: ${repo}`);
+    let list; try{ list=await gh(`https://api.github.com/repos/${repo}/releases?per_page=30`);}catch(e){ console.warn(`  ⚠️  목록 실패 → ${e.message}`); continue; }
+    const owner=repo.split("/")[0];
 
-    let releaseList;
-    try {
-      // 각 레포마다 릴리즈 목록 한 번만 가져오기 (최신 30개면 보통 충분)
-      releaseList = await gh(`https://api.github.com/repos/${repo}/releases?per_page=30`);
-    } catch (e) {
-      console.warn(`  ⚠️  ${repo}: 릴리즈 목록 조회 실패 → ${e.message}`);
-      continue;
-    }
+    for(const addon of (repoCfg.addons||[])){
+      try{
+        const { id, category, tagPrefix, assetPriority=repoPrios, prerelease=repoPre } = addon||{};
+        if(!id || !tagPrefix){ console.warn(`  ⚠️  ${repo}: id/tagPrefix 누락`); continue; }
+        const kCat=toK(category);
+        const rel=pickRelease(list,{tagPrefix,prerelease});
+        if(!rel){ console.warn(`  ⚠️  ${repo}: '${tagPrefix}*' 릴리즈 없음`); continue; }
 
-    const owner = repo.split("/")[0];
+        const version = rel.tag_name.substring(tagPrefix.length).replace(/^v/,"");
+        const preferBase = `${id}_${version}`.toLowerCase();
 
-    for (const addon of (repoCfg.addons || [])) {
-      try {
-        const {
-          id,
-          category,
-          tagPrefix,
-          assetPriority = repoAssetPriority,
-          prerelease = repoPrerelease
-        } = addon || {};
-
-        if (!id || !tagPrefix) {
-          console.warn(`  ⚠️  ${repo}: addon에 id/tagPrefix 누락 → 스킵`);
+        // ① 멀티볼륨 우선
+        const grp = group7zVolumes(rel.assets, preferBase);
+        if(grp && grp.files?.length){
+          const total = grp.files.reduce((s,a)=>s+(a.size||0),0);
+          out.push({
+            id,
+            name: rel.name || id,
+            author: owner,
+            description: rel.body || "",
+            version,
+            category: kCat,
+            repo,
+            releaseTag: rel.tag_name,
+            publishedAt: rel.published_at || rel.created_at,
+            assets: grp.files.map(a=>({ fileName: a.name, downloadUrl: a.browser_download_url, size: a.size })),
+            size: total,
+            sizeMB: toMB(total)
+          });
           continue;
         }
 
-        const kCategory = toKoreanCategory(category);
-        console.log(`  🔎 ${id} [${kCategory}] tagPrefix=${tagPrefix}, prerelease=${prerelease}`);
-
-        const rel = pickRelease(releaseList, { tagPrefix, prerelease });
-        if (!rel) {
-          console.warn(`  ⚠️  ${repo}: '${tagPrefix}*' 조건에 맞는 릴리즈 없음(드래프트/프리릴리즈 조건 포함)`);
-          continue;
-        }
-
-        const asset = pickAsset(rel.assets || [], assetPriority);
-        if (!asset) {
-          console.warn(`  ⚠️  ${repo}: '${rel.tag_name}' 릴리즈에 ${assetPriority.join(", ")} 애셋이 없습니다.`);
-          continue;
-        }
-
-        const version = rel.tag_name.substring(tagPrefix.length).replace(/^v/, "");
-        addonsOut.push({
+        // ② 폴백: 단일 .7z / .zip
+        const asset = pickAsset(rel.assets||[], assetPriority);
+        if(!asset){ console.warn(`  ⚠️  ${repo}: 애셋(.7z|.zip) 없음`); continue; }
+        out.push({
           id,
           name: rel.name || id,
           author: owner,
           description: rel.body || "",
           version,
-          category: kCategory,
+          category: kCat,
           repo,
           releaseTag: rel.tag_name,
           publishedAt: rel.published_at || rel.created_at,
+          // 하위호환 필드(기존 설치기 호환 위해 유지)
           downloadUrl: asset.browser_download_url,
           fileName: asset.name,
           size: asset.size,
-          sizeMB: toSizeMB(asset.size)
+          sizeMB: toMB(asset.size),
+          // 새 필드 형식을 통일하기 위해 assets에도 1개 넣어둠
+          assets: [{ fileName: asset.name, downloadUrl: asset.browser_download_url, size: asset.size }]
         });
-      } catch (e) {
-        console.warn(`  ⚠️  ${repo}: '${addon?.id || "unknown"}' 수집 중 오류 → ${e.message}`);
-        continue;
+      }catch(e){
+        console.warn(`  ⚠️  ${repo}: '${addon?.id||"unknown"}' 수집 오류 → ${e.message}`);
       }
     }
   }
 
-  // 정렬: 카테고리 → 이름
-  addonsOut.sort((a, b) =>
-    (a.category || "").localeCompare(b.category || "") ||
-    (a.name || "").localeCompare(b.name || "")
-  );
+  out.sort((a,b)=>(a.category||"").localeCompare(b.category||"")||(a.name||"").localeCompare(b.name||""));
+  const payload={ generatedAt:new Date().toISOString(), addons: out };
 
-  const output = {
-    generatedAt: new Date().toISOString(),
-    addons: addonsOut
-  };
-
-  // 저장 (docs/, 그리고 루트에도 저장해 디버그/호환성↑)
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-  const json = JSON.stringify(output, null, 2);
-  fs.writeFileSync(OUT_DOCS, json, "utf8");
-  try {
-    fs.writeFileSync(OUT_ROOT, json, "utf8");
-  } catch {
-    // 루트 쓰기 실패는 무시(권한/정책에 따라 루트 생략 가능)
-  }
-
-  console.log(`✅ 생성 완료: ${OUT_DOCS}${fs.existsSync(OUT_ROOT) ? ` & ${OUT_ROOT}` : ""} (총 ${addonsOut.length}개)`);
+  fs.mkdirSync(OUTPUT_DIR,{recursive:true});
+  const json=JSON.stringify(payload,null,2);
+  fs.writeFileSync(OUT_DOCS,json,"utf8");
+  try{ fs.writeFileSync(OUT_ROOT,json,"utf8"); }catch{}
+  console.log(`✅ 생성 완료: ${OUT_DOCS}${fs.existsSync(OUT_ROOT)?` & ${OUT_ROOT}`:""} (총 ${out.length}개)`);
 }
 
-// 실행
-run().catch(err => {
-  console.error("❌ 치명적 오류:", err);
-  process.exit(1);
-});
+run().catch(e=>{ console.error("❌ 치명적 오류:",e); process.exit(1); });
