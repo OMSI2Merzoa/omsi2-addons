@@ -10,7 +10,7 @@
  * - 에셋 선택 우선순위: .7z > .zip > 첫번째 > zipball_url/tarball_url
  */
 // scripts/generate-addons.js
-// 여러 레포의 최신 릴리즈를 모아 docs/omsi-addons.json 생성
+// 여러 "레포 → 애드온들" 구조를 인덱싱해서 docs/omsi-addons.json 생성
 
 import fs from "fs";
 import path from "path";
@@ -18,7 +18,7 @@ import process from "process";
 
 const GH_TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
 if (!GH_TOKEN) {
-  console.error("❌ GITHUB_TOKEN (repo 권한) 환경변수가 필요합니다.");
+  console.error("❌ GITHUB_TOKEN (또는 GH_TOKEN) 환경변수가 필요합니다.");
   process.exit(1);
 }
 
@@ -29,11 +29,11 @@ const headers = {
 };
 
 const ROOT = process.cwd();
-const SOURCES_PATH = path.join(ROOT, "sources.json");
+const INPUT_PATH = path.join(ROOT, "sources.json"); // ← 레포 단위 스키마의 파일명 유지
 const OUTPUT_DIR = path.join(ROOT, "docs");
 const OUTPUT_PATH = path.join(OUTPUT_DIR, "omsi-addons.json");
 
-// 유틸: GitHub API 호출(기본 페이지네이션 최소화)
+// ─────────────── 유틸 ───────────────
 async function gh(url) {
   const res = await fetch(url, { headers });
   if (!res.ok) {
@@ -43,77 +43,104 @@ async function gh(url) {
   return res.json();
 }
 
-// 릴리즈 중 조건에 맞는 "가장 최신" 항목 찾기
-function pickRelease(releases, opt) {
-  const { tagPrefix, prerelease } = opt;
-  const filtered = releases.filter(r => {
+function pickRelease(releases, { tagPrefix, prerelease }) {
+  const filtered = (releases || []).filter(r => {
     if (!r.tag_name || !r.tag_name.startsWith(tagPrefix)) return false;
     if (r.draft) return false;
     if (!prerelease && r.prerelease) return false;
     return true;
   });
-  // 최신순 정렬(created_at 또는 published_at)
   filtered.sort((a, b) => new Date(b.published_at || b.created_at) - new Date(a.published_at || a.created_at));
   return filtered[0] || null;
 }
 
-// 애셋 선택(우선순위 확장자)
 function pickAsset(assets, assetPriority) {
   for (const ext of assetPriority) {
-    const cand = assets.find(a => a.name && a.name.toLowerCase().endsWith(ext));
+    const cand = (assets || []).find(a => a.name && a.name.toLowerCase().endsWith(ext));
     if (cand) return cand;
   }
   return null;
 }
 
+// ─────────────── 메인 ───────────────
 async function run() {
-  const sources = JSON.parse(fs.readFileSync(SOURCES_PATH, "utf8")).sources;
-  const addons = [];
+  const cfg = JSON.parse(fs.readFileSync(INPUT_PATH, "utf8"));
+  const repos = cfg.repos || []; // 레포 단위 스키마: { repos: [ { repo, assetPriority?, prerelease?, addons: [ ... ] } ] }
+  const addonsOut = [];
 
-  for (const s of sources) {
-    const { id, repo, category, tagPrefix, assetPriority = [".7z", ".zip"], prerelease = false } = s;
-    console.log(`🔍 ${repo} (${id}) 릴리즈 조회 중...`);
+  for (const repoCfg of repos) {
+    const repo = repoCfg.repo; // "owner/name"
+    const repoAssetPriority = repoCfg.assetPriority || [".7z", ".zip"];
+    const repoPrerelease = !!repoCfg.prerelease;
 
-    // 릴리즈 목록(페이지 1만; 보통 최신 30개면 충분)
-    const list = await gh(`https://api.github.com/repos/${repo}/releases?per_page=30`);
-    const rel = pickRelease(list, { tagPrefix, prerelease });
-
-    if (!rel) {
-      console.warn(`⚠️  ${repo}: 조건(tagPrefix=${tagPrefix}, prerelease=${prerelease})에 맞는 릴리즈 없음`);
-      continue;
+    console.log(`📦 레포 조회: ${repo}`);
+    let releaseList;
+    try {
+      // 각 레포의 릴리즈 목록 한 번만 가져와 캐시(애드온별로 tagPrefix만 다름)
+      releaseList = await gh(`https://api.github.com/repos/${repo}/releases?per_page=30`);
+    } catch (e) {
+      console.warn(`⚠️  ${repo}: 릴리즈 목록 조회 실패 → ${e.message}`);
+      continue; // 이 레포는 스킵
     }
 
-    const asset = pickAsset(rel.assets || [], assetPriority);
-    if (!asset) {
-      console.warn(`⚠️  ${repo}: 우선순위 ${assetPriority.join(", ")} 에 맞는 애셋이 없음`);
-      continue;
-    }
+    for (const addon of (repoCfg.addons || [])) {
+      try {
+        const {
+          id,
+          category,
+          tagPrefix,                         // 필수: addonId-v...
+          assetPriority = repoAssetPriority, // 애드온별 > 레포 공통
+          prerelease = repoPrerelease
+        } = addon;
 
-    // 버전 문자열(태그에서 prefix 제거)
-    const version = rel.tag_name.substring(tagPrefix.length).replace(/^v/, "");
-    addons.push({
-      id,
-      name: rel.name || id,
-      version,
-      category,
-      repo,
-      releaseTag: rel.tag_name,
-      publishedAt: rel.published_at || rel.created_at,
-      downloadUrl: asset.browser_download_url,
-      fileName: asset.name,
-      size: asset.size,
-      // 필요하면 checksum을 업로더가 릴리즈 노트에 써주게 하고 파싱도 가능
-    });
+        if (!id || !tagPrefix) {
+          console.warn(`⚠️  ${repo}: addon 항목에 id/tagPrefix 누락 → 스킵`);
+          continue;
+        }
+
+        console.log(`  🔎 ${id} (${category || "Unknown"}) → tagPrefix=${tagPrefix}, prerelease=${prerelease}`);
+
+        const rel = pickRelease(releaseList, { tagPrefix, prerelease });
+        if (!rel) {
+          console.warn(`  ⚠️  ${repo}: '${tagPrefix}*' 릴리즈 없음(드래프트/프리릴리즈 조건 확인)`);
+          continue;
+        }
+
+        const asset = pickAsset(rel.assets || [], assetPriority);
+        if (!asset) {
+          console.warn(`  ⚠️  ${repo}: '${tagPrefix}' 최신 릴리즈에 ${assetPriority.join(", ")} 애셋 없음`);
+          continue;
+        }
+
+        const version = rel.tag_name.substring(tagPrefix.length).replace(/^v/, "");
+        addonsOut.push({
+          id,
+          name: rel.name || id,
+          version,
+          category,
+          repo,
+          releaseTag: rel.tag_name,
+          publishedAt: rel.published_at || rel.created_at,
+          downloadUrl: asset.browser_download_url,
+          fileName: asset.name,
+          size: asset.size
+        });
+      } catch (e) {
+        console.warn(`  ⚠️  ${repo}: addon 수집 중 오류 → ${e.message}`);
+        continue;
+      }
+    }
   }
 
-  // 출력 폴더 확보
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-
   // 정렬(카테고리 → 이름)
-  addons.sort((a, b) => (a.category || "").localeCompare(b.category || "") || (a.name || "").localeCompare(b.name || ""));
+  addonsOut.sort((a, b) =>
+    (a.category || "").localeCompare((b.category || "")) ||
+    (a.name || "").localeCompare((b.name || ""))
+  );
 
-  fs.writeFileSync(OUTPUT_PATH, JSON.stringify({ addons }, null, 2), "utf8");
-  console.log(`✅ 생성 완료: ${OUTPUT_PATH} (총 ${addons.length}개)`);
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  fs.writeFileSync(OUTPUT_PATH, JSON.stringify({ addons: addonsOut }, null, 2), "utf8");
+  console.log(`✅ 생성 완료: ${OUTPUT_PATH} (총 ${addonsOut.length}개)`);
 }
 
 run().catch(err => {
