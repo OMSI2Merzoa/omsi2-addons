@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-12T09:17:32.419Z",
+  "generatedAt": "2025-11-12T09:20:09.599Z",
   "addons": [
     {
       "id": "test_ai",
@@ -20,6 +20,28 @@
           "fileName": "ai_test.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/test_ai-v0.1/ai_test.zip",
           "size": 3056
+        }
+      ]
+    },
+    {
+      "id": "testmap",
+      "name": "[Map] Test",
+      "author": "OMSI2Merzoa",
+      "description": "테스트용 맵입니다. 7z 단일파일",
+      "version": "0.3",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "testmap-v0.3",
+      "publishedAt": "2025-11-12T09:17:35Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/testmap-v0.3/testmap.7z",
+      "fileName": "testmap.7z",
+      "size": 468291385,
+      "sizeMB": 446.6,
+      "assets": [
+        {
+          "fileName": "testmap.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/testmap-v0.3/testmap.7z",
+          "size": 468291385
         }
       ]
     },
@@ -74,28 +96,6 @@
       ],
       "size": 468291385,
       "sizeMB": 446.6
-    },
-    {
-      "id": "testmap",
-      "name": "[Map] 테스트용 맵",
-      "author": "OMSI2Merzoa",
-      "description": "테스트용 맵 입니다.",
-      "version": "0.2",
-      "category": "맵",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "testmap-v0.2",
-      "publishedAt": "2025-11-10T09:01:47Z",
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/testmap-v0.2/test_2.7z",
-      "fileName": "test_2.7z",
-      "size": 281137821,
-      "sizeMB": 268.1,
-      "assets": [
-        {
-          "fileName": "test_2.7z",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/testmap-v0.2/test_2.7z",
-          "size": 281137821
-        }
-      ]
     },
     {
       "id": "county",
