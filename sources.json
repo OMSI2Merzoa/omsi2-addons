@@ -2,27 +2,12 @@
   "sources": [
     {
       "id": "seoul_map",
-      "repo": "userA/seoul-map",
+      "repo": "OMSI2Merzoa/omsi2-addons",
       "category": "Map",
       "tagPrefix": "seoul_map-v",
-      "assetPriority": [".7z", ".zip"],
-      "prerelease": false
-    },
-    {
-      "id": "county_bus",
-      "repo": "userB/county-bus",
-      "category": "Bus",
-      "tagPrefix": "county_bus-v",
-      "assetPriority": [".7z", ".zip"],
-      "prerelease": false
-    },
-    {
-      "id": "hyundai_series",
-      "repo": "teamC/hyundai-series",
-      "category": "AI",
-      "tagPrefix": "hyundai_series-v",
       "assetPriority": [".7z", ".zip"],
       "prerelease": false
     }
   ]
 }
+
