@@ -1,0 +1,25 @@
+name: Notify index on release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fire repository_dispatch
+        env:
+          INDEX_OWNER: OMSI2Merzoa      # 중앙 인덱스 레포 owner
+          INDEX_REPO:  omsi2-addons     # 중앙 인덱스 레포 name
+          EVENT_TYPE:  omsi-addon-release
+          TOKEN:       ${{ secrets.INDEX_PAT }}  # 중앙 레포에 dispatch 보낼 권한
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "INDEX_PAT secret missing"; exit 1
+          fi
+          curl -s -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${TOKEN}" \
+            https://api.github.com/repos/${INDEX_OWNER}/${INDEX_REPO}/dispatches \
+            -d "{\"event_type\":\"${EVENT_TYPE}\",\"client_payload\":{\"src\":\"${{ github.repository }}\",\"tag\":\"${{ github.event.release.tag_name }}\"}}"
