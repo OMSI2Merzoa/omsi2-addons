@@ -1,50 +1,40 @@
-name: Generate omsi-addons.json on release
+name: Build omsi-addons.json
 
 on:
-  workflow_dispatch: # 수동 실행
-  release:
-    types: [published]
-
-permissions:
-  contents: write
-
-concurrency:
-  group: generate-addons
-  cancel-in-progress: true
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *" # 6시간마다 인덱스 갱신(원하면 조절)
+  push:
+    paths:
+      - "sources.json"
+      - "scripts/**"
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write    # docs/omsi-addons.json 커밋용
+      actions: read
+      id-token: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: |
-          echo "Installing dependencies..."
-          if [ -f "package.json" ]; then
-            npm install
-          else
-            echo "⚠️ No package.json found — skipping dependency installation."
-          fi
-
-      - name: Generate omsi-addons.json
+      - name: Build JSON
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO: ${{ github.repository }}
-          # 필요하면 true 로 바꿔 RC/β도 JSON에 반영
-          INCLUDE_PRERELEASE: "false"
-        run: node scripts/generate-addons.js
+        run: |
+          npm ci || true
+          npm run build:addons
 
-      - name: Commit and push JSON changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Commit & Push
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update omsi-addons.json (latest per-addon)"
-          file_pattern: "docs/omsi-addons.json"
-          branch: main
+          commit_message: "chore: update omsi-addons.json [skip ci]"
+          file_pattern: docs/omsi-addons.json
