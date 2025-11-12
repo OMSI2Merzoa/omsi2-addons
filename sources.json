@@ -1,47 +1,20 @@
 {
   "sources": [
     {
-      "id": "hyundai_series",
       "repo": "OMSI2Merzoa/omsi2-addons",
-      "category": "Bus",
-      "tagPrefix": "hyundai_series-v",
-      "assetPriority": [".7z", ".zip"],
-      "prerelease": false
-    },
-    {
-      "id": "County",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "category": "Bus",
-      "tagPrefix": "County-v",
-      "assetPriority": [".7z", ".zip"],
-      "prerelease": false
-    },
-    {
-      "id": "incheon_map",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "category": "Map",
-      "tagPrefix": "incheon_map-v",
-      "assetPriority": [".7z", ".zip"],
-      "prerelease": false
-    },
-    {
-      "id": "test_ai",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "category": "Ai",
-      "tagPrefix": "test_ai-v",
-      "assetPriority": [".7z", ".zip"],
-      "prerelease": false
-    },
-    {
-      "id": "testmap",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "category": "Map",
-      "tagPrefix": "testmap-v",
+      "addons": [
+        { "id": "hyundai_series", "category": "Bus", "tagPrefix": "hyundai_series-v" },
+        { "id": "County", "category": "Bus", "tagPrefix": "County-v" },
+        { "id": "incheon_map",  "category": "Map",  "tagPrefix": "incheon_map-v"  },
+        { "id": "test_ai",  "category": "Ai",  "tagPrefix": "test_ai-v"  },
+        { "id": "testmap",  "category": "Map",  "tagPrefix": "testmap-v"  }
+      ],
       "assetPriority": [".7z", ".zip"],
       "prerelease": false
     }
   ]
 }
+
 
 
 
