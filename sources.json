@@ -1,7 +1,7 @@
 {
   "repos": [
     {
-      "repo": "OMSI2Merzoa/your-addon-repo",  // 실제 릴리즈가 있는 레포로!
+      "repo": "OMSI2Merzoa/your-addon-repo",
       "assetPriority": [".7z", ".zip"],
       "prerelease": true,
       "addons": [
@@ -14,3 +14,4 @@
     }
   ]
 }
+
