@@ -1,13 +1,46 @@
 {
   "sources": [
     {
-      "id": "seoul_map",
-      "repo": "OMSI2Merzoa/omsi2-addons",
+      "id": "hyundai_series",
+      "repo": "OMSI2Merzoa/hyundai_series",
+      "category": "Bus",
+      "tagPrefix": "hyundai_series-v",
+      "assetPriority": [".7z", ".zip"],
+      "prerelease": false
+    },
+    {
+      "id": "County",
+      "repo": "OMSI2Merzoa/County",
+      "category": "Bus",
+      "tagPrefix": "County-v",
+      "assetPriority": [".7z", ".zip"],
+      "prerelease": false
+    },
+    {
+      "id": "incheon_map",
+      "repo": "OMSI2Merzoa/incheon_map",
       "category": "Map",
-      "tagPrefix": "seoul_map-v",
+      "tagPrefix": "incheon_map-v",
+      "assetPriority": [".7z", ".zip"],
+      "prerelease": false
+    },
+    {
+      "id": "test_ai",
+      "repo": "OMSI2Merzoa/test_ai",
+      "category": "Ai",
+      "tagPrefix": "test_ai-v",
+      "assetPriority": [".7z", ".zip"],
+      "prerelease": false
+    },
+    {
+      "id": "testmap",
+      "repo": "OMSI2Merzoa/testmap",
+      "category": "Map",
+      "tagPrefix": "testmap-v",
       "assetPriority": [".7z", ".zip"],
       "prerelease": false
     }
   ]
 }
+
 
