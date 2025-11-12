@@ -1,8 +1,9 @@
 {
-  "name": "omsi-addons-generator",
-  "version": "1.0.0",
+  "name": "omsi2-index",
   "private": true,
-  "dependencies": {
-    "@octokit/rest": "^20.0.0"
-  }
+  "type": "module",
+  "scripts": {
+    "build:addons": "node scripts/generate-addons.js"
+  },
+  "dependencies": {}
 }
