@@ -111,7 +111,8 @@ async function run(){
 
     for(const addon of (repoCfg.addons||[])){
       try{
-        const { id, category, tagPrefix, assetPriority=repoPrios, prerelease=repoPre } = addon||{};
+        // 🔹 sources.json 에서 displayAuthor도 함께 읽어옴
+        const { id, category, tagPrefix, assetPriority=repoPrios, prerelease=repoPre, displayAuthor } = addon||{};
         if(!id || !tagPrefix){ console.warn(`  ⚠️  ${repo}: id/tagPrefix 누락`); continue; }
         const kCat=toK(category);
         const rel=pickRelease(list,{tagPrefix,prerelease});
@@ -128,6 +129,8 @@ async function run(){
             id,
             name: rel.name || id,
             author: owner,
+            // 🔹 표시용 작성자 (없으면 빈 문자열 → 클라이언트에서 Author로 폴백)
+            displayAuthor: displayAuthor || "",
             description: rel.body || "",
             version,
             category: kCat,
@@ -148,6 +151,8 @@ async function run(){
           id,
           name: rel.name || id,
           author: owner,
+          // 🔹 여기도 동일하게 displayAuthor 포함
+          displayAuthor: displayAuthor || "",
           description: rel.body || "",
           version,
           category: kCat,
