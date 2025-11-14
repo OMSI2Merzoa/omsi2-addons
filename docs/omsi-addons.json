@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-14T14:50:57.610Z",
+  "generatedAt": "2025-11-14T15:15:56.309Z",
   "addons": [
     {
       "id": "Runny_KINT",
@@ -100,6 +100,42 @@
           "size": 13269653
         }
       ]
+    },
+    {
+      "id": "CGBS_Busan",
+      "name": "[Map] 부산광역시",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "책걸밥상",
+      "description": "평행세계의 부산광역시에 오신것을 환영합니다.",
+      "version": "1.0",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "CGBS_Busan-v1.0",
+      "publishedAt": "2025-11-14T15:15:37Z",
+      "assets": [
+        {
+          "fileName": "Busan.3.7z.001",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/CGBS_Busan-v1.0/Busan.3.7z.001",
+          "size": 1610612736
+        },
+        {
+          "fileName": "Busan.3.7z.002",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/CGBS_Busan-v1.0/Busan.3.7z.002",
+          "size": 1610612736
+        },
+        {
+          "fileName": "Busan.3.7z.003",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/CGBS_Busan-v1.0/Busan.3.7z.003",
+          "size": 1610612736
+        },
+        {
+          "fileName": "Busan.3.7z.004",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/CGBS_Busan-v1.0/Busan.3.7z.004",
+          "size": 301549406
+        }
+      ],
+      "size": 5133387614,
+      "sizeMB": 4895.6
     },
     {
       "id": "incheon_map",
