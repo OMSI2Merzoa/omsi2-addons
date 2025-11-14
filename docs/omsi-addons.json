@@ -1,34 +1,11 @@
 {
-  "generatedAt": "2025-11-14T10:53:36.025Z",
+  "generatedAt": "2025-11-14T10:56:32.010Z",
   "addons": [
-    {
-      "id": "test_ai",
-      "name": "[AI] AI테스트",
-      "author": "OMSI2Merzoa",
-      "displayAuthor": "메르는안조아",
-      "description": "AI테스트용 임시파일입니다.",
-      "version": "0.1",
-      "category": "AI 차량",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "test_ai-v0.1",
-      "publishedAt": "2025-11-10T09:16:37Z",
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/test_ai-v0.1/ai_test.zip",
-      "fileName": "ai_test.zip",
-      "size": 3056,
-      "sizeMB": 0,
-      "assets": [
-        {
-          "fileName": "ai_test.zip",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/test_ai-v0.1/ai_test.zip",
-          "size": 3056
-        }
-      ]
-    },
     {
       "id": "NCC_Official",
       "name": "[Map] NCC",
       "author": "OMSI2Merzoa",
-      "displayAuthor": "메르는안조아",
+      "displayAuthor": "Arcticwp346,별,백문,메르는안조아",
       "description": "남천과 청진&청원을 한 공간에서, 한국 OMSI맵의 (最終章).",
       "version": "1.0",
       "category": "맵",
@@ -56,29 +33,6 @@
       "sizeMB": 3514
     },
     {
-      "id": "testmap",
-      "name": "[Map] Test",
-      "author": "OMSI2Merzoa",
-      "displayAuthor": "메르는안조아",
-      "description": "테스트용 맵입니다. 7z 단일파일",
-      "version": "0.3",
-      "category": "맵",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "testmap-v0.3",
-      "publishedAt": "2025-11-12T09:17:35Z",
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/testmap-v0.3/testmap.7z",
-      "fileName": "testmap.7z",
-      "size": 468291385,
-      "sizeMB": 446.6,
-      "assets": [
-        {
-          "fileName": "testmap.7z",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/testmap-v0.3/testmap.7z",
-          "size": 468291385
-        }
-      ]
-    },
-    {
       "id": "incheon_map",
       "name": "[Map] 인천광역시",
       "author": "OMSI2Merzoa",
@@ -100,37 +54,6 @@
           "size": 1726014748
         }
       ]
-    },
-    {
-      "id": "testmap_7z",
-      "name": "[Map] 테스트맵 분할압축",
-      "author": "OMSI2Merzoa",
-      "displayAuthor": "메르는안조아",
-      "description": "테스트용 맵입니다. 7z 분할압축된 파일입니다.",
-      "version": "0.1",
-      "category": "맵",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "testmap_7z-v0.1",
-      "publishedAt": "2025-11-12T08:44:18Z",
-      "assets": [
-        {
-          "fileName": "testmap.7z.001",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/testmap_7z-v0.1/testmap.7z.001",
-          "size": 209715200
-        },
-        {
-          "fileName": "testmap.7z.002",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/testmap_7z-v0.1/testmap.7z.002",
-          "size": 209715200
-        },
-        {
-          "fileName": "testmap.7z.003",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/testmap_7z-v0.1/testmap.7z.003",
-          "size": 48860985
-        }
-      ],
-      "size": 468291385,
-      "sizeMB": 446.6
     },
     {
       "id": "testbus",
@@ -156,33 +79,10 @@
       ]
     },
     {
-      "id": "county",
-      "name": "[Bus] 현대 카운티",
-      "author": "OMSI2Merzoa",
-      "displayAuthor": "메르는안조아",
-      "description": "현대 카운티 10,13,15,19,21년식",
-      "version": "1.0",
-      "category": "버스",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "County-v1.0",
-      "publishedAt": "2025-11-10T05:50:46Z",
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/County-v1.0/Hyundai.County.zip",
-      "fileName": "Hyundai.County.zip",
-      "size": 275749535,
-      "sizeMB": 263,
-      "assets": [
-        {
-          "fileName": "Hyundai.County.zip",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/County-v1.0/Hyundai.County.zip",
-          "size": 275749535
-        }
-      ]
-    },
-    {
       "id": "hyundai_series",
       "name": "[Bus] 현대버스시리즈",
       "author": "OMSI2Merzoa",
-      "displayAuthor": "메르는안조아",
+      "displayAuthor": "Bus1997,구자윤,태화 外",
       "description": "SAC, NSAC, UNICITY, GLOBAL900, GREENCITY, LFSAC, LFNSAC 차량을 포함합니다",
       "version": "4.1.0.7",
       "category": "버스",
