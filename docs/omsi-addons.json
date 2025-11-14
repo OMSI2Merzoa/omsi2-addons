@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-14T13:38:02.801Z",
+  "generatedAt": "2025-11-14T13:38:38.073Z",
   "addons": [
     {
       "id": "Runny_KINT",
@@ -54,6 +54,29 @@
       ],
       "size": 3684715379,
       "sizeMB": 3514
+    },
+    {
+      "id": "Runny_NCCR",
+      "name": "[Map] NCCR 2.0.5",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "별,Runny",
+      "description": "별님의 청진맵을 리마스터한 맵입니다. map파일만 포함합니다.",
+      "version": "2.0.5",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Runny_NCCR-v2.0.5",
+      "publishedAt": "2025-11-14T13:38:16Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_NCCR-v2.0.5/NCCR.2.0.5.zip",
+      "fileName": "NCCR.2.0.5.zip",
+      "size": 87348629,
+      "sizeMB": 83.3,
+      "assets": [
+        {
+          "fileName": "NCCR.2.0.5.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_NCCR-v2.0.5/NCCR.2.0.5.zip",
+          "size": 87348629
+        }
+      ]
     },
     {
       "id": "Runny_NPOR",
