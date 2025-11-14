@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-14T08:35:44.654Z",
+  "generatedAt": "2025-11-14T08:55:37.094Z",
   "addons": [
     {
       "id": "test_ai",
@@ -126,6 +126,28 @@
       ],
       "size": 468291385,
       "sizeMB": 446.6
+    },
+    {
+      "id": "testbus",
+      "name": "[Bus] 테스트 버스",
+      "author": "ssw0948",
+      "description": "테스트용 버스 입니다.",
+      "version": "0.1",
+      "category": "버스",
+      "repo": "ssw0948/Merzoa_addon",
+      "releaseTag": "testbus-v0.1",
+      "publishedAt": "2025-11-14T08:41:17Z",
+      "downloadUrl": "https://github.com/ssw0948/Merzoa_addon/releases/download/testbus-v0.1/testbus.zip",
+      "fileName": "testbus.zip",
+      "size": 275749385,
+      "sizeMB": 263,
+      "assets": [
+        {
+          "fileName": "testbus.zip",
+          "downloadUrl": "https://github.com/ssw0948/Merzoa_addon/releases/download/testbus-v0.1/testbus.zip",
+          "size": 275749385
+        }
+      ]
     },
     {
       "id": "county",
