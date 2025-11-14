@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-14T13:12:27.175Z",
+  "generatedAt": "2025-11-14T13:14:25.461Z",
   "addons": [
     {
       "id": "NCC_Official",
@@ -31,6 +31,29 @@
       ],
       "size": 3684715379,
       "sizeMB": 3514
+    },
+    {
+      "id": "NPOR",
+      "name": "[Map] NPOR 0.2.0",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "별,Runny",
+      "description": "별님의 남천광역시 내포군을 리마스터한 맵입니다. map파일만 포함합니다.",
+      "version": "0.2.0",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "NPOR-v0.2.0",
+      "publishedAt": "2025-11-14T13:14:17Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/NPOR-v0.2.0/NPOR.0.2.0._Public.zip",
+      "fileName": "NPOR.0.2.0._Public.zip",
+      "size": 13386375,
+      "sizeMB": 12.8,
+      "assets": [
+        {
+          "fileName": "NPOR.0.2.0._Public.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/NPOR-v0.2.0/NPOR.0.2.0._Public.zip",
+          "size": 13386375
+        }
+      ]
     },
     {
       "id": "incheon_map",
