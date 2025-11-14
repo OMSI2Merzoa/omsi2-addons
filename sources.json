@@ -13,9 +13,18 @@
         { "id": "NCC_Official",        "category": "Map", "tagPrefix": "NCC_Official-v" },
         { "id": "testmap_7z",        "category": "Map", "tagPrefix": "testmap_7z-v" }
       ]
+    },
+    {
+      "repo": "ssw0948/Merzoa_addon",
+      "assetPriority": [".7z", ".zip"],
+      "prerelease": true,
+      "addons": [
+        { "id": "testbus", "category": "Bus", "tagPrefix": "testbus-v" }
+      ]
     }
   ]
 }
+
 
 
 
