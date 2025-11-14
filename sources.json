@@ -10,6 +10,7 @@
         { "id": "Aviatree_Higer",    "category": "Bus", "tagPrefix": "Aviatree_Higer-v", "displayAuthor": "Aviatree" },
         { "id": "Runny_NPOR",    "category": "Map", "tagPrefix": "Runny_NPOR-v", "displayAuthor": "별,Runny" },
         { "id": "Runny_KINT",    "category": "Map", "tagPrefix": "Runny_KINT-v", "displayAuthor": "별,Runny" },
+        { "id": "Runny_NCCR",    "category": "Map", "tagPrefix": "Runny_NCCR-v", "displayAuthor": "별,Runny" },
         { "id": "NCC_Official",        "category": "Map", "tagPrefix": "NCC_Official-v", "displayAuthor": "Arcticwp346,별,백문,메르는안조아" }
       ]
     },
@@ -23,6 +24,7 @@
     }
   ]
 }
+
 
 
 
