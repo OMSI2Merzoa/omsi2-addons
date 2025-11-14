@@ -8,7 +8,7 @@
         { "id": "hyundai_series", "category": "Bus", "tagPrefix": "hyundai_series-v", "displayAuthor": "Bus1997,구자윤,태화 外" },
         { "id": "incheon_map",    "category": "Map", "tagPrefix": "incheon_map-v", "displayAuthor": "메르는안조아" },
         { "id": "Aviatree_Higer",    "category": "Bus", "tagPrefix": "Aviatree_Higer-v", "displayAuthor": "Aviatree" },
-        { "id": "NPOR",    "category": "Map", "tagPrefix": "NPOR-v", "displayAuthor": "별,Runny" },
+        { "id": "Runny_NPOR",    "category": "Map", "tagPrefix": "Runny_NPOR-v", "displayAuthor": "별,Runny" },
         { "id": "NCC_Official",        "category": "Map", "tagPrefix": "NCC_Official-v", "displayAuthor": "Arcticwp346,별,백문,메르는안조아" }
       ]
     },
@@ -22,6 +22,7 @@
     }
   ]
 }
+
 
 
 
