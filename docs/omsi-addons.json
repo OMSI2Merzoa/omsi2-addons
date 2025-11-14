@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-14T13:47:09.877Z",
+  "generatedAt": "2025-11-14T13:54:08.543Z",
   "addons": [
     {
       "id": "Runny_KINT",
@@ -144,6 +144,29 @@
           "fileName": "Higer.Hypers.1611P.7z",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Aviatree_Higer-v1.0/Higer.Hypers.1611P.7z",
           "size": 155968371
+        }
+      ]
+    },
+    {
+      "id": "Mulberry_Eleccity",
+      "name": "[Bus] 현대 일렉시티",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "멀베리즙",
+      "description": "OMSI2에서 즐길 수 있는 현대 일렉시티 입니다.",
+      "version": "1.0",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Mulberry_Eleccity-v1.0",
+      "publishedAt": "2025-11-14T13:53:41Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Mulberry_Eleccity-v1.0/Hyundai_Eleccity.7z",
+      "fileName": "Hyundai_Eleccity.7z",
+      "size": 199156864,
+      "sizeMB": 189.9,
+      "assets": [
+        {
+          "fileName": "Hyundai_Eleccity.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Mulberry_Eleccity-v1.0/Hyundai_Eleccity.7z",
+          "size": 199156864
         }
       ]
     },
