@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-14T10:56:32.010Z",
+  "generatedAt": "2025-11-14T11:20:44.110Z",
   "addons": [
     {
       "id": "NCC_Official",
@@ -52,29 +52,6 @@
           "fileName": "2.5.Dev.7z",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
           "size": 1726014748
-        }
-      ]
-    },
-    {
-      "id": "testbus",
-      "name": "[Bus] 테스트 버스",
-      "author": "ssw0948",
-      "displayAuthor": "메르는안조아",
-      "description": "테스트용 버스 입니다.",
-      "version": "0.1",
-      "category": "버스",
-      "repo": "ssw0948/Merzoa_addon",
-      "releaseTag": "testbus-v0.1",
-      "publishedAt": "2025-11-14T08:41:17Z",
-      "downloadUrl": "https://github.com/ssw0948/Merzoa_addon/releases/download/testbus-v0.1/testbus.zip",
-      "fileName": "testbus.zip",
-      "size": 275749385,
-      "sizeMB": 263,
-      "assets": [
-        {
-          "fileName": "testbus.zip",
-          "downloadUrl": "https://github.com/ssw0948/Merzoa_addon/releases/download/testbus-v0.1/testbus.zip",
-          "size": 275749385
         }
       ]
     },
