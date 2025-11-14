@@ -5,13 +5,9 @@
       "assetPriority": [".7z", ".zip"],
       "prerelease": true,
       "addons": [
-        { "id": "hyundai_series", "category": "Bus", "tagPrefix": "hyundai_series-v", "displayAuthor": "메르는안조아" },
-        { "id": "county",         "category": "Bus", "tagPrefix": "County-v", "displayAuthor": "메르는안조아" },
+        { "id": "hyundai_series", "category": "Bus", "tagPrefix": "hyundai_series-v", "displayAuthor": "Bus1997,구자윤,태화 外" },
         { "id": "incheon_map",    "category": "Map", "tagPrefix": "incheon_map-v", "displayAuthor": "메르는안조아" },
-        { "id": "test_ai",        "category": "AI",  "tagPrefix": "test_ai-v", "displayAuthor": "메르는안조아" },
-        { "id": "testmap",        "category": "Map", "tagPrefix": "testmap-v", "displayAuthor": "메르는안조아" },
-        { "id": "NCC_Official",        "category": "Map", "tagPrefix": "NCC_Official-v", "displayAuthor": "메르는안조아" },
-        { "id": "testmap_7z",        "category": "Map", "tagPrefix": "testmap_7z-v", "displayAuthor": "메르는안조아" }
+        { "id": "NCC_Official",        "category": "Map", "tagPrefix": "NCC_Official-v", "displayAuthor": "Arcticwp346,별,백문,메르는안조아" }
       ]
     },
     {
@@ -24,6 +20,7 @@
     }
   ]
 }
+
 
 
 
