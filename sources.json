@@ -12,6 +12,7 @@
         { "id": "Runny_KINT",    "category": "Map", "tagPrefix": "Runny_KINT-v", "displayAuthor": "별,Runny" },
         { "id": "Runny_NCCR",    "category": "Map", "tagPrefix": "Runny_NCCR-v", "displayAuthor": "별,Runny" },
         { "id": "CGBS_Busan",    "category": "Map", "tagPrefix": "CGBS_Busan-v", "displayAuthor": "책걸밥상" },
+        { "id": "Mulberry_Eleccity",    "category": "Bus", "tagPrefix": "Mulberry_Eleccity-v", "displayAuthor": "멀베리즙" },
         { "id": "NCC_Official",        "category": "Map", "tagPrefix": "NCC_Official-v", "displayAuthor": "Arcticwp346,별,백문,메르는안조아" }
       ]
     },
@@ -25,6 +26,7 @@
     }
   ]
 }
+
 
 
 
