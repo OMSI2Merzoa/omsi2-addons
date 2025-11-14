@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2025-11-14T13:26:08.341Z",
+  "generatedAt": "2025-11-14T13:27:28.447Z",
   "addons": [
+    {
+      "id": "Runny_KINT",
+      "name": "[Map] KINT 0.1.2",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "별,Runny",
+      "description": "별님꼐서 제작하신 한국형 인터시티맵을 복원한 맵입니다. map파일만 포함합니다.",
+      "version": "0.1.2",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Runny_KINT-v0.1.2",
+      "publishedAt": "2025-11-14T13:27:11Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_KINT-v0.1.2/KINT.0.1.2.zip",
+      "fileName": "KINT.0.1.2.zip",
+      "size": 9572503,
+      "sizeMB": 9.1,
+      "assets": [
+        {
+          "fileName": "KINT.0.1.2.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_KINT-v0.1.2/KINT.0.1.2.zip",
+          "size": 9572503
+        }
+      ]
+    },
     {
       "id": "NCC_Official",
       "name": "[Map] NCC Official",
