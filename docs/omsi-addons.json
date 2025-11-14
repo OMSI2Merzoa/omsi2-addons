@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-14T14:11:06.722Z",
+  "generatedAt": "2025-11-14T14:25:00.802Z",
   "addons": [
     {
       "id": "Runny_KINT",
@@ -167,6 +167,29 @@
           "fileName": "Higer.Hypers.1611P.7z",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Aviatree_Higer-v1.0/Higer.Hypers.1611P.7z",
           "size": 155968371
+        }
+      ]
+    },
+    {
+      "id": "Lulurala_KGM_C090",
+      "name": "[Bus] KGM C090",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Lulurala",
+      "description": "KGM 커머셜의 C090차량입니다.",
+      "version": "1.0",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Lulurala_KGM_C090-v1.0",
+      "publishedAt": "2025-11-14T14:24:35Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_KGM_C090-v1.0/KGC090.zip",
+      "fileName": "KGC090.zip",
+      "size": 583117560,
+      "sizeMB": 556.1,
+      "assets": [
+        {
+          "fileName": "KGC090.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_KGM_C090-v1.0/KGC090.zip",
+          "size": 583117560
         }
       ]
     },
