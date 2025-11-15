@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-15T14:29:16.077Z",
+  "generatedAt": "2025-11-15T14:31:06.058Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -21,6 +21,29 @@
           "fileName": "ai_torres.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/TechnoKing_Torres-v1.0/ai_torres.zip",
           "size": 1166630
+        }
+      ]
+    },
+    {
+      "id": "TechnoKing_Staria",
+      "name": "[AI] 현대 스타리아",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "테크노킹",
+      "description": "Ai전용 현대 스타리아 차량입니다.",
+      "version": "1.0",
+      "category": "AI 차량",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "TechnoKing_Staria-v1.0",
+      "publishedAt": "2025-11-15T14:31:02Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/TechnoKing_Staria-v1.0/ai_staria.zip",
+      "fileName": "ai_staria.zip",
+      "size": 1646051,
+      "sizeMB": 1.6,
+      "assets": [
+        {
+          "fileName": "ai_staria.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/TechnoKing_Staria-v1.0/ai_staria.zip",
+          "size": 1646051
         }
       ]
     },
