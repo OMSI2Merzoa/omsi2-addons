@@ -15,6 +15,7 @@
         { "id": "Mulberry_Eleccity",    "category": "Bus", "tagPrefix": "Mulberry_Eleccity-v", "displayAuthor": "멀베리즙" },
         { "id": "Lulurala_Apollo1100_25",    "category": "Bus", "tagPrefix": "Lulurala_Apollo1100_25-v", "displayAuthor": "Lulurala" },
         { "id": "Lulurala_KGM_C090",    "category": "Bus", "tagPrefix": "Lulurala_KGM_C090-v", "displayAuthor": "Lulurala" },
+        { "id": "Lulurala_KGM_Smart110",    "category": "Bus", "tagPrefix": "Lulurala_KGM_Smart110-v", "displayAuthor": "Lulurala" },
         { "id": "NCC_Official",        "category": "Map", "tagPrefix": "NCC_Official-v", "displayAuthor": "Arcticwp346,별,백문,메르는안조아" }
       ]
     },
