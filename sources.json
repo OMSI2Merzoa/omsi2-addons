@@ -27,6 +27,14 @@
       "addons": [
         { "id": "testbus", "category": "Bus", "tagPrefix": "testbus-v", "displayAuthor": "메르는안조아" }
       ]
+    },
+    {
+      "repo": "Devilanc/Cheongju-2.0",
+      "assetPriority": [".7z", ".zip"],
+      "prerelease": true,
+      "addons": [
+        { "id": "Cheongju", "category": "Map", "tagPrefix": "cheongju_v", "displayAuthor": "데블랑" }
+      ]
     }
   ]
 }
