@@ -21,6 +21,10 @@
         { "id": "TechnoKing_Bluecity",    "category": "Bus", "tagPrefix": "TechnoKing_Bluecity-v", "displayAuthor": "테크노킹" },
         { "id": "TechnoKing_Torres",    "category": "Ai", "tagPrefix": "TechnoKing_Torres-v", "displayAuthor": "테크노킹" },
         { "id": "TechnoKing_Staria",    "category": "Ai", "tagPrefix": "TechnoKing_Staria-v", "displayAuthor": "테크노킹" },
+        { "id": "Raccon_Universe_Luxury",    "category": "Bus", "tagPrefix": "Raccon_Universe_Luxury-v", "displayAuthor": "요격감자" },
+        { "id": "Raccon_Universe_Prime",    "category": "Bus", "tagPrefix": "Raccon_Universe_Prime-v", "displayAuthor": "요격감자" },
+        { "id": "Raccon_Universe_Elegance",    "category": "Bus", "tagPrefix": "Raccon_Universe_Elegance-v", "displayAuthor": "요격감자" },
+        { "id": "Raccon_Universe_Comfort",    "category": "Bus", "tagPrefix": "Raccon_Universe_Comfort-v", "displayAuthor": "요격감자" },
         { "id": "NCC_Official",        "category": "Map", "tagPrefix": "NCC_Official-v", "displayAuthor": "Arcticwp346,별,백문,메르는안조아" }
       ]
     },
@@ -42,6 +46,7 @@
     }
   ]
 }
+
 
 
 
