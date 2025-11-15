@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-15T14:54:56.340Z",
+  "generatedAt": "2025-11-15T14:59:50.426Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -410,6 +410,52 @@
           "fileName": "Hyundai.Raccoon.Universe.Luxury.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Raccon_Universe_Luxury-v1.0/Hyundai.Raccoon.Universe.Luxury.zip",
           "size": 407505921
+        }
+      ]
+    },
+    {
+      "id": "Raccon_Universe_Elegance",
+      "name": "[Bus] 현대 유니버스 엘레강스 라쿤팩",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "요격감자",
+      "description": "현대 유니버스 엘레강스 차량입니다.",
+      "version": "1.0",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Raccon_Universe_Elegance-v1.0",
+      "publishedAt": "2025-11-15T14:59:35Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Raccon_Universe_Elegance-v1.0/Hyundai.Raccoon.Universe.Elegance.zip",
+      "fileName": "Hyundai.Raccoon.Universe.Elegance.zip",
+      "size": 339060808,
+      "sizeMB": 323.4,
+      "assets": [
+        {
+          "fileName": "Hyundai.Raccoon.Universe.Elegance.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Raccon_Universe_Elegance-v1.0/Hyundai.Raccoon.Universe.Elegance.zip",
+          "size": 339060808
+        }
+      ]
+    },
+    {
+      "id": "Raccon_Universe_Prime",
+      "name": "[Bus] 현대 유니버스 프라임 라쿤팩",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "요격감자",
+      "description": "현대 유니버스 프라임 차량입니다.",
+      "version": "1.0",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Raccon_Universe_Prime-v1.0",
+      "publishedAt": "2025-11-15T14:59:40Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Raccon_Universe_Prime-v1.0/Hyundai.Raccoon.Universe.Prime.zip",
+      "fileName": "Hyundai.Raccoon.Universe.Prime.zip",
+      "size": 405074190,
+      "sizeMB": 386.3,
+      "assets": [
+        {
+          "fileName": "Hyundai.Raccoon.Universe.Prime.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Raccon_Universe_Prime-v1.0/Hyundai.Raccoon.Universe.Prime.zip",
+          "size": 405074190
         }
       ]
     },
