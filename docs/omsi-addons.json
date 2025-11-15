@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-15T02:24:39.209Z",
+  "generatedAt": "2025-11-15T02:28:14.988Z",
   "addons": [
     {
       "id": "Runny_KINT",
@@ -157,6 +157,29 @@
           "fileName": "2.5.Dev.7z",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
           "size": 1726014748
+        }
+      ]
+    },
+    {
+      "id": "Lulurala_Apollo1100_21",
+      "name": "[Bus] Apollo1100 21Y",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Lulurala",
+      "description": "우진산전 Apollo1100 21년식 차량입니다.",
+      "version": "1.0",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Lulurala_Apollo1100_21-v1.0",
+      "publishedAt": "2025-11-15T02:27:58Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_Apollo1100_21-v1.0/Apollo1100_omsi2.zip",
+      "fileName": "Apollo1100_omsi2.zip",
+      "size": 123399865,
+      "sizeMB": 117.7,
+      "assets": [
+        {
+          "fileName": "Apollo1100_omsi2.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_Apollo1100_21-v1.0/Apollo1100_omsi2.zip",
+          "size": 123399865
         }
       ]
     },
