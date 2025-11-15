@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-15T14:33:37.910Z",
+  "generatedAt": "2025-11-15T14:41:54.691Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -364,6 +364,29 @@
           "fileName": "Daewoo_Lestar_omsi.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_Lestar-v1.0/Daewoo_Lestar_omsi.zip",
           "size": 262666771
+        }
+      ]
+    },
+    {
+      "id": "TechnoKing_Bluecity",
+      "name": "[Bus] 현대 블루시티 초저상 CNG 하이브리드",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "테크노킹",
+      "description": "현대 블루시티 초저상 CNG 하이브리드 차량입니다.",
+      "version": "1.0",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "TechnoKing_Bluecity-v1.0",
+      "publishedAt": "2025-11-15T14:41:36Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/TechnoKing_Bluecity-v1.0/Hyundai_blue_city.1.0.zip",
+      "fileName": "Hyundai_blue_city.1.0.zip",
+      "size": 530629399,
+      "sizeMB": 506,
+      "assets": [
+        {
+          "fileName": "Hyundai_blue_city.1.0.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/TechnoKing_Bluecity-v1.0/Hyundai_blue_city.1.0.zip",
+          "size": 530629399
         }
       ]
     },
