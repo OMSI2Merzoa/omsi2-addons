@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-15T15:11:00.838Z",
+  "generatedAt": "2025-11-15T15:15:44.368Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -410,6 +410,29 @@
           "fileName": "Hyundai_blue_city.1.0.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/TechnoKing_Bluecity-v1.0/Hyundai_blue_city.1.0.zip",
           "size": 530629399
+        }
+      ]
+    },
+    {
+      "id": "Raccon_Universe_EX",
+      "name": "[Bus] 현대 유니버스 EX 라쿤팩",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "요격감자",
+      "description": "현대 유니버스 EX 차량입니다. 프레스티지,노블 트림이 포함되어 있습니다.",
+      "version": "1.0",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Raccon_Universe_EX-v1.0",
+      "publishedAt": "2025-11-15T15:15:27Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Raccon_Universe_EX-v1.0/Hyundai.Raccoon.Universe.EX.Pack.zip",
+      "fileName": "Hyundai.Raccoon.Universe.EX.Pack.zip",
+      "size": 355775721,
+      "sizeMB": 339.3,
+      "assets": [
+        {
+          "fileName": "Hyundai.Raccoon.Universe.EX.Pack.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Raccon_Universe_EX-v1.0/Hyundai.Raccoon.Universe.EX.Pack.zip",
+          "size": 355775721
         }
       ]
     },
