@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-15T02:12:03.230Z",
+  "generatedAt": "2025-11-15T02:19:57.731Z",
   "addons": [
     {
       "id": "Runny_KINT",
@@ -226,6 +226,29 @@
           "fileName": "KGC090.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_KGM_C090-v1.0/KGC090.zip",
           "size": 583117560
+        }
+      ]
+    },
+    {
+      "id": "Lulurala_KGM_Smart110",
+      "name": "[Bus] KGM SMART110 24Y",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Lulurala",
+      "description": "KGM 커머셜의 Smart110 차량입니다.",
+      "version": "1.0",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Lulurala_KGM_Smart110-v1.0",
+      "publishedAt": "2025-11-15T02:19:40Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_KGM_Smart110-v1.0/KGM.Smart110.zip",
+      "fileName": "KGM.Smart110.zip",
+      "size": 271430214,
+      "sizeMB": 258.9,
+      "assets": [
+        {
+          "fileName": "KGM.Smart110.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_KGM_Smart110-v1.0/KGM.Smart110.zip",
+          "size": 271430214
         }
       ]
     },
