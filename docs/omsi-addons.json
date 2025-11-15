@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-15T05:08:00.947Z",
+  "generatedAt": "2025-11-15T05:37:30.872Z",
   "addons": [
     {
       "id": "Runny_KINT",
@@ -303,7 +303,7 @@
       "name": "[Bus] 대우 레스타",
       "author": "OMSI2Merzoa",
       "displayAuthor": "Lulurala",
-      "description": "대우 레스타 차량입니다.마을버스 사양만 지원합니다.",
+      "description": "대우 레스타 차량입니다. 마을버스 사양만 지원합니다.",
       "version": "1.0",
       "category": "버스",
       "repo": "OMSI2Merzoa/omsi2-addons",
