@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-15T15:00:23.446Z",
+  "generatedAt": "2025-11-15T15:07:38.662Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -345,6 +345,29 @@
       ]
     },
     {
+      "id": "Daejeon_Granbird_SuperPremium",
+      "name": "[Bus] 기아 그랜버드 슈퍼프리미엄",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "대전광역시",
+      "description": "기아 그랜버드 슈퍼프리미엄 (실크로드/선샤인)",
+      "version": "2.0.0",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Daejeon_Granbird_SuperPremium-v2.0.0",
+      "publishedAt": "2025-11-15T15:07:14Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Daejeon_Granbird_SuperPremium-v2.0.0/KIA.NEW.GRANBIRD.SUPER.PREMIUM.zip",
+      "fileName": "KIA.NEW.GRANBIRD.SUPER.PREMIUM.zip",
+      "size": 274523151,
+      "sizeMB": 261.8,
+      "assets": [
+        {
+          "fileName": "KIA.NEW.GRANBIRD.SUPER.PREMIUM.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Daejeon_Granbird_SuperPremium-v2.0.0/KIA.NEW.GRANBIRD.SUPER.PREMIUM.zip",
+          "size": 274523151
+        }
+      ]
+    },
+    {
       "id": "Lulurala_Lestar",
       "name": "[Bus] 대우 레스타",
       "author": "OMSI2Merzoa",
@@ -438,7 +461,7 @@
     },
     {
       "id": "Raccon_Universe_Comfort",
-      "name": "[Bus] 현대 유니버스 컴포 라쿤팩",
+      "name": "[Bus] 현대 유니버스 컴포트 라쿤팩",
       "author": "OMSI2Merzoa",
       "displayAuthor": "요격감자",
       "description": "현대 유니버스 컴포트 차량입니다.",
@@ -502,29 +525,6 @@
           "fileName": "Hyundai_Eleccity.7z",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Mulberry_Eleccity-v1.0/Hyundai_Eleccity.7z",
           "size": 199156864
-        }
-      ]
-    },
-    {
-      "id": "hyundai_series",
-      "name": "[Bus] 현대버스시리즈",
-      "author": "OMSI2Merzoa",
-      "displayAuthor": "Bus1997,구자윤,태화 外",
-      "description": "SAC, NSAC, UNICITY, GLOBAL900, GREENCITY, LFSAC, LFNSAC 차량을 포함합니다",
-      "version": "4.1.0.7",
-      "category": "버스",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "hyundai_series-v4.1.0.7",
-      "publishedAt": "2025-11-10T05:55:16Z",
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/hyundai_series-v4.1.0.7/Hyundai.Citybus.Series.zip",
-      "fileName": "Hyundai.Citybus.Series.zip",
-      "size": 801723533,
-      "sizeMB": 764.6,
-      "assets": [
-        {
-          "fileName": "Hyundai.Citybus.Series.zip",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/hyundai_series-v4.1.0.7/Hyundai.Citybus.Series.zip",
-          "size": 801723533
         }
       ]
     }
