@@ -18,6 +18,8 @@
         { "id": "Lulurala_KGM_C090",    "category": "Bus", "tagPrefix": "Lulurala_KGM_C090-v", "displayAuthor": "Lulurala" },
         { "id": "Lulurala_KGM_Smart110",    "category": "Bus", "tagPrefix": "Lulurala_KGM_Smart110-v", "displayAuthor": "Lulurala" },
         { "id": "Lulurala_Lestar",    "category": "Bus", "tagPrefix": "Lulurala_Lestar-v", "displayAuthor": "Lulurala" },
+        { "id": "TechnoKing_Bluecity",    "category": "Bus", "tagPrefix": "TechnoKing_Bluecity-v", "displayAuthor": "테크노킹" },
+        { "id": "TechnoKing_Torres",    "category": "Ai", "tagPrefix": "TechnoKing_Torres-v", "displayAuthor": "테크노킹" },
         { "id": "NCC_Official",        "category": "Map", "tagPrefix": "NCC_Official-v", "displayAuthor": "Arcticwp346,별,백문,메르는안조아" }
       ]
     },
@@ -39,6 +41,7 @@
     }
   ]
 }
+
 
 
 
