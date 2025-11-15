@@ -33,11 +33,12 @@
       "assetPriority": [".7z", ".zip"],
       "prerelease": true,
       "addons": [
-        { "id": "Cheongju", "category": "Map", "tagPrefix": "cheongju_v", "displayAuthor": "데블랑" }
+        { "id": "Cheongju", "category": "Map", "tagPrefix": "Cheongju_v", "displayAuthor": "데블랑" }
       ]
     }
   ]
 }
+
 
 
 
