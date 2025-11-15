@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-15T04:51:45.539Z",
+  "generatedAt": "2025-11-15T04:54:29.606Z",
   "addons": [
     {
       "id": "Runny_KINT",
@@ -157,6 +157,29 @@
           "fileName": "2.5.Dev.7z",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
           "size": 1726014748
+        }
+      ]
+    },
+    {
+      "id": "Cheongju",
+      "name": "[Map] 청주시 v2.0 프로토타입 2",
+      "author": "Devilanc",
+      "displayAuthor": "데블랑",
+      "description": "일부 권역 (용정/금천, 내수읍 화하리) 에 한해서 구현된 프로토타입 청주시입니다.",
+      "version": "2_beta-v0.2",
+      "category": "맵",
+      "repo": "Devilanc/Cheongju-2.0",
+      "releaseTag": "Cheongju_v2_beta-v0.2",
+      "publishedAt": "2025-11-15T03:35:09Z",
+      "downloadUrl": "https://github.com/Devilanc/Cheongju-2.0/releases/download/Cheongju_v2_beta-v0.2/Cheongju.City.v2.zip",
+      "fileName": "Cheongju.City.v2.zip",
+      "size": 2714312,
+      "sizeMB": 2.6,
+      "assets": [
+        {
+          "fileName": "Cheongju.City.v2.zip",
+          "downloadUrl": "https://github.com/Devilanc/Cheongju-2.0/releases/download/Cheongju_v2_beta-v0.2/Cheongju.City.v2.zip",
+          "size": 2714312
         }
       ]
     },
