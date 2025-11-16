@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-16T11:45:46.233Z",
+  "generatedAt": "2025-11-16T11:47:07.893Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -213,6 +213,29 @@
           "fileName": "NPOR.0.2.0._Public.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_NPOR-v0.2.0/NPOR.0.2.0._Public.zip",
           "size": 13269653
+        }
+      ]
+    },
+    {
+      "id": "BLACKPINK_Segang_Alpha",
+      "name": "[Map] Segang Alpha",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "BLACKPINK",
+      "description": "Segang, 4Lines Cheongdo, SBRT맵을 합쳐서 만든 시내버스 맵입니다.",
+      "version": "1.0",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "BLACKPINK_Segang_Alpha-v1.0",
+      "publishedAt": "2025-11-16T11:45:53Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/BLACKPINK_Segang_Alpha-v1.0/Segang.Alpha.7z",
+      "fileName": "Segang.Alpha.7z",
+      "size": 1843169597,
+      "sizeMB": 1757.8,
+      "assets": [
+        {
+          "fileName": "Segang.Alpha.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/BLACKPINK_Segang_Alpha-v1.0/Segang.Alpha.7z",
+          "size": 1843169597
         }
       ]
     },
