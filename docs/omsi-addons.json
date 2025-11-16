@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-16T10:08:29.053Z",
+  "generatedAt": "2025-11-16T10:33:45.397Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -67,6 +67,29 @@
           "fileName": "Anrak.Munsan.V5.0.7z",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/suya117_AnrakMunsan-v5.0/Anrak.Munsan.V5.0.7z",
           "size": 58503146
+        }
+      ]
+    },
+    {
+      "id": "Runny_ARMR",
+      "name": "[Map] ARMR",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "suya117,Runny",
+      "description": "suya117님의 안락&문산맵을 리마스터한 맵입니다. map파일만 포함합니다.",
+      "version": "0.3.1",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Runny_ARMR-v0.3.1",
+      "publishedAt": "2025-11-16T10:32:49Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_ARMR-v0.3.1/ARMR_0.3.1.zip",
+      "fileName": "ARMR_0.3.1.zip",
+      "size": 66704601,
+      "sizeMB": 63.6,
+      "assets": [
+        {
+          "fileName": "ARMR_0.3.1.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_ARMR-v0.3.1/ARMR_0.3.1.zip",
+          "size": 66704601
         }
       ]
     },
