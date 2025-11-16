@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-15T23:52:19.521Z",
+  "generatedAt": "2025-11-16T03:42:40.815Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -208,7 +208,7 @@
     },
     {
       "id": "Cheongju",
-      "name": "[Map] 청주시 v2.0 프로토타입 2",
+      "name": "[Map] 청주시 v2.0 프로토타입",
       "author": "Devilanc",
       "displayAuthor": "데블랑",
       "description": "일부 권역 (용정/금천, 내수읍 화하리) 에 한해서 구현된 프로토타입 청주시입니다.",
