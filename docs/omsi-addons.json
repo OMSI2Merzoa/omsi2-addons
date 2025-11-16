@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-16T09:39:58.751Z",
+  "generatedAt": "2025-11-16T09:47:18.724Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -456,6 +456,29 @@
           "fileName": "Hyundai.Raccoon.Universe.Luxury.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Raccon_Universe_Luxury-v1.0/Hyundai.Raccoon.Universe.Luxury.zip",
           "size": 407505921
+        }
+      ]
+    },
+    {
+      "id": "Jackson_Universe_FCEV",
+      "name": "[Bus] 현대 유니버스 엘레강스 FCEV",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Jackson",
+      "description": "현대 유니버스 엘레강스 FCEV차량입니다.",
+      "version": "4.5",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Jackson_Universe_FCEV-v4.5",
+      "publishedAt": "2025-11-16T09:45:45Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Jackson_Universe_FCEV-v4.5/Hyundai.Universe.Elegance.FCEV.4.5.zip",
+      "fileName": "Hyundai.Universe.Elegance.FCEV.4.5.zip",
+      "size": 494649822,
+      "sizeMB": 471.7,
+      "assets": [
+        {
+          "fileName": "Hyundai.Universe.Elegance.FCEV.4.5.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Jackson_Universe_FCEV-v4.5/Hyundai.Universe.Elegance.FCEV.4.5.zip",
+          "size": 494649822
         }
       ]
     },
