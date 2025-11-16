@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-16T09:38:01.372Z",
+  "generatedAt": "2025-11-16T09:39:58.751Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -182,29 +182,6 @@
       ],
       "size": 5133387614,
       "sizeMB": 4895.6
-    },
-    {
-      "id": "incheon_map",
-      "name": "[Map] 인천광역시",
-      "author": "OMSI2Merzoa",
-      "displayAuthor": "메르는안조아",
-      "description": "인천광역시 서구 일대를 재현한 맵입니다.",
-      "version": "2.5.1",
-      "category": "맵",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "incheon_map-v2.5.1",
-      "publishedAt": "2025-11-10T06:43:21Z",
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
-      "fileName": "2.5.Dev.7z",
-      "size": 1726014748,
-      "sizeMB": 1646.1,
-      "assets": [
-        {
-          "fileName": "2.5.Dev.7z",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
-          "size": 1726014748
-        }
-      ]
     },
     {
       "id": "Cheongju",
