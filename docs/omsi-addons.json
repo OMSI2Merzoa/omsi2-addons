@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-16T10:04:03.718Z",
+  "generatedAt": "2025-11-16T10:07:41.426Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -44,6 +44,29 @@
           "fileName": "ai_staria.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/TechnoKing_Staria-v1.0/ai_staria.zip",
           "size": 1646051
+        }
+      ]
+    },
+    {
+      "id": "suya117_AnrakMunsan",
+      "name": "[Map] Anrak&Munsan",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "suya117",
+      "description": "Anrak&Munsan V5.0",
+      "version": "5.0",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "suya117_AnrakMunsan-v5.0",
+      "publishedAt": "2025-11-16T10:06:44Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/suya117_AnrakMunsan-v5.0/Anrak.Munsan.V5.0.7z",
+      "fileName": "Anrak.Munsan.V5.0.7z",
+      "size": 58503146,
+      "sizeMB": 55.8,
+      "assets": [
+        {
+          "fileName": "Anrak.Munsan.V5.0.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/suya117_AnrakMunsan-v5.0/Anrak.Munsan.V5.0.7z",
+          "size": 58503146
         }
       ]
     },
