@@ -15,6 +15,7 @@
         { "id": "suya117_AnrakMunsan",    "category": "Map", "tagPrefix": "suya117_AnrakMunsan-v", "displayAuthor": "suya117" },
         { "id": "BLACKPINK_Silkroad_Jinju",    "category": "Map", "tagPrefix": "BLACKPINK_Silkroad_Jinju-v", "displayAuthor": "BLACKPINK" },
         { "id": "BLACKPINK_Gyeongnam_Intercity",    "category": "Map", "tagPrefix": "BLACKPINK_Gyeongnam_Intercity-v", "displayAuthor": "BLACKPINK" },
+        { "id": "BLACKPINK_Segang_Alpha",    "category": "Map", "tagPrefix": "BLACKPINK_Segang_Alpha-v", "displayAuthor": "BLACKPINK" },
         { "id": "CGBS_Busan",    "category": "Map", "tagPrefix": "CGBS_Busan-v", "displayAuthor": "책걸밥상" },
         { "id": "Mulberry_Eleccity",    "category": "Bus", "tagPrefix": "Mulberry_Eleccity-v", "displayAuthor": "멀베리즙" },
         { "id": "Lulurala_Apollo1100_25",    "category": "Bus", "tagPrefix": "Lulurala_Apollo1100_25-v", "displayAuthor": "Lulurala" },
@@ -55,6 +56,7 @@
     }
   ]
 }
+
 
 
 
