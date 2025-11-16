@@ -1,6 +1,6 @@
 {
-  "version": "1.0.1",
-  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/OMSI2Installer-v1.0.1/OMSI2Installer_v1.0.1.zip",
+  "version": "1.0.2",
+  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/OMSI2Installer-v1.0.2/OMSI2Installer_v1.0.2.zip",
   "exeName": "OMSI2Installer.exe",
   "changelog": "- 자동 업데이트 팝업 추가"
 }
