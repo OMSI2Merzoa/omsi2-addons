@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-16T10:33:45.397Z",
+  "generatedAt": "2025-11-16T10:44:12.206Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -115,37 +115,6 @@
           "size": 9572503
         }
       ]
-    },
-    {
-      "id": "NCC_Official",
-      "name": "[Map] NCC Official",
-      "author": "OMSI2Merzoa",
-      "displayAuthor": "Arcticwp346,별,백문,메르는안조아",
-      "description": "남천과 청진&청원을 한 공간에서, 한국 OMSI맵의 (最終章).",
-      "version": "1.0",
-      "category": "맵",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "NCC_Official-v1.0",
-      "publishedAt": "2025-11-12T09:20:51Z",
-      "assets": [
-        {
-          "fileName": "Namcheon.Cheongjin.Official.7z.001",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/NCC_Official-v1.0/Namcheon.Cheongjin.Official.7z.001",
-          "size": 1610612736
-        },
-        {
-          "fileName": "Namcheon.Cheongjin.Official.7z.002",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/NCC_Official-v1.0/Namcheon.Cheongjin.Official.7z.002",
-          "size": 1610612736
-        },
-        {
-          "fileName": "Namcheon.Cheongjin.Official.7z.003",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/NCC_Official-v1.0/Namcheon.Cheongjin.Official.7z.003",
-          "size": 463489907
-        }
-      ],
-      "size": 3684715379,
-      "sizeMB": 3514
     },
     {
       "id": "Runny_NCCR",
