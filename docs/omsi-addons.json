@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-16T11:14:59.478Z",
+  "generatedAt": "2025-11-16T11:18:44.167Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -117,6 +117,37 @@
       ]
     },
     {
+      "id": "NCC_Official",
+      "name": "[Map] NCC Official",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Arcticwp346,별,백문,메르는안조아",
+      "description": "남천과 청진&청원을 한 공간에서, 한국 OMSI맵의 (最終章).",
+      "version": "1.0",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "NCC_Official-v1.0",
+      "publishedAt": "2025-11-12T09:20:51Z",
+      "assets": [
+        {
+          "fileName": "Namcheon.Cheongjin.Official.7z.001",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/NCC_Official-v1.0/Namcheon.Cheongjin.Official.7z.001",
+          "size": 1610612736
+        },
+        {
+          "fileName": "Namcheon.Cheongjin.Official.7z.002",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/NCC_Official-v1.0/Namcheon.Cheongjin.Official.7z.002",
+          "size": 1610612736
+        },
+        {
+          "fileName": "Namcheon.Cheongjin.Official.7z.003",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/NCC_Official-v1.0/Namcheon.Cheongjin.Official.7z.003",
+          "size": 463489907
+        }
+      ],
+      "size": 3684715379,
+      "sizeMB": 3514
+    },
+    {
       "id": "Runny_NCCR",
       "name": "[Map] NCCR 2.0.5",
       "author": "OMSI2Merzoa",
@@ -220,6 +251,29 @@
       ],
       "size": 5133387614,
       "sizeMB": 4895.6
+    },
+    {
+      "id": "incheon_map",
+      "name": "[Map] 인천광역시",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "메르는안조아",
+      "description": "인천광역시 서구 일대를 재현한 맵입니다.",
+      "version": "2.5.1",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "incheon_map-v2.5.1",
+      "publishedAt": "2025-11-10T06:43:21Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
+      "fileName": "2.5.Dev.7z",
+      "size": 1726014748,
+      "sizeMB": 1646.1,
+      "assets": [
+        {
+          "fileName": "2.5.Dev.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
+          "size": 1726014748
+        }
+      ]
     },
     {
       "id": "Cheongju",
@@ -632,6 +686,29 @@
           "fileName": "Hyundai_Eleccity.7z",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Mulberry_Eleccity-v1.0/Hyundai_Eleccity.7z",
           "size": 199156864
+        }
+      ]
+    },
+    {
+      "id": "hyundai_series",
+      "name": "[Bus] 현대버스시리즈",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Bus1997,구자윤,태화 外",
+      "description": "SAC, NSAC, UNICITY, GLOBAL900, GREENCITY, LFSAC, LFNSAC 차량을 포함합니다",
+      "version": "4.1.0.7",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "hyundai_series-v4.1.0.7",
+      "publishedAt": "2025-11-10T05:55:16Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/hyundai_series-v4.1.0.7/Hyundai.Citybus.Series.zip",
+      "fileName": "Hyundai.Citybus.Series.zip",
+      "size": 801723533,
+      "sizeMB": 764.6,
+      "assets": [
+        {
+          "fileName": "Hyundai.Citybus.Series.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/hyundai_series-v4.1.0.7/Hyundai.Citybus.Series.zip",
+          "size": 801723533
         }
       ]
     }
