@@ -11,6 +11,7 @@
         { "id": "Runny_NPOR",    "category": "Map", "tagPrefix": "Runny_NPOR-v", "displayAuthor": "별,Runny" },
         { "id": "Runny_KINT",    "category": "Map", "tagPrefix": "Runny_KINT-v", "displayAuthor": "별,Runny" },
         { "id": "Runny_NCCR",    "category": "Map", "tagPrefix": "Runny_NCCR-v", "displayAuthor": "별,Runny" },
+        { "id": "Runny_ARMR",    "category": "Map", "tagPrefix": "Runny_ARMR-v", "displayAuthor": "suya117,Runny" },
         { "id": "suya117_AnrakMunsan",    "category": "Map", "tagPrefix": "suya117_AnrakMunsan-v", "displayAuthor": "suya117" },
         { "id": "CGBS_Busan",    "category": "Map", "tagPrefix": "CGBS_Busan-v", "displayAuthor": "책걸밥상" },
         { "id": "Mulberry_Eleccity",    "category": "Bus", "tagPrefix": "Mulberry_Eleccity-v", "displayAuthor": "멀베리즙" },
@@ -52,6 +53,7 @@
     }
   ]
 }
+
 
 
 
