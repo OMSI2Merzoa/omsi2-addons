@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-16T10:55:57.873Z",
+  "generatedAt": "2025-11-16T11:12:00.369Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -159,6 +159,29 @@
           "fileName": "NPOR.0.2.0._Public.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_NPOR-v0.2.0/NPOR.0.2.0._Public.zip",
           "size": 13269653
+        }
+      ]
+    },
+    {
+      "id": "BLACKPINK_Silkroad_Jinju",
+      "name": "[Map] Silkroad Jinju",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "BLACKPINK",
+      "description": "실크의 고장 진주를 기반으로 제작된 시내버스 맵입니다.",
+      "version": "1.0",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "BLACKPINK_Silkroad_Jinju-v1.0",
+      "publishedAt": "2025-11-16T11:11:21Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/BLACKPINK_Silkroad_Jinju-v1.0/Silkroad.Jinju.7z",
+      "fileName": "Silkroad.Jinju.7z",
+      "size": 2006911151,
+      "sizeMB": 1913.9,
+      "assets": [
+        {
+          "fileName": "Silkroad.Jinju.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/BLACKPINK_Silkroad_Jinju-v1.0/Silkroad.Jinju.7z",
+          "size": 2006911151
         }
       ]
     },
