@@ -1,6 +1,6 @@
 {
-  "version": "1.0.3",
-  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-installer/releases/download/v1.0.3/OMSI2Installer_v1.0.3.zip",
+  "version": "1.0.1",
+  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-installer/releases/download/v1.0.1/OMSI2Installer_v1.0.1.zip",
   "exeName": "OMSI2Installer.exe",
-  "changelog": "- 7z 리베이스 로그 문구 수정\n- 설치 로그 안정성 개선"
+  "changelog": "- 자동 업데이트 팝업 추가"
 }
