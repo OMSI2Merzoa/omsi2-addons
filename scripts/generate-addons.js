@@ -106,7 +106,7 @@ async function run(){
     const repoPre=!!repoCfg.prerelease;
 
     console.log(`📦 레포 조회: ${repo}`);
-    let list; try{ list=await gh(`https://api.github.com/repos/${repo}/releases?per_page=30`);}catch(e){ console.warn(`  ⚠️  목록 실패 → ${e.message}`); continue; }
+    let list; try{ list=await gh(`https://api.github.com/repos/${repo}/releases?per_page=100`);}catch(e){ console.warn(`  ⚠️  목록 실패 → ${e.message}`); continue; }
     const owner=repo.split("/")[0];
 
     for(const addon of (repoCfg.addons||[])){
