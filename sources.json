@@ -28,6 +28,7 @@
         { "id": "Raccon_Universe_EX",    "category": "Bus", "tagPrefix": "Raccon_Universe_EX-v", "displayAuthor": "요격감자" },
         { "id": "Daejeon_Granbird_SuperPremium",    "category": "Bus", "tagPrefix": "Daejeon_Granbird_SuperPremium-v", "displayAuthor": "대전광역시" },
         { "id": "Daejeon_Universe_Noble",    "category": "Bus", "tagPrefix": "Daejeon_Universe_Noble-v", "displayAuthor": "대전광역시" },
+        { "id": "Jackson_Universe_FCEV",    "category": "Bus", "tagPrefix": "Jackson_Universe_FCEV-v", "displayAuthor": "Jackson" },
         { "id": "NCC_Official",        "category": "Map", "tagPrefix": "NCC_Official-v", "displayAuthor": "Arcticwp346,별,백문,메르는안조아" }
       ]
     },
@@ -49,6 +50,7 @@
     }
   ]
 }
+
 
 
 
