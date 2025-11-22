@@ -49,6 +49,14 @@
       ]
     },
     {
+      "repo": "HYB1022/dnb106dwcphmp",
+      "assetPriority": [".7z", ".zip"],
+      "prerelease": true,
+      "addons": [
+        { "id": "BS106", "category": "Bus", "tagPrefix": "BS106-v", "displayAuthor": "The human" }
+      ]
+    },
+    {
       "repo": "Devilanc/Cheongju-2.0",
       "assetPriority": [".7z", ".zip"],
       "prerelease": true,
