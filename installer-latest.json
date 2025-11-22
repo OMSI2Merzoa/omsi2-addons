@@ -1,6 +1,6 @@
 {
   "version": "1.0.3.0",
-  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/OMSI2AddonInstaller-v1.0.3/OMSI2Installer_v1.0.3.zip",
+  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/OMSI2AddonInstaller-v1.0.3/OMSI2Installer_v1.0.3.0.zip",
   "exeName": "OMSI2Installer.exe",
   "changelog": "- 설치 전 요약 & 설치 큐 화면 추가, 설치할 애드온 개별 상태 표시 기능"
 }
