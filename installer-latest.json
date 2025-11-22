@@ -1,6 +1,6 @@
 {
-  "version": "1.0.2.0",
-  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/OMSI2AddonInstaller-v1.0.2/OMSI2Installer_v1.0.2.zip",
+  "version": "1.0.3.0",
+  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/OMSI2AddonInstaller-v1.0.3/OMSI2Installer_v1.0.3.zip",
   "exeName": "OMSI2Installer.exe",
-  "changelog": "- 임시 파일 자동 정리 기능 추가, 상단 경로 + 검색/정렬 UI, 목록 카드(맵/버스/AI) 내용 정리 + 툴팁"
+  "changelog": "- 설치 전 요약 & 설치 큐 화면 추가, 설치할 애드온 개별 상태 표시 기능"
 }
