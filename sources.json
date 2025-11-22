@@ -35,6 +35,7 @@
         { "id": "Daejeon_Universe_Noble",    "category": "Bus", "tagPrefix": "Daejeon_Universe_Noble-v", "displayAuthor": "대전광역시" },
         { "id": "Daejeon_Granbird_inovation",    "category": "Bus", "tagPrefix": "Daejeon_Granbird_inovation-v", "displayAuthor": "대전광역시" },
         { "id": "Jackson_Universe_FCEV",    "category": "Bus", "tagPrefix": "Jackson_Universe_FCEV-v", "displayAuthor": "Jackson" },
+        { "id": "Sindosaek_EleccityI",    "category": "Bus", "tagPrefix": "Sindosaek_EleccityI-v", "displayAuthor": "신도색" },
         { "id": "NCC_Official",        "category": "Map", "tagPrefix": "NCC_Official-v", "displayAuthor": "Arcticwp346,별,백문,메르는안조아" }
       ]
     },
@@ -56,6 +57,7 @@
     }
   ]
 }
+
 
 
 
