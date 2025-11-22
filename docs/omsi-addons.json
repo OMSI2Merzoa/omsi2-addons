@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-22T04:51:15.875Z",
+  "generatedAt": "2025-11-22T04:57:08.375Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -732,6 +732,29 @@
           "fileName": "Hyundai_Eleccity.7z",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Mulberry_Eleccity-v1.0/Hyundai_Eleccity.7z",
           "size": 199156864
+        }
+      ]
+    },
+    {
+      "id": "Sindosaek_EleccityI",
+      "name": "[Bus] 현대 일렉시티 I",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "신도색",
+      "description": "OMSI 2에서 즐길 수 있는 현대 일렉시티 I 입니다.\r\n멀베리즙님의 일렉시티 차량의 라이선스를 따릅니다.",
+      "version": "1.0",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Sindosaek_EleccityI-v1.0",
+      "publishedAt": "2025-11-22T04:56:49Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Sindosaek_EleccityI-v1.0/Hyundai.Eleccity.I.zip",
+      "fileName": "Hyundai.Eleccity.I.zip",
+      "size": 244048867,
+      "sizeMB": 232.7,
+      "assets": [
+        {
+          "fileName": "Hyundai.Eleccity.I.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Sindosaek_EleccityI-v1.0/Hyundai.Eleccity.I.zip",
+          "size": 244048867
         }
       ]
     },
