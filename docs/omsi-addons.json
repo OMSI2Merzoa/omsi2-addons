@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-22T05:02:37.941Z",
+  "generatedAt": "2025-11-22T05:25:29.809Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -113,6 +113,29 @@
           "fileName": "Gyeongnam.Intercity.7z",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/BLACKPINK_Gyeongnam_Intercity-v1.0/Gyeongnam.Intercity.7z",
           "size": 2087226749
+        }
+      ]
+    },
+    {
+      "id": "Leehyundo_Jukju",
+      "name": "[Map] Jukju 0.1",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "산남분평남이현도",
+      "description": "죽주는 죽산군의 엣 이름이며\r\n현 안성시 죽산면,일죽면,삼죽면 일대를 관할했습니다.\r\n\r\n3-1번 (죽산터미널-하장경로당) 노선이 구현되어 있습니다.",
+      "version": "0.1",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Leehyundo_Jukju-v0.1",
+      "publishedAt": "2025-11-22T05:25:13Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Leehyundo_Jukju-v0.1/Jukju.0.1.7z",
+      "fileName": "Jukju.0.1.7z",
+      "size": 333251167,
+      "sizeMB": 317.8,
+      "assets": [
+        {
+          "fileName": "Jukju.0.1.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Leehyundo_Jukju-v0.1/Jukju.0.1.7z",
+          "size": 333251167
         }
       ]
     },
