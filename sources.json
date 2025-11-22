@@ -12,6 +12,7 @@
         { "id": "Runny_KINT",    "category": "Map", "tagPrefix": "Runny_KINT-v", "displayAuthor": "별,Runny" },
         { "id": "Runny_NCCR",    "category": "Map", "tagPrefix": "Runny_NCCR-v", "displayAuthor": "별,Runny" },
         { "id": "Runny_ARMR",    "category": "Map", "tagPrefix": "Runny_ARMR-v", "displayAuthor": "suya117,Runny" },
+        { "id": "Leehyundo_Jukju",    "category": "Map", "tagPrefix": "Leehyundo_Jukju-v", "displayAuthor": "산남분평남이현도" },
         { "id": "suya117_AnrakMunsan",    "category": "Map", "tagPrefix": "suya117_AnrakMunsan-v", "displayAuthor": "suya117" },
         { "id": "BLACKPINK_Silkroad_Jinju",    "category": "Map", "tagPrefix": "BLACKPINK_Silkroad_Jinju-v", "displayAuthor": "BLACKPINK" },
         { "id": "BLACKPINK_Gyeongnam_Intercity",    "category": "Map", "tagPrefix": "BLACKPINK_Gyeongnam_Intercity-v", "displayAuthor": "BLACKPINK" },
@@ -57,6 +58,7 @@
     }
   ]
 }
+
 
 
 
