@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-24T07:23:41.106Z",
+  "generatedAt": "2025-11-24T07:31:03.164Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -457,6 +457,29 @@
           "fileName": "Apollo1100V2_omsi2.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_Apollo1100_25-v1.0/Apollo1100V2_omsi2.zip",
           "size": 424194572
+        }
+      ]
+    },
+    {
+      "id": "Daejeon_BX212",
+      "name": "[Bus] DAEWOO ROYAL HI-DECKER BX212",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "대전광역시",
+      "description": "기존 FX212 차량에 맞춰 제작된 BX212입니다.\r\n\r\n매우 짧은 시간에 도색만 가능하게끔 조속하게 만든 자료이다보니 매우 엉성합니다.\r\n감안하여 사용해 주시면 감사하겠습니다.",
+      "version": "1.0",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Daejeon_BX212-v1.0",
+      "publishedAt": "2025-11-24T07:30:45Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Daejeon_BX212-v1.0/BX212.zip",
+      "fileName": "BX212.zip",
+      "size": 458596073,
+      "sizeMB": 437.4,
+      "assets": [
+        {
+          "fileName": "BX212.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Daejeon_BX212-v1.0/BX212.zip",
+          "size": 458596073
         }
       ]
     },
