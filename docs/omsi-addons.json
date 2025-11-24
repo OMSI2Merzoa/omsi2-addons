@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-24T04:01:14.252Z",
+  "generatedAt": "2025-11-24T04:13:23.318Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -99,7 +99,8 @@
         }
       ],
       "mapParts": [
-        "maps"
+        "maps",
+        "vehicles"
       ]
     },
     {
@@ -123,6 +124,12 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/BLACKPINK_Gyeongnam_Intercity-v1.0/Gyeongnam.Intercity.7z",
           "size": 2087226749
         }
+      ],
+      "mapParts": [
+        "maps",
+        "sceneryobjects",
+        "splines",
+        "vehicles"
       ]
     },
     {
@@ -177,7 +184,8 @@
         }
       ],
       "mapParts": [
-        "maps"
+        "maps",
+        "sceneryobjects"
       ]
     },
     {
@@ -234,7 +242,8 @@
         }
       ],
       "mapParts": [
-        "maps"
+        "maps",
+        "vehicles"
       ]
     },
     {
@@ -260,7 +269,8 @@
         }
       ],
       "mapParts": [
-        "maps"
+        "maps",
+        "vehicles"
       ]
     },
     {
@@ -284,6 +294,13 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/BLACKPINK_Segang_Alpha-v1.0/Segang.Alpha.7z",
           "size": 1843169597
         }
+      ],
+      "mapParts": [
+        "maps",
+        "sceneryobjects",
+        "splines",
+        "texture",
+        "vehicles"
       ]
     },
     {
@@ -307,6 +324,12 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/BLACKPINK_Silkroad_Jinju-v1.0/Silkroad.Jinju.7z",
           "size": 2006911151
         }
+      ],
+      "mapParts": [
+        "maps",
+        "sceneryobjects",
+        "splines",
+        "vehicles"
       ]
     },
     {
