@@ -43,6 +43,7 @@
         { "id": "Daejeon_Granbird_inovation",    "category": "Bus", "tagPrefix": "Daejeon_Granbird_inovation-v", "displayAuthor": "대전광역시" },
         { "id": "Daejeon_BX212",    "category": "Bus", "tagPrefix": "Daejeon_BX212-v", "displayAuthor": "대전광역시" },
         { "id": "Jackson_Universe_FCEV",    "category": "Bus", "tagPrefix": "Jackson_Universe_FCEV-v", "displayAuthor": "Jackson" },
+        { "id": "Taehwa_Daewoo_Series",    "category": "Bus", "tagPrefix": "Taehwa_Daewoo_Series-v", "displayAuthor": "태화" }
         { "id": "Sindosaek_EleccityI",    "category": "Bus", "tagPrefix": "Sindosaek_EleccityI-v", "displayAuthor": "신도색" }
       ]
     },
@@ -81,6 +82,7 @@
     }
   ]
 }
+
 
 
 
