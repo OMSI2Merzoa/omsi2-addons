@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-24T07:34:33.186Z",
+  "generatedAt": "2025-11-24T08:03:41.175Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -457,6 +457,29 @@
           "fileName": "Apollo1100V2_omsi2.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_Apollo1100_25-v1.0/Apollo1100V2_omsi2.zip",
           "size": 424194572
+        }
+      ]
+    },
+    {
+      "id": "Taehwa_Daewoo_Series",
+      "name": "[Bus] DAEWOO BS ALLSTAR",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "태화",
+      "description": "DAEWOO BUS ALLSTAR 1.4.0\r\n\r\nBS090 BS105 BS106 BS110 BS120 FX116 FX120 FX212\r\n차량을 포함합니다.",
+      "version": "1.4.0.1",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Taehwa_Daewoo_Series-v1.4.0.1",
+      "publishedAt": "2025-11-24T07:47:38Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Taehwa_Daewoo_Series-v1.4.0.1/DAEWOO.BUS.ALLSTAR.7z",
+      "fileName": "DAEWOO.BUS.ALLSTAR.7z",
+      "size": 273756618,
+      "sizeMB": 261.1,
+      "assets": [
+        {
+          "fileName": "DAEWOO.BUS.ALLSTAR.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Taehwa_Daewoo_Series-v1.4.0.1/DAEWOO.BUS.ALLSTAR.7z",
+          "size": 273756618
         }
       ]
     },
