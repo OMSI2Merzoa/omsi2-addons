@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-24T08:04:04.291Z",
+  "generatedAt": "2025-11-24T08:55:20.932Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -465,7 +465,7 @@
       "name": "[Bus] DAEWOO BS ALLSTAR",
       "author": "OMSI2Merzoa",
       "displayAuthor": "태화",
-      "description": "DAEWOO BUS ALLSTAR 1.4.0\r\n\r\nBS090 BS105 BS106 BS110 BS120 FX116 FX120 FX212\r\n차량을 포함합니다.",
+      "description": "DAEWOO BUS ALLSTAR 1.4.0 + 1.4.0.1 패치\r\n\r\n\r\nBS090 BS105 BS106 BS110 BS120 FX116 FX120 FX212\r\n차량을 포함합니다.",
       "version": "1.4.0.1",
       "category": "버스",
       "repo": "OMSI2Merzoa/omsi2-addons",
