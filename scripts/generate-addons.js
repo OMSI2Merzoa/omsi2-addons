@@ -112,7 +112,7 @@ async function run(){
     for(const addon of (repoCfg.addons||[])){
       try{
         // 🔹 sources.json 에서 displayAuthor도 함께 읽어옴
-        const { id, category, tagPrefix, assetPriority=repoPrios, prerelease=repoPre, displayAuthor } = addon||{};
+        const { id, category, tagPrefix, assetPriority=repoPrios, prerelease=repoPre, displayAuthor, mapParts } = addon||{};
         if(!id || !tagPrefix){ console.warn(`  ⚠️  ${repo}: id/tagPrefix 누락`); continue; }
         const kCat=toK(category);
         const rel=pickRelease(list,{tagPrefix,prerelease});
