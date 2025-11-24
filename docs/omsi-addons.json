@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-24T03:50:15.252Z",
+  "generatedAt": "2025-11-24T04:01:14.252Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -68,6 +68,12 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/suya117_AnrakMunsan-v5.0/Anrak.Munsan.V5.0.7z",
           "size": 58503146
         }
+      ],
+      "mapParts": [
+        "maps",
+        "sceneryobjects",
+        "texture",
+        "vehicles"
       ]
     },
     {
@@ -91,6 +97,9 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_ARMR-v0.3.1/ARMR_0.3.1.zip",
           "size": 66704601
         }
+      ],
+      "mapParts": [
+        "maps"
       ]
     },
     {
@@ -137,6 +146,12 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Leehyundo_Jukju-v0.1/Jukju.0.1.7z",
           "size": 333251167
         }
+      ],
+      "mapParts": [
+        "maps",
+        "sceneryobjects",
+        "splines",
+        "vehicles"
       ]
     },
     {
@@ -351,13 +366,6 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
           "size": 1726014748
         }
-      ],
-      "mapParts": [
-        "maps",
-        "sceneryobjects",
-        "splines",
-        "texture",
-        "vehicles"
       ]
     },
     {
