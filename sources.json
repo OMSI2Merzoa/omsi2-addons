@@ -6,11 +6,11 @@
       "prerelease": true,
       "addons": [
         { "id": "hyundai_series", "category": "Bus", "tagPrefix": "hyundai_series-v", "displayAuthor": "Bus1997,구자윤,태화 外" },
-        { "id": "incheon_map",    "category": "Map", "tagPrefix": "incheon_map-v", "displayAuthor": "메르는안조아" },
+        { "id": "incheon_map",    "category": "Map", "tagPrefix": "incheon_map-v", "displayAuthor": "메르는안조아", "mapParts": ["maps", "sceneryobjects", "splines", "texture", "vehicles"] },
         { "id": "Aviatree_Higer",    "category": "Bus", "tagPrefix": "Aviatree_Higer-v", "displayAuthor": "Aviatree" },
-        { "id": "Runny_NPOR",    "category": "Map", "tagPrefix": "Runny_NPOR-v", "displayAuthor": "별,Runny" },
-        { "id": "Runny_KINT",    "category": "Map", "tagPrefix": "Runny_KINT-v", "displayAuthor": "별,Runny" },
-        { "id": "Runny_NCCR",    "category": "Map", "tagPrefix": "Runny_NCCR-v", "displayAuthor": "별,Runny" },
+        { "id": "Runny_NPOR",    "category": "Map", "tagPrefix": "Runny_NPOR-v", "displayAuthor": "별,Runny", "mapParts": ["maps"] },
+        { "id": "Runny_KINT",    "category": "Map", "tagPrefix": "Runny_KINT-v", "displayAuthor": "별,Runny", "mapParts": ["maps"] },
+        { "id": "Runny_NCCR",    "category": "Map", "tagPrefix": "Runny_NCCR-v", "displayAuthor": "별,Runny", "mapParts": ["maps"] },
         { "id": "Runny_ARMR",    "category": "Map", "tagPrefix": "Runny_ARMR-v", "displayAuthor": "suya117,Runny" },
         { "id": "Leehyundo_Jukju",    "category": "Map", "tagPrefix": "Leehyundo_Jukju-v", "displayAuthor": "산남분평남이현도" },
         { "id": "suya117_AnrakMunsan",    "category": "Map", "tagPrefix": "suya117_AnrakMunsan-v", "displayAuthor": "suya117" },
@@ -66,6 +66,7 @@
     }
   ]
 }
+
 
 
 
