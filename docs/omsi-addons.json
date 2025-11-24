@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-24T08:03:41.175Z",
+  "generatedAt": "2025-11-24T08:04:04.291Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -664,6 +664,29 @@
           "fileName": "Daewoo_Lestar_omsi.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_Lestar-v1.0/Daewoo_Lestar_omsi.zip",
           "size": 262666771
+        }
+      ]
+    },
+    {
+      "id": "G240_E_fibird",
+      "name": "[Bus] 에디슨모터스 뉴 E-화이버드 2020",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "G240,The human,저상",
+      "description": "뉴 E-화이버드 EV 2020\r\n차량 원판 : 멀베리즙님 일렉시티\r\n공동제작 : The human, 저상, G240님\r\n도움 : 지하철영상, Lulurala, 대전광역시님 외 다수\r\n자료 제공 협조: 김해포유, bluebus148, 이층전기, Micida.J, SuL3님\r\n단말기 지원 : 내도지, 박하루님\r\n\r\nThe Human님의 승객 착석 위치 수정패치, 번호판 패치\r\nbruhlder님의 내,외부 모델 수정 패치 + 베이킹 + 전중문패치\r\nJackson님의 전/후문 맵핑오류 개선패치\r\n위 3개의 패치가 적용되어 있습니다.",
+      "version": "1.0",
+      "category": "버스",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "G240_E_fibird-v1.0",
+      "publishedAt": "2025-11-24T08:03:50Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/G240_E_fibird-v1.0/Edison.E-Fibird.zip",
+      "fileName": "Edison.E-Fibird.zip",
+      "size": 253535903,
+      "sizeMB": 241.8,
+      "assets": [
+        {
+          "fileName": "Edison.E-Fibird.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/G240_E_fibird-v1.0/Edison.E-Fibird.zip",
+          "size": 253535903
         }
       ]
     },
