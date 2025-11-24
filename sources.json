@@ -5,9 +5,7 @@
       "assetPriority": [".7z", ".zip"],
       "prerelease": true,
       "addons": [
-        { "id": "hyundai_series", "category": "Bus", "tagPrefix": "hyundai_series-v", "displayAuthor": "Bus1997,구자윤,태화 外" },
         { "id": "incheon_map",    "category": "Map", "tagPrefix": "incheon_map-v", "displayAuthor": "메르는안조아", "mapParts": ["maps", "sceneryobjects", "splines", "texture", "vehicles"] },
-        { "id": "Aviatree_Higer",    "category": "Bus", "tagPrefix": "Aviatree_Higer-v", "displayAuthor": "Aviatree" },
         { "id": "Runny_NPOR",    "category": "Map", "tagPrefix": "Runny_NPOR-v", "displayAuthor": "별,Runny", "mapParts": ["maps"] },
         { "id": "Runny_KINT",    "category": "Map", "tagPrefix": "Runny_KINT-v", "displayAuthor": "별,Runny", "mapParts": ["maps"] },
         { "id": "Runny_NCCR",    "category": "Map", "tagPrefix": "Runny_NCCR-v", "displayAuthor": "별,Runny", "mapParts": ["maps"] },
@@ -18,6 +16,16 @@
         { "id": "BLACKPINK_Gyeongnam_Intercity",    "category": "Map", "tagPrefix": "BLACKPINK_Gyeongnam_Intercity-v", "displayAuthor": "BLACKPINK" },
         { "id": "BLACKPINK_Segang_Alpha",    "category": "Map", "tagPrefix": "BLACKPINK_Segang_Alpha-v", "displayAuthor": "BLACKPINK" },
         { "id": "CGBS_Busan",    "category": "Map", "tagPrefix": "CGBS_Busan-v", "displayAuthor": "책걸밥상" },
+        { "id": "NCC_Official",        "category": "Map", "tagPrefix": "NCC_Official-v", "displayAuthor": "Arcticwp346,별,백문,메르는안조아" }
+      ]
+    },
+    {
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "assetPriority": [".7z", ".zip"],
+      "prerelease": true,
+      "addons": [
+        { "id": "hyundai_series", "category": "Bus", "tagPrefix": "hyundai_series-v", "displayAuthor": "Bus1997,구자윤,태화 外" },
+        { "id": "Aviatree_Higer",    "category": "Bus", "tagPrefix": "Aviatree_Higer-v", "displayAuthor": "Aviatree" },
         { "id": "Mulberry_Eleccity",    "category": "Bus", "tagPrefix": "Mulberry_Eleccity-v", "displayAuthor": "멀베리즙" },
         { "id": "Lulurala_Apollo1100_25",    "category": "Bus", "tagPrefix": "Lulurala_Apollo1100_25-v", "displayAuthor": "Lulurala" },
         { "id": "Lulurala_Apollo1100_21",    "category": "Bus", "tagPrefix": "Lulurala_Apollo1100_21-v", "displayAuthor": "Lulurala" },
@@ -25,8 +33,6 @@
         { "id": "Lulurala_KGM_Smart110",    "category": "Bus", "tagPrefix": "Lulurala_KGM_Smart110-v", "displayAuthor": "Lulurala" },
         { "id": "Lulurala_Lestar",    "category": "Bus", "tagPrefix": "Lulurala_Lestar-v", "displayAuthor": "Lulurala" },
         { "id": "TechnoKing_Bluecity",    "category": "Bus", "tagPrefix": "TechnoKing_Bluecity-v", "displayAuthor": "테크노킹" },
-        { "id": "TechnoKing_Torres",    "category": "Ai", "tagPrefix": "TechnoKing_Torres-v", "displayAuthor": "테크노킹" },
-        { "id": "TechnoKing_Staria",    "category": "Ai", "tagPrefix": "TechnoKing_Staria-v", "displayAuthor": "테크노킹" },
         { "id": "Raccon_Universe_Luxury",    "category": "Bus", "tagPrefix": "Raccon_Universe_Luxury-v", "displayAuthor": "요격감자" },
         { "id": "Raccon_Universe_Prime",    "category": "Bus", "tagPrefix": "Raccon_Universe_Prime-v", "displayAuthor": "요격감자" },
         { "id": "Raccon_Universe_Elegance",    "category": "Bus", "tagPrefix": "Raccon_Universe_Elegance-v", "displayAuthor": "요격감자" },
@@ -36,8 +42,16 @@
         { "id": "Daejeon_Universe_Noble",    "category": "Bus", "tagPrefix": "Daejeon_Universe_Noble-v", "displayAuthor": "대전광역시" },
         { "id": "Daejeon_Granbird_inovation",    "category": "Bus", "tagPrefix": "Daejeon_Granbird_inovation-v", "displayAuthor": "대전광역시" },
         { "id": "Jackson_Universe_FCEV",    "category": "Bus", "tagPrefix": "Jackson_Universe_FCEV-v", "displayAuthor": "Jackson" },
-        { "id": "Sindosaek_EleccityI",    "category": "Bus", "tagPrefix": "Sindosaek_EleccityI-v", "displayAuthor": "신도색" },
-        { "id": "NCC_Official",        "category": "Map", "tagPrefix": "NCC_Official-v", "displayAuthor": "Arcticwp346,별,백문,메르는안조아" }
+        { "id": "Sindosaek_EleccityI",    "category": "Bus", "tagPrefix": "Sindosaek_EleccityI-v", "displayAuthor": "신도색" }
+      ]
+    },
+    {
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "assetPriority": [".7z", ".zip"],
+      "prerelease": true,
+      "addons": [
+        { "id": "TechnoKing_Torres",    "category": "Ai", "tagPrefix": "TechnoKing_Torres-v", "displayAuthor": "테크노킹" },
+        { "id": "TechnoKing_Staria",    "category": "Ai", "tagPrefix": "TechnoKing_Staria-v", "displayAuthor": "테크노킹" }
       ]
     },
     {
@@ -66,6 +80,7 @@
     }
   ]
 }
+
 
 
 
