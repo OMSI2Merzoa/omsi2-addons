@@ -1,6 +1,6 @@
 {
-  "version": "1.0.5.0",
-  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/OMSI2AddonInstaller-v1.0.5/OMSI2Installer_v1.0.5.zip",
+  "version": "1.0.6.0",
+  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/OMSI2AddonInstaller-v1.0.6/OMSI2Installer_v1.0.6.zip",
   "exeName": "OMSI2Installer.exe",
   "changelog": "- 맵카테고리 애드온에 포함되어 있는 폴더만 선택할 수 있도록 개선\n- 차량 제조사별 필터 추가\n- 설치 중 취소 기능 추가"
 }
