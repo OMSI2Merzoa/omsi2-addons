@@ -139,7 +139,8 @@ async function run(){
             publishedAt: rel.published_at || rel.created_at,
             assets: grp.files.map(a=>({ fileName: a.name, downloadUrl: a.browser_download_url, size: a.size })),
             size: total,
-            sizeMB: toMB(total)
+            sizeMB: toMB(total),
+            mapParts
           });
           continue;
         }
@@ -165,7 +166,8 @@ async function run(){
           size: asset.size,
           sizeMB: toMB(asset.size),
           // 새 필드 형식을 통일하기 위해 assets에도 1개 넣어둠
-          assets: [{ fileName: asset.name, downloadUrl: asset.browser_download_url, size: asset.size }]
+          assets: [{ fileName: asset.name, downloadUrl: asset.browser_download_url, size: asset.size }],
+          mapParts
         });
       }catch(e){
         console.warn(`  ⚠️  ${repo}: '${addon?.id||"unknown"}' 수집 오류 → ${e.message}`);
