@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-26T07:50:22.538Z",
+  "generatedAt": "2025-11-26T08:26:47.108Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -411,6 +411,29 @@
           "fileName": "Cheongju.City.v2.zip",
           "downloadUrl": "https://github.com/Devilanc/Cheongju-2.0/releases/download/Cheongju_v2_beta-v0.2/Cheongju.City.v2.zip",
           "size": 2714312
+        }
+      ]
+    },
+    {
+      "id": "CheongjuExam",
+      "name": "[Map] 청주운전면허시험장",
+      "author": "PC28K",
+      "displayAuthor": "PC28K",
+      "description": "충북 청주시 상당구 가덕면 소재 도로교통공단 청주운전면허시험장 맵입니다.",
+      "version": "1.0",
+      "category": "맵",
+      "repo": "PC28K/CheongjuExam",
+      "releaseTag": "CheongjuExam-v1.0",
+      "publishedAt": "2025-11-26T07:10:28Z",
+      "downloadUrl": "https://github.com/PC28K/CheongjuExam/releases/download/CheongjuExam-v1.0/CheongjuExam_pub_patch_auto.7z",
+      "fileName": "CheongjuExam_pub_patch_auto.7z",
+      "size": 24934731,
+      "sizeMB": 23.8,
+      "assets": [
+        {
+          "fileName": "CheongjuExam_pub_patch_auto.7z",
+          "downloadUrl": "https://github.com/PC28K/CheongjuExam/releases/download/CheongjuExam-v1.0/CheongjuExam_pub_patch_auto.7z",
+          "size": 24934731
         }
       ]
     },
