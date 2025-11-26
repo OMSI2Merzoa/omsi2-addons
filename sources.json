@@ -66,6 +66,14 @@
       ]
     },
     {
+      "repo": "PC28K/CheongjuExam",
+      "assetPriority": [".7z", ".zip"],
+      "prerelease": true,
+      "addons": [
+        { "id": "CheongjuExam", "category": "Map", "tagPrefix": "CheongjuExam-v", "displayAuthor": "PC28K" }
+      ]
+    },
+    {
       "repo": "HYB1022/dnb106dwcphmp",
       "assetPriority": [".7z", ".zip"],
       "prerelease": true,
@@ -83,6 +91,7 @@
     }
   ]
 }
+
 
 
 
