@@ -82,6 +82,14 @@
       ]
     },
     {
+      "repo": "HYB1022/kngbiss14",
+      "assetPriority": [".7z", ".zip"],
+      "prerelease": true,
+      "addons": [
+        { "id": "gbiss", "category": "Bus", "tagPrefix": "gbiss-v", "displayAuthor": "The human" }
+      ]
+    },
+    {
       "repo": "Devilanc/Cheongju-2.0",
       "assetPriority": [".7z", ".zip"],
       "prerelease": true,
