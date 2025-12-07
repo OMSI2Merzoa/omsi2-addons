@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-07T07:50:58.620Z",
+  "generatedAt": "2025-12-07T08:24:47.290Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -672,21 +672,21 @@
       "name": "[Bus] 기아 뉴 그랜버드 이노베이션 선샤인",
       "author": "HYB1022",
       "displayAuthor": "The human",
-      "description": "Kia New Granbird Inovation Sunshine'14\r\n유로 5 엔진을 장착한 약 12m 길이의 하이데크급(HD) 고급 고속/관광버스 모델",
-      "version": "0.1",
+      "description": "Kia New Granbird Inovation Sunshine'14\r\n유로 5 엔진을 장착한 약 12m 길이의 하이데크급(HD) 고급 고속/관광버스 모델\r\n\r\n변경 내역\r\n - 약관을 업데이트 하였습니다.",
+      "version": "0.2",
       "category": "버스",
       "repo": "HYB1022/kngbiss14",
-      "releaseTag": "gbiss-v0.1",
-      "publishedAt": "2025-11-28T12:00:39Z",
-      "downloadUrl": "https://github.com/HYB1022/kngbiss14/releases/download/gbiss-v0.1/KIA.GRANBIRD.INOVATION.SUNSHINE.zip",
+      "releaseTag": "gbiss-v0.2",
+      "publishedAt": "2025-12-07T08:23:05Z",
+      "downloadUrl": "https://github.com/HYB1022/kngbiss14/releases/download/gbiss-v0.2/KIA.GRANBIRD.INOVATION.SUNSHINE.zip",
       "fileName": "KIA.GRANBIRD.INOVATION.SUNSHINE.zip",
-      "size": 261340596,
-      "sizeMB": 249.2,
+      "size": 261405298,
+      "sizeMB": 249.3,
       "assets": [
         {
           "fileName": "KIA.GRANBIRD.INOVATION.SUNSHINE.zip",
-          "downloadUrl": "https://github.com/HYB1022/kngbiss14/releases/download/gbiss-v0.1/KIA.GRANBIRD.INOVATION.SUNSHINE.zip",
-          "size": 261340596
+          "downloadUrl": "https://github.com/HYB1022/kngbiss14/releases/download/gbiss-v0.2/KIA.GRANBIRD.INOVATION.SUNSHINE.zip",
+          "size": 261405298
         }
       ]
     },
