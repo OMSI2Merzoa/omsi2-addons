@@ -3,7 +3,7 @@
   "name": "통합 스플라인",
   "category": "리소스",
   "version": "2025.08",
-  "description": "옴시코리아 배포 통합 스플라인",
-  "downloadUrl": "https://....../unified_splines.zip",
+  "description": "옴시코리아 통합 스플라인",
+  "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/splines-v1.0/Splines.7z",
   "sourceUrl": "https://cafe.naver.com/omsikorea/35867"
 }
