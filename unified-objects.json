@@ -7,12 +7,14 @@
   "sourceUrl": "https://cafe.naver.com/omsikorea/35867",
   "assets": [
     {
-      "name": "Sceneryobjects.7z.001",
-      "url": "https://github.com/<owner>/<repo>/releases/download/<tag>/UnifiedObjects.7z.001"
+      "filename": "Sceneryobjects.7z.001",
+      "downloadUrl": "https://github.com/<owner>/<repo>/releases/download/<tag>/UnifiedObjects.7z.001",
+      "size": 1572684000
     },
     {
-      "name": "Sceneryobjects.7z.002",
-      "url": "https://github.com/<owner>/<repo>/releases/download/<tag>/UnifiedObjects.7z.002"
+      "filename": "Sceneryobjects.7z.002",
+      "downloadUrl": "https://github.com/<owner>/<repo>/releases/download/<tag>/UnifiedObjects.7z.002",
+      "size": 1322634000
     }
   ]
 }
