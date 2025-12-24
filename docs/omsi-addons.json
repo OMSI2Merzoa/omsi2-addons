@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-24T13:48:48.295Z",
+  "generatedAt": "2025-12-24T13:54:43.001Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -380,6 +380,37 @@
       "size": 5133387614,
       "sizeMB": 4895.6,
       "sourceUrl": "https://cafe.naver.com/omsikorea/32325"
+    },
+    {
+      "id": "PUREUNNARAE_Yulcheon",
+      "name": "[Map] 율천 1.45 pre",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "푸른나래",
+      "description": "Yulcheon 1.45 preview Version\r\n\r\n맵 제작 : 푸른나래\r\n스플라인 : Arctic님\r\n오브젝트 : 푸른나래,Arctic님,그 외 여러 분들\r\n차량 도색 : 푸른나래\r\n운행 시간표 : 푸른나래",
+      "version": "1.45",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "PUREUNNARAE_Yulcheon-v1.45",
+      "publishedAt": "2025-12-24T13:54:27Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/PUREUNNARAE_Yulcheon-v1.45/Yulcheon.1.45.7z",
+      "fileName": "Yulcheon.1.45.7z",
+      "size": 1081686091,
+      "sizeMB": 1031.6,
+      "assets": [
+        {
+          "fileName": "Yulcheon.1.45.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/PUREUNNARAE_Yulcheon-v1.45/Yulcheon.1.45.7z",
+          "size": 1081686091
+        }
+      ],
+      "mapParts": [
+        "maps",
+        "sceneryobjects",
+        "splines",
+        "texture",
+        "vehicles"
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/21141"
     },
     {
       "id": "incheon_map",
