@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-24T09:32:36.132Z",
+  "generatedAt": "2025-12-24T09:38:21.705Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -22,7 +22,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/TechnoKing_Torres-v1.0/ai_torres.zip",
           "size": 1166630
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/27551"
     },
     {
       "id": "TechnoKing_Staria",
@@ -45,7 +46,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/TechnoKing_Staria-v1.0/ai_staria.zip",
           "size": 1646051
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/27531"
     },
     {
       "id": "suya117_AnrakMunsan",
@@ -74,7 +76,8 @@
         "sceneryobjects",
         "texture",
         "vehicles"
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/19817"
     },
     {
       "id": "Runny_ARMR",
@@ -101,7 +104,8 @@
       "mapParts": [
         "maps",
         "vehicles"
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/35843"
     },
     {
       "id": "BLACKPINK_Gyeongnam_Intercity",
@@ -130,7 +134,8 @@
         "sceneryobjects",
         "splines",
         "vehicles"
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/23160"
     },
     {
       "id": "Leehyundo_Jukju",
@@ -159,7 +164,8 @@
         "sceneryobjects",
         "splines",
         "vehicles"
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/31323"
     },
     {
       "id": "Runny_KINT",
@@ -186,7 +192,8 @@
       "mapParts": [
         "maps",
         "sceneryobjects"
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/35804"
     },
     {
       "id": "NCC_Official",
@@ -217,7 +224,8 @@
         }
       ],
       "size": 3684715379,
-      "sizeMB": 3514
+      "sizeMB": 3514,
+      "sourceUrl": "https://cafe.naver.com/omsikorea/30686"
     },
     {
       "id": "Runny_NCCR",
@@ -244,7 +252,8 @@
       "mapParts": [
         "maps",
         "vehicles"
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/34859"
     },
     {
       "id": "Runny_NPOR",
@@ -271,7 +280,8 @@
       "mapParts": [
         "maps",
         "vehicles"
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/35848"
     },
     {
       "id": "BLACKPINK_Segang_Alpha",
@@ -301,7 +311,8 @@
         "splines",
         "texture",
         "vehicles"
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/24036"
     },
     {
       "id": "BLACKPINK_Silkroad_Jinju",
@@ -330,7 +341,8 @@
         "sceneryobjects",
         "splines",
         "vehicles"
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/34045"
     },
     {
       "id": "CGBS_Busan",
@@ -366,7 +378,8 @@
         }
       ],
       "size": 5133387614,
-      "sizeMB": 4895.6
+      "sizeMB": 4895.6,
+      "sourceUrl": "https://cafe.naver.com/omsikorea/32325"
     },
     {
       "id": "incheon_map",
@@ -389,7 +402,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
           "size": 1726014748
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/31333"
     },
     {
       "id": "Cheongju",
@@ -412,7 +426,8 @@
           "downloadUrl": "https://github.com/Devilanc/Cheongju-2.0/releases/download/Cheongju_v2_beta-v0.2/Cheongju.City.v2.zip",
           "size": 2714312
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/25891"
     },
     {
       "id": "CheongjuExam",
@@ -435,7 +450,8 @@
           "downloadUrl": "https://github.com/PC28K/CheongjuExam/releases/download/CheongjuExam-v1.0/CheongjuExam_pub_patch_auto.7z",
           "size": 24934731
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/26637"
     },
     {
       "id": "Lulurala_Apollo1100_21",
@@ -458,7 +474,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_Apollo1100_21-v1.0/Apollo1100_omsi2.zip",
           "size": 123399865
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/30427"
     },
     {
       "id": "Lulurala_Apollo1100_25",
@@ -481,7 +498,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_Apollo1100_25-v1.0/Apollo1100V2_omsi2.zip",
           "size": 424194572
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/35728"
     },
     {
       "id": "Taehwa_Daewoo_Series",
@@ -504,7 +522,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Taehwa_Daewoo_Series-v1.4.0.1/DAEWOO.BUS.ALLSTAR.7z",
           "size": 273756618
         }
-      ]
+      ],
+      "sourceUrl": "https://gall.dcinside.com/mini/board/view/?id=omsi2&no=6679&page=1"
     },
     {
       "id": "Daejeon_BX212",
@@ -527,7 +546,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Daejeon_BX212-v1.0/BX212.zip",
           "size": 458596073
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/32155"
     },
     {
       "id": "Aviatree_Higer",
@@ -550,7 +570,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Aviatree_Higer-v1.0/Higer.Hypers.1611P.7z",
           "size": 155968371
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/36184"
     },
     {
       "id": "Lulurala_KGM_C090",
@@ -573,7 +594,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_KGM_C090-v1.0/KGC090.zip",
           "size": 583117560
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/34262"
     },
     {
       "id": "Lulurala_KGM_Smart110",
@@ -596,7 +618,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_KGM_Smart110-v1.0/KGM.Smart110.zip",
           "size": 271430214
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/32607"
     },
     {
       "id": "BS106",
@@ -619,7 +642,8 @@
           "downloadUrl": "https://github.com/HYB1022/dnb106dwcphmp/releases/download/BS106-v0.2/NewBS106.zip",
           "size": 1014570206
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/34920"
     },
     {
       "id": "Daejeon_Granbird_SuperPremium",
@@ -642,7 +666,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Daejeon_Granbird_SuperPremium-v2.0.0/KIA.NEW.GRANBIRD.SUPER.PREMIUM.zip",
           "size": 274523151
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/34690"
     },
     {
       "id": "Daejeon_Granbird_inovation",
@@ -665,7 +690,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Daejeon_Granbird_inovation-v1.0/KIA.GRANBIRD.INOVATION.SERIES.zip",
           "size": 257245031
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/33450"
     },
     {
       "id": "gbiss",
@@ -688,7 +714,8 @@
           "downloadUrl": "https://github.com/HYB1022/kngbiss14/releases/download/gbiss-v0.2/KIA.GRANBIRD.INOVATION.SUNSHINE.zip",
           "size": 261405298
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/36754"
     },
     {
       "id": "Lulurala_Lestar",
@@ -711,7 +738,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Lulurala_Lestar-v1.0/Daewoo_Lestar_omsi.zip",
           "size": 262666771
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/29519"
     },
     {
       "id": "G240_E_fibird",
@@ -734,7 +762,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/G240_E_fibird-v1.0/Edison.E-Fibird.zip",
           "size": 253535903
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/32495"
     },
     {
       "id": "TechnoKing_Bluecity",
@@ -757,7 +786,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/TechnoKing_Bluecity-v1.0/Hyundai_blue_city.1.0.zip",
           "size": 530629399
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/34060"
     },
     {
       "id": "Raccon_Universe_EX",
@@ -780,7 +810,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Raccon_Universe_EX-v1.0/Hyundai.Raccoon.Universe.EX.Pack.zip",
           "size": 355775721
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/30193"
     },
     {
       "id": "Daejeon_Universe_Noble",
@@ -803,7 +834,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Daejeon_Universe_Noble-v1.0/HYUNDAI.UNIVERSE.NOBLE.zip",
           "size": 334426316
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/33735"
     },
     {
       "id": "Raccon_Universe_Luxury",
@@ -826,7 +858,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Raccon_Universe_Luxury-v1.0/Hyundai.Raccoon.Universe.Luxury.zip",
           "size": 407505921
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/31903"
     },
     {
       "id": "Jackson_Universe_FCEV",
@@ -849,7 +882,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Jackson_Universe_FCEV-v4.5/Hyundai.Universe.Elegance.FCEV.4.5.zip",
           "size": 494649822
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/35831"
     },
     {
       "id": "Raccon_Universe_Elegance",
@@ -872,7 +906,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Raccon_Universe_Elegance-v1.0/Hyundai.Raccoon.Universe.Elegance.zip",
           "size": 339060808
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/31044"
     },
     {
       "id": "Raccon_Universe_Comfort",
@@ -895,7 +930,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Raccon_Universe_Comfort-v1.0/Hyundai.Raccoon.Universe.Comfort.zip",
           "size": 386030893
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/31044"
     },
     {
       "id": "Raccon_Universe_Prime",
@@ -918,7 +954,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Raccon_Universe_Prime-v1.0/Hyundai.Raccoon.Universe.Prime.zip",
           "size": 405074190
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/31743"
     },
     {
       "id": "Mulberry_Eleccity",
@@ -941,7 +978,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Mulberry_Eleccity-v1.0/Hyundai_Eleccity.7z",
           "size": 199156864
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/25589"
     },
     {
       "id": "Sindosaek_EleccityI",
@@ -964,7 +1002,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Sindosaek_EleccityI-v1.0/Hyundai.Eleccity.I.zip",
           "size": 244048867
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/28729"
     },
     {
       "id": "hyundai_series",
@@ -987,7 +1026,8 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/hyundai_series-v4.1.0.7/Hyundai.Citybus.Series.zip",
           "size": 801723533
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/20936"
     }
   ]
 }
