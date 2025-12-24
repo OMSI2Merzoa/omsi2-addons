@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-24T15:09:51.901Z",
+  "generatedAt": "2025-12-24T15:10:10.980Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -411,6 +411,39 @@
         "vehicles"
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea/21141"
+    },
+    {
+      "id": "ereNity_Yulcheon_Byeokha",
+      "name": "[Map] 율천벽하 V3.5",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "SereNity",
+      "description": "율천벽하 v3.0과 달라진 점입니다.\r\n- 1개 노선 추가(18: 수정동 ~ 문원2리 ~ 하완마을입구)\r\n- 2개 노선 경로 변경(904,906)\r\n- 율천IC ~  IT밸리입구 ~ 시청 ~ 율천종합버스터미널 중앙 버스 전용차로 제거 후 왕복 8차로 일반 도로로 전환\r\n- 율천컨벤션센터입구 앞 도로 구조 변경, 율천종합버스터미널 육거리 -> 오거리 변환\r\n- 12, 52, 901번 크뤼거 LED 오류 수정\r\n- 수소 유니버스 4.5 버전 도색틀 추가\r\n- 스플라인 교체로 인한 도로 텍스쳐 질감 향상\r\n\r\n주의사항\r\n- 기본적으로 율천맵 1.45의 준수사항을 따릅니다.\r\n- 원본 재배포시에는 해당 게시글 링크를 첨부하는 방식으로 배포하시기 바랍니다.\r\n- 모든 수정이 가능하며 수정 후 재배포도 가능합니다. 수정 후 맵 이름을 변경해주시기 바랍니다. 단 다른 수정 없이 cfg만 변경 후 맵을 배포하는 것을 자제해주세요.\r\n- 구글 드라이브에 탑재된 기본 도색틀, AI도색틀, 크뤼거 LED, 행선판은 모든 수정 및 자유로운 사용이 가능합니다.\r\n- AI 버스는 현대 뉴슈퍼 Final 버전(3.0), 기아 그랜버드 슈퍼프리미엄 실크로드 차량이 필요합니다.\r\n- 배포 게시글에는 v3.5로 배포를 하지만, hof파일 / 맵 파일 등 맵 전반적인 부분은 v3.0으로 표기가 되어 있습니다.\r\n- 기존 율천벽하 3.0을 다운받았다면, 스플라인과 hof, 맵 파일만 새로 다운 받으시면 됩니다.\r\n- NCC, NCCR, ARMR맵과 완벽하게 호환 가능합니다. 만약 호환이 안 된다면 댓글에 어디 부분이 호환 안되는지 달아주세요. 바로 조치하겠습니다.",
+      "version": "3.5",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "ereNity_Yulcheon_Byeokha-v3.5",
+      "publishedAt": "2025-12-24T15:09:35Z",
+      "assets": [
+        {
+          "fileName": "Yulcheon.Byeokha.3.0.7z.001",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/ereNity_Yulcheon_Byeokha-v3.5/Yulcheon.Byeokha.3.0.7z.001",
+          "size": 2040109465
+        },
+        {
+          "fileName": "Yulcheon.Byeokha.3.0.7z.002",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/ereNity_Yulcheon_Byeokha-v3.5/Yulcheon.Byeokha.3.0.7z.002",
+          "size": 2021987087
+        }
+      ],
+      "size": 4062096552,
+      "sizeMB": 3873.9,
+      "mapParts": [
+        "maps",
+        "sceneryobjects",
+        "splines",
+        "texture",
+        "vehicles"
+      ]
     },
     {
       "id": "incheon_map",
