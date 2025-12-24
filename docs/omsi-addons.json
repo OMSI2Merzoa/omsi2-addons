@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-24T14:55:23.090Z",
+  "generatedAt": "2025-12-24T15:09:51.901Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -200,7 +200,7 @@
       "name": "[Map] NCC Official",
       "author": "OMSI2Merzoa",
       "displayAuthor": "Arcticwp346,별,백문,메르는안조아",
-      "description": "남천과 청진&청원을 한 공간에서, 한국 OMSI맵의 (最終章).",
+      "description": "『남천과 청진&청원을 한 공간에서, 한국 OMSI맵의 최종장(最終章). KOREA OMSI, Still Life. / 한국 OMSI, 계속 이대로.』\r\n\r\nOMSI 한국맵을 대표하는 남천광역시와 청진시&청원군 맵은 2014년부터 기획되어 배포된 유서깊은 유저 개발 자료입니다.\r\n가상의 지역이지만 나름의 한국적인 모습과 뛰어난 도시 풍경 재현 기술로 정말 우리 동네에서 시내버스를 모는 것만 같은 느낌을 주는 훌륭한 맵입니다.\r\n과거 두 맵은 별도의 프로젝트로 제작되었다가 하나의 맵으로 통합하는 것을 목표로 하는 거대한 청사진을 가지고 있었지만,\r\n크고 작은 갈등과 제작진의 사정으로 폐기됐습니다. 그러나 맵의 통합이라는 과제를 원작자 허가 하에 두 명의 제작자가 이뤄냈습니다.\r\n메르는안조아와 백문의 통합 및 복원 작업으로 드디어 한 맵에서 즐길 수 있게 되었습니다.\r\n10년의 기다림 속에서 얻은 세 지역의 통합을 다양한 노선버스를 직접 운전해 오가며 느끼는 즐거움과 신선함,\r\n설렘을 NCC맵에서 만나보시기 바랍니다. 이제 여러분의 차례입니다.\r\n\r\nMap(Original) : isjy0511, arcticwp346\r\nMap(Remake) : mk20006, ssw0947\r\nHelp : ddd11211, arcticwp346, dmstngksms, qjtmqkrtk, omsi12\r\nSceneryObject : arcticwp346, dmstngksms, hypercube209, ansdyd0568, 3dtranstudio, ddd11211, mk20006, ki98hong, Wkrhs1184, Poddol, suya117, 95js\r\nSpline : 3dtranstudio, arcticwp346, Simple Streets\r\n\r\n◎ OMSI KOREA 카페 외 타 커뮤니티에서 직접적인 맵 파일 업로드는 '불허' 합니다.\r\n◎ 본 맵은 자신의 기호에 맞게 Ailist와 LED, 안내방송 추가 등의 수정은 가능합니다.\r\n◎ 본 맵은 개인소장 목적 하에 노선 수정은 가능하며, 지역 추가 및 삭제는 불가합니다.\r\n◎ 기타 문의사항은 질의응답 전용 게시글을 활용해주시기 바랍니다. 개인적인 1:1채팅, 이메일, 쪽지, 타 SNS를 통한 문의는 절대 받지 않습니다.\r\n◎ 본 맵은 Steam DLC인 Express 91.06가 반드시 설치되어야 정상 구동 가능합니다.\r\n◎ 본 맵은 안락&문산(Anrak&Munsan)맵이 반드시 설치되어야 정상 구동 가능합니다.\r\n◎ 맵 설치 후, 다운로드 한 사용자의 컴퓨터에서 일어나는 모든 오류에 대해서는 배포자 및 제작자 일동은 책입지지 않습니다.\r\n◎ 맵 설치 후, 꼭 Maptool이나 Bluesky 등으로 누락된 오브젝트나 스플라인이 없는지 확인하시기 바랍니다.\r\n◎ 설치 후 ailists, parklist_p에서 없는 차량들은 전부 지우셔야합니다.\r\n◎ 배포파일의 용량이 매우 큽니다. 설치하시기 전에 충분한 컴퓨터 용량을 확보하시고 설치하시기 바랍니다.\r\n◎ 본 맵은 많은 타일 수와 오브젝트, 스플라인이 배치되어 있는 맵이기 때문에 타일 로딩 과정이나 운행 도중에 렉이 상당히 발생할 수 있습니다. 컴퓨터 사양에 맞게 옵션을 조정해 주시기 바랍니다.\r\n◎ ​렉이 너무 많이 걸리는 경우 Map폴더 內 TTData폴더에서 운행하지 않는 노선을 지우시면 조금 더 원활하게 플레이 가능합니다. (refresh schedules 창이 뜨는 빈도를 줄일 수 있습니다.)",
       "version": "1.0",
       "category": "맵",
       "repo": "OMSI2Merzoa/omsi2-addons",
@@ -417,7 +417,7 @@
       "name": "[Map] 인천광역시",
       "author": "OMSI2Merzoa",
       "displayAuthor": "메르는안조아",
-      "description": "인천광역시 서구 일대를 재현한 맵입니다.",
+      "description": "안녕하세요. 간만의 인천맵입니다. 오늘은 조금은 아쉬운 소식으로 인사드리게 되었네요.\r\n원래는 이번 버전에 인천공항 연장 업데이트가 이루어질 예정이었으나 저의 현생이 맵 제작할 시간을 투자할 수 있을만큼 여유롭지 못해서\r\n더이상의 제작은 어려울 것 같아 인천광역시 제작을 마치려고 합니다.\r\n가장 큰 이유는 본가가 인천을 떠나 다른곳으로 이사한게 가장 크지 않을까 싶습니다. 몸이 멀어진 만큼 마음도 멀어진게 아닐까 싶네요,,\r\n아쉽게도 지금 공개하는 버전을 마지막으로 공식 업데이트는 없을 것 같습니다. 기다려주신 모든 분들께 죄송한 마음입니다.\r\n\r\n✅ 더이상 업데이트는 없기에 해당 자료는 안내방송을 제외한 모든 자료가 오픈소스로 개방됩니다.\r\n 출처만 남겨주시면 자유롭게 수정 및 재배포 가능합니다.\r\n✅ 배포하실 때 출처만 남겨주신다면 스플라인 , 오브젝트 타맵에 사용 가능합니다.\r\n✅ 맵 자체는 오픈소스로 개방하지만 안내방송에는 저 외의 다른분의 자료도 포함되어 있기에 안내방송 재배포는 불가능합니다.\r\n✅ 아직 야간 텍스쳐작업이 거의 안되어 있기 때문에 운행하실 때 야간보다 주간 운행을 추천드립니다!\r\n✅ 무료DLC인 Express 91.06 DLC가 필수로 설치되어 있어야 정상 구동 가능합니다.\r\n✅ 배포파일 용량이 매우 큽니다. 설치하시기 전에 충분한 용량을 확보하시고 설치하시기 바랍니다.\r\n✅ 전체 용량은 약 19.3GB정도 나오나 기존에 인천맵이 있으신 분들은 크게 신경쓰지 않으셔도 될 것 같습니다.\r\n✅ [용량 줄이기 팁](https://cafe.naver.com/mm2love/229998) 미드타운마스터+의 PRASEOD님의 게시글을 참고하셔서 여러분들의 저장소를 보호하세요 :)\r\n✅ 해당 맵의 오류제보 및 건의사항은 더이상 받지 않습니다.\r\n✅ 76번,인천e음88번의 경우 24.05.11 변경될 노선을 반영해 놓았습니다. 변경된 노선도는 [여기](https://bus.incheon.go.kr/bis/notice.view)에서 확인하실 수 있습니다.\r\n✅ 이어서 작업하실 분들이 계시다면 Background 이미지를 적용해 놓았기 때문에 기능 활용하셔서 작업하시면 될 것 같습니다.\r\n\r\nThanks To.\r\nSceneryobjects : Suya117, Arcticwp346, isjy0511, Poddol, TecnoKing, Narod 外\r\nSplines : Arcticwp346 外\r\n",
       "version": "2.5.1",
       "category": "맵",
       "repo": "OMSI2Merzoa/omsi2-addons",
@@ -585,7 +585,7 @@
       "name": "[Bus] HIGER HYPERS 1611P",
       "author": "OMSI2Merzoa",
       "displayAuthor": "Aviatree",
-      "description": "HIGER HYPERS 1611P",
+      "description": "HIGER HYPERS 1611P\r\n\r\n- Credits\r\nBus Modeling : Aviatreeⓒ\r\nBus item Modeling : Aviatree, bruhlder, 구짱, Lulurala\r\nScript : Lulurala, bruhlder, 노답쓰\r\nSound : 세 교, 노답쓰\r\nTexture : Aviatree, bruhlder, WG2849, 강할배, \r\nSkin : Aviatree, Runny, 강할배, Soreng_I\r\n\r\n- Special Thanks\r\nDriver Seat : CHTC 에픽 ㅇㅇ(14.39) 님 [ https://gall.dcinside.com/mini/omsi2/8389 ]\r\nTmoney B700 : '박하루' 님, '내도지' 님 [ https://cafe.naver.com/omsikorea/32299 ]\r\n\r\n* 파일 내 라이센스 파일 확인 후 이용 바랍니다. 미숙지로 인한 불이익에 대한 책임은 본인에게 있습니다.\r\n* 텍스쳐 내에 있는 지뢰 사진은 최소한의 보호조치 이므로, 무단으로 제거를 금합니다.\r\n* 드라이브 링크는 OMSI2 마이너 갤러리에만 배포됩니다.\r\n* 차량 모델링 저작권은 Aviatree에게 있으며, 원본 차량의 디자인 저작권은 (주)피라인 모터스 에게 있습니다.",
       "version": "1.0",
       "category": "버스",
       "repo": "OMSI2Merzoa/omsi2-addons",
@@ -1041,7 +1041,7 @@
       "name": "[Bus] 현대버스시리즈",
       "author": "OMSI2Merzoa",
       "displayAuthor": "Bus1997,구자윤,태화 外",
-      "description": "SAC, NSAC, UNICITY, GLOBAL900, GREENCITY, LFSAC, LFNSAC 차량을 포함합니다",
+      "description": "SAC, NSAC, UNICITY, GLOBAL900, GREENCITY, LFSAC, LFNSAC 차량을 포함합니다\r\n\r\n본 파일이 배포되는 시간 이후로 모든 커뮤니티에서의 현대버스 시리즈 사용이 가능합니다.\r\n사진 업로드, 영상 업로드 모두 가능합니다.\r\n\r\n모든 수정 또한 허가하며, 외부 사이트 업로드 또한 허가합니다.\r\n\r\n단, 외부 사이트 업로드로 인하여 법적 책임을 묻는 일이 발생하게 되어도 저희는 일체 책임지지 않습니다.\r\n완성 버전이 아니기에 오류가 다수 발생할 수 있으며, 이와 관련된 질문은 일체 받지 않습니다.\r\n\r\n차량 제작 : BUS1997, 구자윤, 태화 및 다수",
       "version": "4.1.0.7",
       "category": "버스",
       "repo": "OMSI2Merzoa/omsi2-addons",
