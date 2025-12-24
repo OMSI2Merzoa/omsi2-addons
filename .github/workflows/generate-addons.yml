@@ -7,6 +7,9 @@ on:
       - "sources.json"
       - "scripts/generate-addons.js"
       - ".github/workflows/generate-addons.yml"
+      - "addon-overrides.json"
+      - "scripts/apply-overrides.js"
+
   repository_dispatch:
     types: [omsi-addon-release]
   schedule:
@@ -30,6 +33,10 @@ jobs:
         run: |
           if [ -f package-lock.json ]; then npm ci; fi
           node scripts/generate-addons.js
+
+      - name: Apply overrides
+        run: |
+          node scripts/apply-overrides.js
 
       - name: Debug status
         run: |
