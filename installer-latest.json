@@ -1,6 +1,6 @@
 {
-  "version": "1.0.6.0",
-  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/OMSI2AddonInstaller-v1.0.6/OMSI2Installer_v1.0.6.zip",
+  "version": "1.0.7.0",
+  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/OMSI2AddonInstaller-v1.0.7/OMSI2Installer_v1.0.7.zip",
   "exeName": "OMSI2Installer.exe",
-  "changelog": "- 맵카테고리 애드온에 포함되어 있는 폴더만 선택할 수 있도록 개선\n- 차량 제조사별 필터 추가\n- 설치 중 취소 기능 추가"
+  "changelog": "- OMSI KOREA 카페 회원만 이용할 수 있도록 인증코드 추가\n- 애드온 원본 배포페이 추가\n- 통합 오브젝트,스플라인 설치 옵션 추가\n- 대용량 애드온 설치 시 생기는 오류 해결"
 }
