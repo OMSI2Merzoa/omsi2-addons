@@ -8,12 +8,12 @@
   "assets": [
     {
       "filename": "Sceneryobjects.7z.001",
-      "downloadUrl": "https://github.com/<owner>/<repo>/releases/download/<tag>/UnifiedObjects.7z.001",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/objects-v1.0/Sceneryobjects.7z.001",
       "size": 1572684000
     },
     {
       "filename": "Sceneryobjects.7z.002",
-      "downloadUrl": "https://github.com/<owner>/<repo>/releases/download/<tag>/UnifiedObjects.7z.002",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/objects-v1.0/Sceneryobjects.7z.002",
       "size": 1322634000
     }
   ]
