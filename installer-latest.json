@@ -1,6 +1,6 @@
 {
-  "version": "1.0.7.4",
-  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/OMSI2AddonInstaller-v1.0.7.4/OMSI2Installer_v1.0.7.4.zip",
+  "version": "1.0.7.0",
+  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/OMSI2AddonInstaller-v1.0.7.0/OMSI2Installer_v1.0.7.0.zip",
   "exeName": "OMSI2Installer.exe",
   "changelog": "- OMSI KOREA 카페 회원만 이용할 수 있도록 인증코드 추가\n- 애드온 원본 배포페이 추가\n- 통합 오브젝트,스플라인 설치 옵션 추가\n- 대용량 애드온 설치 시 생기는 오류 해결\n\n\n현재 자동 업데이트 기능 오류로 카페에서 직접 업데이트 부탁드립니다."
 }
