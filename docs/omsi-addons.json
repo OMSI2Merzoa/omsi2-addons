@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-29T05:28:52.064Z",
+  "generatedAt": "2025-12-29T05:48:34.798Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -23,7 +23,8 @@
           "size": 1166630
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/27551"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/27551",
+      "installedBytes": 17825792
     },
     {
       "id": "TechnoKing_Staria",
@@ -47,7 +48,8 @@
           "size": 1646051
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/27531"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/27531",
+      "installedBytes": 14169481
     },
     {
       "id": "suya117_AnrakMunsan",
@@ -77,7 +79,8 @@
         "texture",
         "vehicles"
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/19817"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/19817",
+      "installedBytes": 884093871
     },
     {
       "id": "Runny_ARMR",
@@ -105,7 +108,8 @@
         "maps",
         "vehicles"
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/35843"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/35843",
+      "installedBytes": 950496077
     },
     {
       "id": "BLACKPINK_Gyeongnam_Intercity",
@@ -135,7 +139,8 @@
         "splines",
         "vehicles"
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/23160"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/23160",
+      "installedBytes": 22322964058
     },
     {
       "id": "Leehyundo_Jukju",
@@ -165,7 +170,8 @@
         "splines",
         "vehicles"
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/31323"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/31323",
+      "installedBytes": 2428471417
     },
     {
       "id": "Runny_KINT",
@@ -193,7 +199,8 @@
         "maps",
         "sceneryobjects"
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/35804"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/35804",
+      "installedBytes": 167842240
     },
     {
       "id": "NCC_Official",
@@ -225,7 +232,8 @@
       ],
       "size": 3684715379,
       "sizeMB": 3514,
-      "sourceUrl": "https://cafe.naver.com/omsikorea/30686"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/30686",
+      "installedBytes": 6840
     },
     {
       "id": "Runny_NCCR",
@@ -253,7 +261,8 @@
         "maps",
         "vehicles"
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/34859"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/34859",
+      "installedBytes": 6840
     },
     {
       "id": "Runny_NPOR",
@@ -281,7 +290,8 @@
         "maps",
         "vehicles"
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/35848"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/35848",
+      "installedBytes": 6840
     },
     {
       "id": "BLACKPINK_Segang_Alpha",
@@ -312,7 +322,8 @@
         "texture",
         "vehicles"
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/24036"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/24036",
+      "installedBytes": 6840
     },
     {
       "id": "BLACKPINK_Silkroad_Jinju",
@@ -342,7 +353,8 @@
         "splines",
         "vehicles"
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/34045"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/34045",
+      "installedBytes": 6840
     },
     {
       "id": "CGBS_Busan",
@@ -379,7 +391,8 @@
       ],
       "size": 5133387614,
       "sizeMB": 4895.6,
-      "sourceUrl": "https://cafe.naver.com/omsikorea/32325"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/32325",
+      "installedBytes": 6840
     },
     {
       "id": "PUREUNNARAE_Yulcheon",
@@ -410,7 +423,8 @@
         "texture",
         "vehicles"
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/21141"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/21141",
+      "installedBytes": 6840
     },
     {
       "id": "ereNity_Yulcheon_Byeokha",
@@ -444,7 +458,8 @@
         "texture",
         "vehicles"
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/35909"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/35909",
+      "installedBytes": 6840
     },
     {
       "id": "incheon_map",
@@ -468,7 +483,8 @@
           "size": 1726014748
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/31333"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/31333",
+      "installedBytes": 6840
     },
     {
       "id": "Cheongju",
@@ -492,7 +508,8 @@
           "size": 2714312
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/25891"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/25891",
+      "installedBytes": 6840
     },
     {
       "id": "CheongjuExam",
@@ -516,7 +533,8 @@
           "size": 24934731
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/26637"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/26637",
+      "installedBytes": 6840
     },
     {
       "id": "Lulurala_Apollo1100_21",
@@ -540,7 +558,8 @@
           "size": 123399865
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/30427"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/30427",
+      "installedBytes": 6840
     },
     {
       "id": "Lulurala_Apollo1100_25",
@@ -564,7 +583,8 @@
           "size": 424194572
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/35728"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/35728",
+      "installedBytes": 6840
     },
     {
       "id": "Taehwa_Daewoo_Series",
@@ -588,7 +608,8 @@
           "size": 273756618
         }
       ],
-      "sourceUrl": "https://gall.dcinside.com/mini/board/view/?id=omsi2&no=6679&page=1"
+      "sourceUrl": "https://gall.dcinside.com/mini/board/view/?id=omsi2&no=6679&page=1",
+      "installedBytes": 6840
     },
     {
       "id": "Daejeon_BX212",
@@ -612,7 +633,8 @@
           "size": 458596073
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/32155"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/32155",
+      "installedBytes": 6840
     },
     {
       "id": "Aviatree_Higer",
@@ -636,7 +658,8 @@
           "size": 155968371
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/36184"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/36184",
+      "installedBytes": 6840
     },
     {
       "id": "Lulurala_KGM_C090",
@@ -660,7 +683,8 @@
           "size": 583117560
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/34262"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/34262",
+      "installedBytes": 6840
     },
     {
       "id": "Lulurala_KGM_Smart110",
@@ -684,7 +708,8 @@
           "size": 271430214
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/32607"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/32607",
+      "installedBytes": 6840
     },
     {
       "id": "BS106",
@@ -708,7 +733,8 @@
           "size": 1014570206
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/34920"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/34920",
+      "installedBytes": 6840
     },
     {
       "id": "Daejeon_Granbird_SuperPremium",
@@ -732,7 +758,8 @@
           "size": 274523151
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/34690"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/34690",
+      "installedBytes": 6840
     },
     {
       "id": "Daejeon_Granbird_inovation",
@@ -756,7 +783,8 @@
           "size": 257245031
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/33450"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/33450",
+      "installedBytes": 6840
     },
     {
       "id": "gbiss",
@@ -780,7 +808,8 @@
           "size": 261405298
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/36754"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/36754",
+      "installedBytes": 6840
     },
     {
       "id": "Lulurala_Lestar",
@@ -804,7 +833,8 @@
           "size": 262666771
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/29519"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/29519",
+      "installedBytes": 6840
     },
     {
       "id": "G240_E_fibird",
@@ -828,7 +858,8 @@
           "size": 253535903
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/32495"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/32495",
+      "installedBytes": 6840
     },
     {
       "id": "TechnoKing_Bluecity",
@@ -852,7 +883,8 @@
           "size": 530629399
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/34060"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/34060",
+      "installedBytes": 6840
     },
     {
       "id": "Raccon_Universe_EX",
@@ -876,7 +908,8 @@
           "size": 355775721
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/30193"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/30193",
+      "installedBytes": 6840
     },
     {
       "id": "Daejeon_Universe_Noble",
@@ -900,7 +933,8 @@
           "size": 334426316
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/33735"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/33735",
+      "installedBytes": 6840
     },
     {
       "id": "Raccon_Universe_Luxury",
@@ -924,7 +958,8 @@
           "size": 407505921
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/31903"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/31903",
+      "installedBytes": 6840
     },
     {
       "id": "Jackson_Universe_FCEV",
@@ -948,7 +983,8 @@
           "size": 494649822
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/35831"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/35831",
+      "installedBytes": 6840
     },
     {
       "id": "Raccon_Universe_Elegance",
@@ -972,7 +1008,8 @@
           "size": 339060808
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/31044"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/31044",
+      "installedBytes": 6840
     },
     {
       "id": "Raccon_Universe_Comfort",
@@ -996,7 +1033,8 @@
           "size": 386030893
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/31044"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/31044",
+      "installedBytes": 6840
     },
     {
       "id": "Raccon_Universe_Prime",
@@ -1020,7 +1058,8 @@
           "size": 405074190
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/31743"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/31743",
+      "installedBytes": 6840
     },
     {
       "id": "Mulberry_Eleccity",
@@ -1044,7 +1083,8 @@
           "size": 199156864
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/25589"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/25589",
+      "installedBytes": 6840
     },
     {
       "id": "Sindosaek_EleccityI",
@@ -1068,7 +1108,8 @@
           "size": 244048867
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/28729"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/28729",
+      "installedBytes": 6840
     },
     {
       "id": "hyundai_series",
@@ -1092,7 +1133,8 @@
           "size": 801723533
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/20936"
+      "sourceUrl": "https://cafe.naver.com/omsikorea/20936",
+      "installedBytes": 6840
     }
   ]
 }
