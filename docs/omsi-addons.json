@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-05T12:18:26.342Z",
+  "generatedAt": "2026-01-05T12:19:07.328Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -25,6 +25,29 @@
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea/27551",
       "installedBytes": 17825792
+    },
+    {
+      "id": "Poddol_Kia_Carnival",
+      "name": "[Ai] 기아 카니발",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Poddol",
+      "description": "",
+      "version": "1.0",
+      "category": "AI 차량",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Poddol_Kia_Carnival-v1.0",
+      "publishedAt": "2026-01-05T12:18:52Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_Carnival-v1.0/Kia.Carnival.zip",
+      "fileName": "Kia.Carnival.zip",
+      "size": 4557783,
+      "sizeMB": 4.3,
+      "assets": [
+        {
+          "fileName": "Kia.Carnival.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_Carnival-v1.0/Kia.Carnival.zip",
+          "size": 4557783
+        }
+      ]
     },
     {
       "id": "Poddol_Hyundai_Nexo",
