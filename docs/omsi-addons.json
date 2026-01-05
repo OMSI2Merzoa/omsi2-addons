@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-05T12:19:07.328Z",
+  "generatedAt": "2026-01-05T12:19:53.243Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -25,6 +25,29 @@
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea/27551",
       "installedBytes": 17825792
+    },
+    {
+      "id": "Poddol_Kia_EV3",
+      "name": "[Ai] 기아 EV3",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Poddol",
+      "description": "",
+      "version": "1.0",
+      "category": "AI 차량",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Poddol_Kia_EV3-v1.0",
+      "publishedAt": "2026-01-05T12:19:37Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_EV3-v1.0/Kia.EV3.zip",
+      "fileName": "Kia.EV3.zip",
+      "size": 5888742,
+      "sizeMB": 5.6,
+      "assets": [
+        {
+          "fileName": "Kia.EV3.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_EV3-v1.0/Kia.EV3.zip",
+          "size": 5888742
+        }
+      ]
     },
     {
       "id": "Poddol_Kia_Carnival",
