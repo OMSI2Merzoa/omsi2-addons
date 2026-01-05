@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-05T12:15:08.399Z",
+  "generatedAt": "2026-01-05T12:15:23.929Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -27,6 +27,29 @@
       "installedBytes": 17825792
     },
     {
+      "id": "Poddol_Hyundai_Nexo",
+      "name": "[Ai] 현대 넥쏘 (NH2)",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Poddol",
+      "description": "",
+      "version": "1.0",
+      "category": "AI 차량",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Poddol_Hyundai_Nexo-v1.0",
+      "publishedAt": "2026-01-05T12:14:52Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Nexo-v1.0/Hyundai.Nexo.zip",
+      "fileName": "Hyundai.Nexo.zip",
+      "size": 6945223,
+      "sizeMB": 6.6,
+      "assets": [
+        {
+          "fileName": "Hyundai.Nexo.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Nexo-v1.0/Hyundai.Nexo.zip",
+          "size": 6945223
+        }
+      ]
+    },
+    {
       "id": "TechnoKing_Staria",
       "name": "[AI] 현대 스타리아",
       "author": "OMSI2Merzoa",
@@ -50,6 +73,29 @@
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea/27531",
       "installedBytes": 14169481
+    },
+    {
+      "id": "Poddol_Casper_Electric",
+      "name": "[Ai] 현대 캐스퍼 일렉트릭 (AX1 EV)",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Poddol",
+      "description": "",
+      "version": "1.0",
+      "category": "AI 차량",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Poddol_Casper_Electric-v1.0",
+      "publishedAt": "2026-01-05T12:13:30Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Casper_Electric-v1.0/Hyundai.Casper.Electric.zip",
+      "fileName": "Hyundai.Casper.Electric.zip",
+      "size": 3192915,
+      "sizeMB": 3,
+      "assets": [
+        {
+          "fileName": "Hyundai.Casper.Electric.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Casper_Electric-v1.0/Hyundai.Casper.Electric.zip",
+          "size": 3192915
+        }
+      ]
     },
     {
       "id": "suya117_AnrakMunsan",
