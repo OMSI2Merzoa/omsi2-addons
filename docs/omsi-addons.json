@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-05T12:15:23.929Z",
+  "generatedAt": "2026-01-05T12:17:10.222Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -94,6 +94,29 @@
           "fileName": "Hyundai.Casper.Electric.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Casper_Electric-v1.0/Hyundai.Casper.Electric.zip",
           "size": 3192915
+        }
+      ]
+    },
+    {
+      "id": "Poddol_Hyundai_Porter",
+      "name": "[Ai] 현대 포터",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Poddol",
+      "description": "",
+      "version": "1.0",
+      "category": "AI 차량",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Poddol_Hyundai_Porter-v1.0",
+      "publishedAt": "2026-01-05T12:16:53Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Porter-v1.0/Hyundai.Porter.zip",
+      "fileName": "Hyundai.Porter.zip",
+      "size": 6110078,
+      "sizeMB": 5.8,
+      "assets": [
+        {
+          "fileName": "Hyundai.Porter.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Porter-v1.0/Hyundai.Porter.zip",
+          "size": 6110078
         }
       ]
     },
