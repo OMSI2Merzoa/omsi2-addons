@@ -59,11 +59,11 @@
         { "id": "TechnoKing_Staria",    "category": "Ai", "tagPrefix": "TechnoKing_Staria-v", "displayAuthor": "테크노킹" },
         { "id": "Poddol_Lacetti",    "category": "Ai", "tagPrefix": "Poddol_Lacetti-v", "displayAuthor": "Poddol" },
         { "id": "Poddol_Casper_Electric",    "category": "Ai", "tagPrefix": "Poddol_Casper_Electric-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Hyundai_Nexo",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_Nexo-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Hyundai_Porter",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_Porter-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Hyundai_SantaFe",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_SantaFe-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Kia_Carnival",    "category": "Ai", "tagPrefix": "Poddol_Kia_Carnival-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Kia_EV3",    "category": "Ai", "tagPrefix": "Poddol_Kia_EV3-v", "displayAuthor": "Poddol" },
+        { "id": "Poddol_Hyundai_Nexo_2",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_Nexo_2-v", "displayAuthor": "Poddol" },
+        { "id": "Poddol_Hyundai_Porter_2",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_Porter_2-v", "displayAuthor": "Poddol" },
+        { "id": "Poddol_Hyundai_SantaFe_2",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_SantaFe_2-v", "displayAuthor": "Poddol" },
+        { "id": "Poddol_Kia_Carnival_2",    "category": "Ai", "tagPrefix": "Poddol_Kia_Carnival_2-v", "displayAuthor": "Poddol" },
+        { "id": "Poddol_Kia_EV3_2",    "category": "Ai", "tagPrefix": "Poddol_Kia_EV3_2-v", "displayAuthor": "Poddol" },
         { "id": "Poddol_Kia_EV4",    "category": "Ai", "tagPrefix": "Poddol_Kia_EV4-v", "displayAuthor": "Poddol" },
         { "id": "Poddol_Kia_EV6",    "category": "Ai", "tagPrefix": "Poddol_Kia_EV6-v", "displayAuthor": "Poddol" },
         { "id": "Poddol_Kia_K9",    "category": "Ai", "tagPrefix": "Poddol_Kia_K9-v", "displayAuthor": "Poddol" },
@@ -112,6 +112,7 @@
     }
   ]
 }
+
 
 
 
