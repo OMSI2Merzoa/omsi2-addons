@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-05T12:29:03.710Z",
+  "generatedAt": "2026-01-05T12:35:16.167Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -47,7 +47,9 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_EV3_2-v1.0/Kia.EV3.zip",
           "size": 2732145
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "installedBytes": 31133696
     },
     {
       "id": "Poddol_Kia_EV4",
@@ -70,7 +72,9 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_EV4-v1.0/Kia.EV4.zip",
           "size": 2629518
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "installedBytes": 31076352
     },
     {
       "id": "Poddol_Kia_EV6",
@@ -93,7 +97,9 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_EV6-v1.0/Kia.EV6.zip",
           "size": 1255843
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "installedBytes": 18456576
     },
     {
       "id": "Poddol_Kia_K9",
@@ -116,7 +122,9 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_K9-v1.0/Kia.K9.zip",
           "size": 1279303
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "installedBytes": 18489344
     },
     {
       "id": "Poddol_Kia_Ray",
@@ -139,7 +147,9 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_Ray-v1.0/Kia.Ray.zip",
           "size": 6156289
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "installedBytes": 35254272
     },
     {
       "id": "Poddol_Kia_Carnival_2",
@@ -162,7 +172,9 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_Carnival_2-v1.0/Kia.Carnival.zip",
           "size": 1401186
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "installedBytes": 18743296
     },
     {
       "id": "Poddol_Hyundai_Nexo_2",
@@ -185,7 +197,9 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Nexo_2-v1.0/Hyundai.Nexo.zip",
           "size": 3788626
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "installedBytes": 33603584
     },
     {
       "id": "TechnoKing_Staria",
@@ -233,7 +247,9 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_SantaFe_2-v1.0/Hyundai.Santa.Fe.zip",
           "size": 2426791
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "installedBytes": 35352576
     },
     {
       "id": "Poddol_Casper_Electric",
@@ -256,7 +272,9 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Casper_Electric-v1.0/Hyundai.Casper.Electric.zip",
           "size": 3192915
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "installedBytes": 35307520
     },
     {
       "id": "Poddol_Hyundai_Porter_2",
@@ -279,7 +297,9 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Porter_2-v1.0/Hyundai.Porter.zip",
           "size": 2953481
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "installedBytes": 12800000
     },
     {
       "id": "suya117_AnrakMunsan",
