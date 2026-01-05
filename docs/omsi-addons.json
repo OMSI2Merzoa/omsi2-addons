@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-05T12:21:39.849Z",
+  "generatedAt": "2026-01-05T12:25:33.682Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -27,29 +27,6 @@
       "installedBytes": 17825792
     },
     {
-      "id": "Poddol_Kia_EV3",
-      "name": "[Ai] 기아 EV3",
-      "author": "OMSI2Merzoa",
-      "displayAuthor": "Poddol",
-      "description": "",
-      "version": "1.0",
-      "category": "AI 차량",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "Poddol_Kia_EV3-v1.0",
-      "publishedAt": "2026-01-05T12:19:37Z",
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_EV3-v1.0/Kia.EV3.zip",
-      "fileName": "Kia.EV3.zip",
-      "size": 5888742,
-      "sizeMB": 5.6,
-      "assets": [
-        {
-          "fileName": "Kia.EV3.zip",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_EV3-v1.0/Kia.EV3.zip",
-          "size": 5888742
-        }
-      ]
-    },
-    {
       "id": "Poddol_Kia_EV4",
       "name": "[Ai] 기아 EV4",
       "author": "OMSI2Merzoa",
@@ -69,52 +46,6 @@
           "fileName": "Kia.EV4.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_EV4-v1.0/Kia.EV4.zip",
           "size": 2629518
-        }
-      ]
-    },
-    {
-      "id": "Poddol_Kia_Carnival",
-      "name": "[Ai] 기아 카니발",
-      "author": "OMSI2Merzoa",
-      "displayAuthor": "Poddol",
-      "description": "",
-      "version": "1.0",
-      "category": "AI 차량",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "Poddol_Kia_Carnival-v1.0",
-      "publishedAt": "2026-01-05T12:18:52Z",
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_Carnival-v1.0/Kia.Carnival.zip",
-      "fileName": "Kia.Carnival.zip",
-      "size": 4557783,
-      "sizeMB": 4.3,
-      "assets": [
-        {
-          "fileName": "Kia.Carnival.zip",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_Carnival-v1.0/Kia.Carnival.zip",
-          "size": 4557783
-        }
-      ]
-    },
-    {
-      "id": "Poddol_Hyundai_Nexo",
-      "name": "[Ai] 현대 넥쏘 (NH2)",
-      "author": "OMSI2Merzoa",
-      "displayAuthor": "Poddol",
-      "description": "",
-      "version": "1.0",
-      "category": "AI 차량",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "Poddol_Hyundai_Nexo-v1.0",
-      "publishedAt": "2026-01-05T12:14:52Z",
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Nexo-v1.0/Hyundai.Nexo.zip",
-      "fileName": "Hyundai.Nexo.zip",
-      "size": 6945223,
-      "sizeMB": 6.6,
-      "assets": [
-        {
-          "fileName": "Hyundai.Nexo.zip",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Nexo-v1.0/Hyundai.Nexo.zip",
-          "size": 6945223
         }
       ]
     },
@@ -144,29 +75,6 @@
       "installedBytes": 14169481
     },
     {
-      "id": "Poddol_Hyundai_SantaFe",
-      "name": "[Ai] 현대 싼타페",
-      "author": "OMSI2Merzoa",
-      "displayAuthor": "Poddol",
-      "description": "",
-      "version": "1.0",
-      "category": "AI 차량",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "Poddol_Hyundai_SantaFe-v1.0",
-      "publishedAt": "2026-01-05T12:18:09Z",
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_SantaFe-v1.0/Hyundai.Santa.Fe.zip",
-      "fileName": "Hyundai.Santa.Fe.zip",
-      "size": 5583388,
-      "sizeMB": 5.3,
-      "assets": [
-        {
-          "fileName": "Hyundai.Santa.Fe.zip",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_SantaFe-v1.0/Hyundai.Santa.Fe.zip",
-          "size": 5583388
-        }
-      ]
-    },
-    {
       "id": "Poddol_Casper_Electric",
       "name": "[Ai] 현대 캐스퍼 일렉트릭 (AX1 EV)",
       "author": "OMSI2Merzoa",
@@ -186,29 +94,6 @@
           "fileName": "Hyundai.Casper.Electric.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Casper_Electric-v1.0/Hyundai.Casper.Electric.zip",
           "size": 3192915
-        }
-      ]
-    },
-    {
-      "id": "Poddol_Hyundai_Porter",
-      "name": "[Ai] 현대 포터",
-      "author": "OMSI2Merzoa",
-      "displayAuthor": "Poddol",
-      "description": "",
-      "version": "1.0",
-      "category": "AI 차량",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "Poddol_Hyundai_Porter-v1.0",
-      "publishedAt": "2026-01-05T12:16:53Z",
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Porter-v1.0/Hyundai.Porter.zip",
-      "fileName": "Hyundai.Porter.zip",
-      "size": 6110078,
-      "sizeMB": 5.8,
-      "assets": [
-        {
-          "fileName": "Hyundai.Porter.zip",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Porter-v1.0/Hyundai.Porter.zip",
-          "size": 6110078
         }
       ]
     },
