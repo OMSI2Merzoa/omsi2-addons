@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-05T12:27:31.929Z",
+  "generatedAt": "2026-01-05T12:28:14.923Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -46,6 +46,29 @@
           "fileName": "Kia.EV4.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_EV4-v1.0/Kia.EV4.zip",
           "size": 2629518
+        }
+      ]
+    },
+    {
+      "id": "Poddol_Kia_EV6",
+      "name": "[Ai] 기아 EV6",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Poddol",
+      "description": "",
+      "version": "1.0",
+      "category": "AI 차량",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Poddol_Kia_EV6-v1.0",
+      "publishedAt": "2026-01-05T12:27:54Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_EV6-v1.0/Kia.EV6.zip",
+      "fileName": "Kia.EV6.zip",
+      "size": 1255843,
+      "sizeMB": 1.2,
+      "assets": [
+        {
+          "fileName": "Kia.EV6.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_EV6-v1.0/Kia.EV6.zip",
+          "size": 1255843
         }
       ]
     },
