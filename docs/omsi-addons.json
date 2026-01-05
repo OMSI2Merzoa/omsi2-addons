@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-05T12:17:10.222Z",
+  "generatedAt": "2026-01-05T12:18:26.342Z",
   "addons": [
     {
       "id": "TechnoKing_Torres",
@@ -73,6 +73,29 @@
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea/27531",
       "installedBytes": 14169481
+    },
+    {
+      "id": "Poddol_Hyundai_SantaFe",
+      "name": "[Ai] 현대 싼타페",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Poddol",
+      "description": "",
+      "version": "1.0",
+      "category": "AI 차량",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Poddol_Hyundai_SantaFe-v1.0",
+      "publishedAt": "2026-01-05T12:18:09Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_SantaFe-v1.0/Hyundai.Santa.Fe.zip",
+      "fileName": "Hyundai.Santa.Fe.zip",
+      "size": 5583388,
+      "sizeMB": 5.3,
+      "assets": [
+        {
+          "fileName": "Hyundai.Santa.Fe.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_SantaFe-v1.0/Hyundai.Santa.Fe.zip",
+          "size": 5583388
+        }
+      ]
     },
     {
       "id": "Poddol_Casper_Electric",
