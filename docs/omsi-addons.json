@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-01-05T12:35:16.167Z",
+  "generatedAt": "2026-01-05T12:41:03.266Z",
   "addons": [
+    {
+      "id": "poddol_Lacetti",
+      "name": "[Ai] GM 대우 라세티",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Poddol",
+      "description": "",
+      "version": "1.0",
+      "category": "AI 차량",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "poddol_Lacetti-v1.0",
+      "publishedAt": "2026-01-05T12:12:23Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/poddol_Lacetti-v1.0/GM.Daewoo.Lacetti.zip",
+      "fileName": "GM.Daewoo.Lacetti.zip",
+      "size": 1300072,
+      "sizeMB": 1.2,
+      "assets": [
+        {
+          "fileName": "GM.Daewoo.Lacetti.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/poddol_Lacetti-v1.0/GM.Daewoo.Lacetti.zip",
+          "size": 1300072
+        }
+      ]
+    },
     {
       "id": "TechnoKing_Torres",
       "name": "[AI] KGM 토레스",
