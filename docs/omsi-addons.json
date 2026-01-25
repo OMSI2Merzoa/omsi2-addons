@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-25T13:49:27.298Z",
+  "generatedAt": "2026-01-25T14:06:10.702Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -958,6 +958,29 @@
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea/34262",
       "installedBytes": 682865924
+    },
+    {
+      "id": "KGMC110",
+      "name": "[Bus] KGM C110",
+      "author": "Lulurala3119",
+      "displayAuthor": "Lulurala",
+      "description": "KGM C110 26년식 차량입니다.",
+      "version": "1.0",
+      "category": "버스",
+      "repo": "Lulurala3119/ichmachediemodsfuromsi2",
+      "releaseTag": "KGMC110-v1.0",
+      "publishedAt": "2026-01-25T12:00:33Z",
+      "downloadUrl": "https://github.com/Lulurala3119/ichmachediemodsfuromsi2/releases/download/KGMC110-v1.0/C110.zip",
+      "fileName": "C110.zip",
+      "size": 599789250,
+      "sizeMB": 572,
+      "assets": [
+        {
+          "fileName": "C110.zip",
+          "downloadUrl": "https://github.com/Lulurala3119/ichmachediemodsfuromsi2/releases/download/KGMC110-v1.0/C110.zip",
+          "size": 599789250
+        }
+      ]
     },
     {
       "id": "Lulurala_KGM_Smart110",
