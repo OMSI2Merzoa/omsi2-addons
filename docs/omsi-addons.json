@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-25T14:06:10.702Z",
+  "generatedAt": "2026-01-25T14:07:55.601Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -980,7 +980,9 @@
           "downloadUrl": "https://github.com/Lulurala3119/ichmachediemodsfuromsi2/releases/download/KGMC110-v1.0/C110.zip",
           "size": 599789250
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/f-e/cafes/25883809/menus/160",
+      "installedBytes": 18489344
     },
     {
       "id": "Lulurala_KGM_Smart110",
