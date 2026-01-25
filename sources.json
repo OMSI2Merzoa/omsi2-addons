@@ -103,6 +103,14 @@
       ]
     },
     {
+      "repo": "Lulurala3119/ichmachediemodsfuromsi2",
+      "assetPriority": [".7z", ".zip"],
+      "prerelease": true,
+      "addons": [
+        { "id": "KGMC110", "category": "Bus", "tagPrefix": "KGMC110-v", "displayAuthor": "Lulurala" }
+      ]
+    },
+    {
       "repo": "Devilanc/Cheongju-2.0",
       "assetPriority": [".7z", ".zip"],
       "prerelease": true,
@@ -112,6 +120,7 @@
     }
   ]
 }
+
 
 
 
