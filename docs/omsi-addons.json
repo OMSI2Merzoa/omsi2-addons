@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-09T11:28:18.963Z",
+  "generatedAt": "2026-02-09T11:30:07.590Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -21,6 +21,29 @@
           "fileName": "GM.Daewoo.Lacetti.zip",
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/poddol_Lacetti-v1.0/GM.Daewoo.Lacetti.zip",
           "size": 1300072
+        }
+      ]
+    },
+    {
+      "id": "poddol_Musso",
+      "name": "[AI] KGM 무쏘",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Poddol",
+      "description": "",
+      "version": "1.0",
+      "category": "AI 차량",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "poddol_Musso-v1.0",
+      "publishedAt": "2026-02-09T11:20:18Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/poddol_Musso-v1.0/KGM.Musso.zip",
+      "fileName": "KGM.Musso.zip",
+      "size": 1726856,
+      "sizeMB": 1.6,
+      "assets": [
+        {
+          "fileName": "KGM.Musso.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/poddol_Musso-v1.0/KGM.Musso.zip",
+          "size": 1726856
         }
       ]
     },
