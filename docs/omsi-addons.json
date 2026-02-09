@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-09T11:30:07.590Z",
+  "generatedAt": "2026-02-09T11:30:20.290Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -45,7 +45,9 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/poddol_Musso-v1.0/KGM.Musso.zip",
           "size": 1726856
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "installedBytes": 43359400
     },
     {
       "id": "TechnoKing_Torres",
