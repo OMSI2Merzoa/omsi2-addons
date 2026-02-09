@@ -67,7 +67,7 @@
         { "id": "Poddol_Kia_EV4",    "category": "Ai", "tagPrefix": "Poddol_Kia_EV4-v", "displayAuthor": "Poddol" },
         { "id": "Poddol_Kia_EV6",    "category": "Ai", "tagPrefix": "Poddol_Kia_EV6-v", "displayAuthor": "Poddol" },
         { "id": "Poddol_Kia_K9",    "category": "Ai", "tagPrefix": "Poddol_Kia_K9-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Musso",    "category": "Ai", "tagPrefix": "Poddol_Musso-v", "displayAuthor": "Poddol" },
+        { "id": "poddol_Musso",    "category": "Ai", "tagPrefix": "poddol_Musso-v", "displayAuthor": "Poddol" },
         { "id": "Poddol_Kia_Ray",    "category": "Ai", "tagPrefix": "Poddol_Kia_Ray-v", "displayAuthor": "Poddol" }
       ]
     },
@@ -121,6 +121,7 @@
     }
   ]
 }
+
 
 
 
