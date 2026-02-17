@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-17T15:07:37.840Z",
+  "generatedAt": "2026-02-17T16:08:46.896Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -808,31 +808,6 @@
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea/25891",
       "installedBytes": 207373119
-    },
-    {
-      "id": "CheongjuExam",
-      "name": "[Map] 청주운전면허시험장",
-      "author": "PC28K",
-      "displayAuthor": "PC28K",
-      "description": "충북 청주시 상당구 가덕면 소재 도로교통공단 청주운전면허시험장 맵입니다.",
-      "version": "1.0",
-      "category": "맵",
-      "repo": "PC28K/CheongjuExam",
-      "releaseTag": "CheongjuExam-v1.0",
-      "publishedAt": "2025-11-26T07:10:28Z",
-      "downloadUrl": "https://github.com/PC28K/CheongjuExam/releases/download/CheongjuExam-v1.0/CheongjuExam_pub_patch_auto.7z",
-      "fileName": "CheongjuExam_pub_patch_auto.7z",
-      "size": 24934731,
-      "sizeMB": 23.8,
-      "assets": [
-        {
-          "fileName": "CheongjuExam_pub_patch_auto.7z",
-          "downloadUrl": "https://github.com/PC28K/CheongjuExam/releases/download/CheongjuExam-v1.0/CheongjuExam_pub_patch_auto.7z",
-          "size": 24934731
-        }
-      ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/26637",
-      "installedBytes": 150070325
     },
     {
       "id": "Lulurala_Apollo1100_21",
