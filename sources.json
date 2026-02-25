@@ -62,6 +62,7 @@
         { "id": "Poddol_Hyundai_Nexo_2",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_Nexo_2-v", "displayAuthor": "Poddol" },
         { "id": "Poddol_Hyundai_Porter_2",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_Porter_2-v", "displayAuthor": "Poddol" },
         { "id": "Poddol_Hyundai_SantaFe_2",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_SantaFe_2-v", "displayAuthor": "Poddol" },
+        { "id": "Poddol_Hyundai_Palisade",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_Palisade-v", "displayAuthor": "Poddol" },
         { "id": "Poddol_Kia_Carnival_2",    "category": "Ai", "tagPrefix": "Poddol_Kia_Carnival_2-v", "displayAuthor": "Poddol" },
         { "id": "Poddol_Kia_EV3_2",    "category": "Ai", "tagPrefix": "Poddol_Kia_EV3_2-v", "displayAuthor": "Poddol" },
         { "id": "Poddol_Kia_EV4",    "category": "Ai", "tagPrefix": "Poddol_Kia_EV4-v", "displayAuthor": "Poddol" },
@@ -121,6 +122,7 @@
     }
   ]
 }
+
 
 
 
