@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-25T08:46:20.402Z",
+  "generatedAt": "2026-02-25T08:50:39.057Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -323,6 +323,31 @@
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea",
       "installedBytes": 35307520
+    },
+    {
+      "id": "Poddol_Hyundai_Palisade",
+      "name": "[AI] 현대 팰리세이드",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Poddol",
+      "description": "",
+      "version": "1.0",
+      "category": "AI 차량",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Poddol_Hyundai_Palisade-v1.0",
+      "publishedAt": "2026-02-25T08:47:17Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Palisade-v1.0/Hyundai.Palisade.zip",
+      "fileName": "Hyundai.Palisade.zip",
+      "size": 2797336,
+      "sizeMB": 2.7,
+      "assets": [
+        {
+          "fileName": "Hyundai.Palisade.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Palisade-v1.0/Hyundai.Palisade.zip",
+          "size": 2797336
+        }
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "installedBytes": 40983182
     },
     {
       "id": "Poddol_Hyundai_Porter_2",
