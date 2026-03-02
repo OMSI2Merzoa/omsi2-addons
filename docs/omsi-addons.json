@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-02T14:04:30.179Z",
+  "generatedAt": "2026-03-02T14:59:12.033Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -375,6 +375,441 @@
       "installedBytes": 12800000
     },
     {
+      "id": "suya117_AnrakMunsan",
+      "name": "[Map] Anrak&Munsan",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "suya117",
+      "description": "Anrak&Munsan V5.0\r\n\r\n※노선신설, 지역확장 등이 이루어졌습니다.\r\n※V5.0으로의 사용을 유도하기 위해 V4.0배포를 종료합니다.\r\n※제가 만든 오브젝트 중 일부는 야간텍스쳐를 지원하도록 해놓았습니다. 그렇기에 기존에 다운받으셨던 분들은 번거롭겠지만 다시 다운받으셔서 넣어주시면 되겠습니다.",
+      "version": "5.0",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "suya117_AnrakMunsan-v5.0",
+      "publishedAt": "2025-11-16T10:06:44Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/suya117_AnrakMunsan-v5.0/Anrak.Munsan.V5.0.7z",
+      "fileName": "Anrak.Munsan.V5.0.7z",
+      "size": 58503146,
+      "sizeMB": 55.8,
+      "assets": [
+        {
+          "fileName": "Anrak.Munsan.V5.0.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/suya117_AnrakMunsan-v5.0/Anrak.Munsan.V5.0.7z",
+          "size": 58503146
+        }
+      ],
+      "mapParts": [
+        "maps",
+        "sceneryobjects",
+        "texture",
+        "vehicles"
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/19817",
+      "installedBytes": 884093871
+    },
+    {
+      "id": "Runny_ARMR",
+      "name": "[Map] ARMR",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "suya117,Runny",
+      "description": "안녕하세요, 러니입니다.\r\nSuya117님의 안락문산 맵을 리마스터하고 있습니다.\r\n1000타일에 육박하는 맵이다보니, 완성까지 수 년이 소요될 것으로 예상됩니다.\r\n그래서 일부라도 먼저 체험해 보실 수 있도록 중간배포를 결정했습니다.\r\n현재 3가지 노선(11(신설),28,99)을 운행할 수 있는 상태입니다.\r\n아직 베타버전으로, 부족한 부분이 많습니다.\r\n이 점 감안하시기 바라며 수정 및 배포 허가해주신 Suya117님께 감사드립니다.\r\n그럼 즐거운 운행을 기원합니다.",
+      "version": "0.3.1",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Runny_ARMR-v0.3.1",
+      "publishedAt": "2025-11-16T10:32:49Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_ARMR-v0.3.1/ARMR_0.3.1.zip",
+      "fileName": "ARMR_0.3.1.zip",
+      "size": 66704601,
+      "sizeMB": 63.6,
+      "assets": [
+        {
+          "fileName": "ARMR_0.3.1.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_ARMR-v0.3.1/ARMR_0.3.1.zip",
+          "size": 66704601
+        }
+      ],
+      "mapParts": [
+        "maps",
+        "vehicles"
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/35843",
+      "installedBytes": 950496077
+    },
+    {
+      "id": "BLACKPINK_Gyeongnam_Intercity",
+      "name": "[Map] Gyeongnam Intercity",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "BLACKPINK",
+      "description": "Gyeongnam Intercity 맵은 경상남도의 도시들을 잇는 시외버스 맵입니다.\r\n실제 도시를 기반으로 한 맵이며, 위성사진(Aerial Image)을 깔아놓고 만들었기 때문에 현실과 같은 거리가 표현되어 있습니다.\r\n추후 업데이트를 통해 창원까지 구현할 계획입니다. (진주-사천-삼천포 노선은 Silkroad Jinju 맵에서 구현 예정)\r\n\r\n오브젝트 및 스플라인 : 메르는안조아, Narod, Arcticwp346, 태화, 테크노킹, suya117, 대운 외\r\n진주시외버스터미널 ~ 진주IC, 함안IC ~ 내서IC : BLACKPINK\r\n진주IC ~ 함안시외버스터미널, 내서IC ~ 마산시외버스터미널 : 대운\r\n로고 및 기술적 조언, 송정리(함안) : Runny\r\n노선도 : 아티브북\r\n\r\n※ 대운님의 오브젝트와 고속도로 표지판 텍스처가 추가되어 있으니 설치파일은 받으시는 것을 추천드립니다.\r\n※ 대운님의 오브젝트는 [Gyeongnam], [Jinju] 폴더에 있으며, 다른 맵에 자유롭게 사용 가능하다고 하십니다. 사용하시고 출처는 표기해주시면 감사겠습니다. \r\n※ 맵 수정이나 다른 분의 2차 배포는 절대 불허합니다. 하지만 AI리스트 수정 및 AI리스트 변경을 위한 시간표 수정은 허용합니다.\r\n※ 스크린샷이나 주행영상은 타 카페나 유튜브 등 다른 커뮤니티에도 업로드 가능합니다. 출처는 표기해주시면 감사겠습니다.\r\n※ 가상회사 및 타 카페 가상회사 사용 모두 허용합니다. 하지만 타 카페의 가상회사에서 사용하더라도 맵 다운로드는 반드시 이 게시글에서 해주세요. 2차 배포는 불허합니다.\r\n※ 맵 설치 관련 질문은 정중히 사양하겠습니다.\r\n※ 제가 쪽지는 아예 확인하지 않습니다. 문의사항이 있으면 댓글 부탁드리겠습니다.\r\n※ 네비게이션을 쓸 수 있게 전체로드맵이 생성되어 있습니다.\r\n\r\n+제가 네비 테스트 해봤는데 네비가 이상하게 나오네요. 몇번을 다시 전체로드맵 생성을 해봐도 이상하게 나옵니다. 길 안내를 꼼꼼하게 넣어 놨으니 네비는 잘 나오시는 분은 쓰시고, 이상하게 나오는 분은 사용하지 않는 것을 추천합니다.\r\n",
+      "version": "1.0",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "BLACKPINK_Gyeongnam_Intercity-v1.0",
+      "publishedAt": "2025-11-16T11:31:42Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/BLACKPINK_Gyeongnam_Intercity-v1.0/Gyeongnam.Intercity.7z",
+      "fileName": "Gyeongnam.Intercity.7z",
+      "size": 2087226749,
+      "sizeMB": 1990.5,
+      "assets": [
+        {
+          "fileName": "Gyeongnam.Intercity.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/BLACKPINK_Gyeongnam_Intercity-v1.0/Gyeongnam.Intercity.7z",
+          "size": 2087226749
+        }
+      ],
+      "mapParts": [
+        "maps",
+        "sceneryobjects",
+        "splines",
+        "vehicles"
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/23160",
+      "installedBytes": 22322964058
+    },
+    {
+      "id": "Leehyundo_Jukju",
+      "name": "[Map] Jukju 0.1",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "산남분평남이현도",
+      "description": "죽주는 죽산군의 엣 이름이며\r\n현 안성시 죽산면,일죽면,삼죽면 일대를 관할했습니다.\r\n\r\n3-1번 (죽산터미널-하장경로당) 노선이 구현되어 있습니다.",
+      "version": "0.1",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Leehyundo_Jukju-v0.1",
+      "publishedAt": "2025-11-22T05:25:13Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Leehyundo_Jukju-v0.1/Jukju.0.1.7z",
+      "fileName": "Jukju.0.1.7z",
+      "size": 333251167,
+      "sizeMB": 317.8,
+      "assets": [
+        {
+          "fileName": "Jukju.0.1.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Leehyundo_Jukju-v0.1/Jukju.0.1.7z",
+          "size": 333251167
+        }
+      ],
+      "mapParts": [
+        "maps",
+        "sceneryobjects",
+        "splines",
+        "vehicles"
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/31323",
+      "installedBytes": 2428471417
+    },
+    {
+      "id": "Runny_KINT",
+      "name": "[Map] KINT 0.1.2",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "별,Runny",
+      "description": "안녕하세요, 러니입니다. 한국형 인터시티(KINT)맵을 공개배포 합니다.\r\n인터시티 맵은 별님이 제작하신 맵으로, 개발 중 자료가 유실되어 유튜브 영상으로만 남아있습니다.\r\n이에 영상을 토대로 최대한 비슷하게 맵을 복원하였습니다.\r\n제 스타일을 내려놓고 원본과 동일하게 제작하고자 했음에도, 사정상 약간의 수정이 있었습니다.\r\n이번 배포는 별님의 지지와 응원 덕분에 가능했습니다. 좋은 맵 만들어주셔서 감사드립니다.\r\n그럼 회원 여러분들의 즐거운 운행을 기원합니다.\r\n\r\n금지사항\r\n에드온을 허가받지 않고 국내외 블로그, 사이트, 커뮤니티에 업로드, 배포하는 행위\r\n에드온을 영리적 또는 상업적으로 이용하는 행위\r\n에드온 풍경, 노선경로를 수정하는 행위\r\n에드온에 사용된 오브젝트, 스플라인을 다른맵에 사용 또는 이식하는 행위\r\n(옵젝 - Korean Road Package 폴더, Korean Scenery Object\\Speedbump 폴더, Korean_Shinheung 폴더\r\n스플 - Korean Road Package 폴더)\r\n\r\n허용\r\n성능 향상을 위한 일부 컨텐츠 제거\r\nai list, LED, 안내방송, 시간표에 대한 추가,삭제,수정\r\n\r\n가상회사 사용\r\n본 에드온은 1인가상회사에서만 사용가능합니다.\r\n카페 소속 또는 외부 운영 여부에 상관없이 가상 회사에서 사용하실 수 없습니다.\r\n\r\n문의사항 및 오류 제보\r\n네이버 OMSI KOREA 카페의 KINT 배포 게시글에 덧글로 남겨주세요.\r\n덧글 이외에 개인채팅, 이메일, 쪽지, 타 SNS를 통한 문의는 받지 않습니다.",
+      "version": "0.1.2",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Runny_KINT-v0.1.2",
+      "publishedAt": "2025-11-14T13:27:11Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_KINT-v0.1.2/KINT.0.1.2.zip",
+      "fileName": "KINT.0.1.2.zip",
+      "size": 9572503,
+      "sizeMB": 9.1,
+      "assets": [
+        {
+          "fileName": "KINT.0.1.2.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_KINT-v0.1.2/KINT.0.1.2.zip",
+          "size": 9572503
+        }
+      ],
+      "mapParts": [
+        "maps",
+        "sceneryobjects"
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/35804",
+      "installedBytes": 167842240
+    },
+    {
+      "id": "NCC_Official",
+      "name": "[Map] NCC Official",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Arcticwp346,별,백문,메르는안조아",
+      "description": "『남천과 청진&청원을 한 공간에서, 한국 OMSI맵의 최종장(最終章). KOREA OMSI, Still Life. / 한국 OMSI, 계속 이대로.』\r\n\r\nOMSI 한국맵을 대표하는 남천광역시와 청진시&청원군 맵은 2014년부터 기획되어 배포된 유서깊은 유저 개발 자료입니다.\r\n가상의 지역이지만 나름의 한국적인 모습과 뛰어난 도시 풍경 재현 기술로 정말 우리 동네에서 시내버스를 모는 것만 같은 느낌을 주는 훌륭한 맵입니다.\r\n과거 두 맵은 별도의 프로젝트로 제작되었다가 하나의 맵으로 통합하는 것을 목표로 하는 거대한 청사진을 가지고 있었지만,\r\n크고 작은 갈등과 제작진의 사정으로 폐기됐습니다. 그러나 맵의 통합이라는 과제를 원작자 허가 하에 두 명의 제작자가 이뤄냈습니다.\r\n메르는안조아와 백문의 통합 및 복원 작업으로 드디어 한 맵에서 즐길 수 있게 되었습니다.\r\n10년의 기다림 속에서 얻은 세 지역의 통합을 다양한 노선버스를 직접 운전해 오가며 느끼는 즐거움과 신선함,\r\n설렘을 NCC맵에서 만나보시기 바랍니다. 이제 여러분의 차례입니다.\r\n\r\nMap(Original) : isjy0511, arcticwp346\r\nMap(Remake) : mk20006, ssw0947\r\nHelp : ddd11211, arcticwp346, dmstngksms, qjtmqkrtk, omsi12\r\nSceneryObject : arcticwp346, dmstngksms, hypercube209, ansdyd0568, 3dtranstudio, ddd11211, mk20006, ki98hong, Wkrhs1184, Poddol, suya117, 95js\r\nSpline : 3dtranstudio, arcticwp346, Simple Streets\r\n\r\n◎ OMSI KOREA 카페 외 타 커뮤니티에서 직접적인 맵 파일 업로드는 '불허' 합니다.\r\n◎ 본 맵은 자신의 기호에 맞게 Ailist와 LED, 안내방송 추가 등의 수정은 가능합니다.\r\n◎ 본 맵은 개인소장 목적 하에 노선 수정은 가능하며, 지역 추가 및 삭제는 불가합니다.\r\n◎ 기타 문의사항은 질의응답 전용 게시글을 활용해주시기 바랍니다. 개인적인 1:1채팅, 이메일, 쪽지, 타 SNS를 통한 문의는 절대 받지 않습니다.\r\n◎ 본 맵은 Steam DLC인 Express 91.06가 반드시 설치되어야 정상 구동 가능합니다.\r\n◎ 본 맵은 안락&문산(Anrak&Munsan)맵이 반드시 설치되어야 정상 구동 가능합니다.\r\n◎ 맵 설치 후, 다운로드 한 사용자의 컴퓨터에서 일어나는 모든 오류에 대해서는 배포자 및 제작자 일동은 책입지지 않습니다.\r\n◎ 맵 설치 후, 꼭 Maptool이나 Bluesky 등으로 누락된 오브젝트나 스플라인이 없는지 확인하시기 바랍니다.\r\n◎ 설치 후 ailists, parklist_p에서 없는 차량들은 전부 지우셔야합니다.\r\n◎ 배포파일의 용량이 매우 큽니다. 설치하시기 전에 충분한 컴퓨터 용량을 확보하시고 설치하시기 바랍니다.\r\n◎ 본 맵은 많은 타일 수와 오브젝트, 스플라인이 배치되어 있는 맵이기 때문에 타일 로딩 과정이나 운행 도중에 렉이 상당히 발생할 수 있습니다. 컴퓨터 사양에 맞게 옵션을 조정해 주시기 바랍니다.\r\n◎ ​렉이 너무 많이 걸리는 경우 Map폴더 內 TTData폴더에서 운행하지 않는 노선을 지우시면 조금 더 원활하게 플레이 가능합니다. (refresh schedules 창이 뜨는 빈도를 줄일 수 있습니다.)",
+      "version": "1.0",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "NCC_Official-v1.0",
+      "publishedAt": "2025-11-12T09:20:51Z",
+      "assets": [
+        {
+          "fileName": "Namcheon.Cheongjin.Official.7z.001",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/NCC_Official-v1.0/Namcheon.Cheongjin.Official.7z.001",
+          "size": 1610612736
+        },
+        {
+          "fileName": "Namcheon.Cheongjin.Official.7z.002",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/NCC_Official-v1.0/Namcheon.Cheongjin.Official.7z.002",
+          "size": 1610612736
+        },
+        {
+          "fileName": "Namcheon.Cheongjin.Official.7z.003",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/NCC_Official-v1.0/Namcheon.Cheongjin.Official.7z.003",
+          "size": 463489907
+        }
+      ],
+      "size": 3684715379,
+      "sizeMB": 3514,
+      "sourceUrl": "https://cafe.naver.com/omsikorea/30686",
+      "installedBytes": 26210132595
+    },
+    {
+      "id": "Runny_NCCR",
+      "name": "[Map] NCCR 2.0.5",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "별,Runny",
+      "description": "안녕하세요, 러니입니다. 새로운 청진 맵과 함께 인사드립니다.\r\n드디어 청진 리마스터(NCCR)를 공개배포 합니다.\r\n2023년 1월에 시작해 2년 반의 작업 끝에 쉼표를 찍습니다.\r\n완벽한 모습으로 공개하고싶었지만 마음에 드는 완성이란 기약이 없고,\r\n제 만족을 위해 시작했지만 끝에는 여러분의 즐거움이 있음이 떠오르더군요.\r\n그래서 완성된 부분이나마 빨리 공개하는 것이 바람직하다고 판단했습니다.\r\n제 열정과 노력을 담아 만든 결과물을 선보이게 되어 기쁩니다.\r\n응원하고 기다려주신 여러분께 감사드리며 즐거운 운행을 기원합니다.\r\n\r\n원작자 : 별 (isjy0511)\r\n제작자 : Runny\r\n오브젝트/스플라인 : BLACKPINK, 태화, Poddol, G240 (Artic), 정선대표찡, 테크노킹, 메르는안조아, Suya117, CNG Sora, Eunsu, 3D Transtudio 外 다수\r\nSpecial Thanks To : BLACKPINK\r\n2025. 05. 20\r\n\r\n금지사항\r\n에드온을 허가받지 않고 국내외 블로그, 사이트, 커뮤니티에 업로드, 배포하는 행위\r\n에드온을 영리적 또는 상업적으로 이용하는 행위\r\n에드온 풍경, 노선경로를 수정하는 행위\r\n에드온에 사용된 오브젝트, 스플라인을 다른맵에 사용 또는 이식하는 행위\r\n(옵젝 - Korean Road Package 폴더, Korean Scenery Object\\Speedbump 폴더, Korean_Shinheung 폴더\r\n스플 - Korean Road Package 폴더)\r\n\r\n허용\r\n성능 향상을 위한 일부 컨텐츠 제거\r\nai list, LED, 안내방송, 시간표에 대한 추가,삭제,수정\r\n\r\n가상회사 사용\r\n본 에드온은 '미드타운마스터+' 카페 '부산교통' 및 '1인가상회사'에서만 사용가능합니다.\r\n타 회사에서 사용하고자 하는 경우, 제작자와 상의하십시오.\r\n\r\n문의사항 및 오류 제보\r\n네이버 OMSI KOREA 카페의 NCCR 오류, 버그 제보 및 질의응답 게시글에 덧글로 남겨주세요.\r\n덧글 이외에 개인채팅, 이메일, 쪽지, 타 SNS를 통한 문의는 받지 않습니다.",
+      "version": "2.0.5",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Runny_NCCR-v2.0.5",
+      "publishedAt": "2025-11-14T13:38:16Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_NCCR-v2.0.5/NCCR.2.0.5.zip",
+      "fileName": "NCCR.2.0.5.zip",
+      "size": 87348629,
+      "sizeMB": 83.3,
+      "assets": [
+        {
+          "fileName": "NCCR.2.0.5.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_NCCR-v2.0.5/NCCR.2.0.5.zip",
+          "size": 87348629
+        }
+      ],
+      "mapParts": [
+        "maps",
+        "vehicles"
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/34859",
+      "installedBytes": 695788606
+    },
+    {
+      "id": "Runny_NPOR",
+      "name": "[Map] NPOR 0.2.0",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "별,Runny",
+      "description": "별님의 남천광역시 내포군을 리마스터한 맵입니다. (남천광역시 미구현 지역)\r\n내포군 또한 인터시티 처럼 작업 중 에디터 오류로 날아간 자료입니다.\r\n사진과 영상을 토대로 복원하였으나, 정확한 경로파악이 힘들고 자료가 부족해 어려움이 있었습니다.\r\n결과적으로 복원버전을 출시하기 보다는 리마스터로 옮겨 작업하기로 결정했습니다.\r\n\r\n신식 옵젝, 스플로 교체함과 동시에 풍경을 정비하였습니다.\r\n초기 계획노선 3종(25, 26, 128번)이 포함되어 있습니다.\r\n일부구간은 자료부족으로 임의로 조성하였습니다.\r\n좋은 맵 제공해주시고 큰 도움주신 별님께 감사드립니다.\r\n그럼 회원 여러분의 즐거운 운행을 기원합니다.\r\n\r\n주의사항을 꼼꼼하게 작성해도 허점은 있기 마련이며, 제가 전부 통제할 수는 없습니다.\r\n문제의 소지가 있는 행위는 하지 마시기 바랍니다.\r\n에드온 설치 후 Omsi 2, 컴퓨터에서 발생하는 문제는 설치자의 책임입니다.\r\n'에드온'은 맵, 오브젝트, 스플라인, 호프파일, 노선 등 배포된 모든 컨텐츠를 말합니다.\r\n본 에드온은 네이버 카페 'OMSI KOREA' 에서만 배포됩니다.\r\n상기 사이트 외에서 다운로드, 전달, 배포하여 발생한 문제는 이용자 개인의 책임입니다.\r\n맵파일, 노선은 원작자와 제작자에게 권리가 있으며, 권리자의 요청으로 배포가 중단될 수 있습니다.\r\n오브젝트, 스플라인은 각 제작자에게 권리가 있으며, 권리자의 요청으로 배포가 중단될 수 있습니다.\r\n\r\n금지사항\r\n에드온을 허가받지 않고 국내외 블로그, 사이트, 커뮤니티에 업로드, 배포하는 행위\r\n에드온을 영리적 또는 상업적으로 이용하는 행위\r\n에드온 풍경, 노선경로를 수정하는 행위\r\n에드온에 사용된 오브젝트, 스플라인을 다른맵에 사용 또는 이식하는 행위\r\n\r\n허용\r\n성능 향상을 위한 일부 컨텐츠 제거\r\nai list, LED, 안내방송, 시간표에 대한 추가,삭제,수정\r\n본 에드온은 1인가상회사에서만 사용가능합니다.\r\n\r\n문의사항 및 오류 제보\r\n네이버 OMSI KOREA 카페의 NPOR 배포 게시글에 덧글로 남겨주세요.\r\n덧글 이외에 개인채팅, 이메일, 쪽지, 타 SNS를 통한 문의는 받지 않습니다.",
+      "version": "0.2.0",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Runny_NPOR-v0.2.0",
+      "publishedAt": "2025-11-14T13:22:06Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_NPOR-v0.2.0/NPOR.0.2.0._Public.zip",
+      "fileName": "NPOR.0.2.0._Public.zip",
+      "size": 13269653,
+      "sizeMB": 12.7,
+      "assets": [
+        {
+          "fileName": "NPOR.0.2.0._Public.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Runny_NPOR-v0.2.0/NPOR.0.2.0._Public.zip",
+          "size": 13269653
+        }
+      ],
+      "mapParts": [
+        "maps",
+        "vehicles"
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/35848",
+      "installedBytes": 166126853
+    },
+    {
+      "id": "BLACKPINK_Segang_Alpha",
+      "name": "[Map] Segang Alpha",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "BLACKPINK",
+      "description": "Segang Alpha 맵은 Segang, 4Lines Cheongdo, SBRT맵을 합쳐서 만든 시내버스 맵입니다.\r\n제가 만들던 맵과는 다르게 이 맵은 실제 도시가 아니라 가상 도시이며, 아직 개발중인 맵이라 노선은 124번 하나 뿐입니다.\r\n그리고 추후 업데이트를 통해 최종버전에서는 Jinmok, K-Local 맵까지 합쳐서 일반 시내노선 4개, 급행노선 1개를 운행할 수 있도록 할 계획입니다. (변경될 수도 있습니다.) 이번에 출시하게 된 124번 노선에는 공차회송, 공차출발, 탄력배차 등 다양한 재미요소가 있습니다. (추후 Silkroad Jinju맵에서도 구현예정)\r\n\r\n+ 세강맵 지명의 90% 이상은 진주 지명입니다.\r\n\r\n오브젝트 및 스플라인 저작권 : 메르는안조아, Narod, Arcticwp346, 태화, 테크노킹, suya117 외\r\n도색저작권 : 아티브북\r\n\r\n※ 개인소장용이라도 맵 수정, 타인의 2차 배포를 절대 불허합니다. 단, AI리스트 수정 및 AI리스트 변경을 위한 시간표 수정은 허용합니다.\r\n※ 스크린샷이나 주행영상은 타 카페나 유튜브 등 다른 커뮤니티에도 업로드 가능합니다. 출처는 표기해주시면 감사겠습니다.\r\n※ 맵 다운로드는 반드시 이 게시글에서 해주세요. 2차 배포는 불허합니다.\r\n※ 맵 설치 관련 질문은 정중히 사양하겠습니다.\r\n※ 제가 쪽지는 아예 확인하지 않습니다. 문의사항이 있으면 댓글 부탁드리겠습니다.\r\n※ 1인 가상 외 가상회사 사용은 불허합니다. (타 카페 가상회사 포함)\r\n※ 네비게이션을 구동하기 위한 전체로드맵 생성이 되어있습니다.",
+      "version": "1.0",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "BLACKPINK_Segang_Alpha-v1.0",
+      "publishedAt": "2025-11-16T11:45:53Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/BLACKPINK_Segang_Alpha-v1.0/Segang.Alpha.7z",
+      "fileName": "Segang.Alpha.7z",
+      "size": 1843169597,
+      "sizeMB": 1757.8,
+      "assets": [
+        {
+          "fileName": "Segang.Alpha.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/BLACKPINK_Segang_Alpha-v1.0/Segang.Alpha.7z",
+          "size": 1843169597
+        }
+      ],
+      "mapParts": [
+        "maps",
+        "sceneryobjects",
+        "splines",
+        "texture",
+        "vehicles"
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/24036",
+      "installedBytes": 19996801084
+    },
+    {
+      "id": "BLACKPINK_Silkroad_Jinju",
+      "name": "[Map] Silkroad Jinju",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "BLACKPINK",
+      "description": "Silkroad Jinju 맵은 실크의 고장 진주를 기반으로 제작된 시내버스 맵입니다.\r\n실제를 기반으로 한 맵이며, 위성사진(Aerial Image)을 깔아놓고 만들었기 때문에 현실과 같은 거리가 표현되어 있습니다.\r\n이 맵은 아직 개발중인 맵이라 아직 몇몇 노선들이 완공이 되어있지 않으며, 추후 업데이트를 통해 완성시킬 계획입니다.\r\n\r\n진양호공원 건설로 120, 210번이 완공되었으며, 진양호차고지 건설로 251, 280번이 연장되었습니다.\r\n공영차고지~10호광장 연장으로 350번 연장되고 151, 253, 352번이 신설되었습니다.\r\n차고지 충전소 오브젝트가 신형으로 교체되었습니다. 아쉽지만 17번 노선은 역사 속으로 사라지게 되었습니다.\r\n\r\n오브젝트 및 스플라인 : 메르는안조아, Arcticwp346, 태화, 테크노킹, poddol, suya117, 대운 외\r\n맵 제작자 : BLACKPINK, Runny\r\n\r\n※ 맵 수정이나 다른 분의 2차 배포는 절대 불허합니다. 하지만 AI리스트 수정 및 AI리스트 변경을 위한 시간표 수정은 허용합니다.\r\n※ 스크린샷이나 주행영상은 타 카페나 유튜브 등 다른 커뮤니티에도 업로드 가능합니다. 출처는 표기해주시면 감사겠습니다.\r\n※ 가상회사에서의 사용을 불허합니다. 단, 1인가상은 허가합니다.\r\n※ 맵 설치 관련 질문은 정중히 사양하겠습니다.\r\n※ 제가 쪽지는 아예 확인하지 않습니다. 문의사항이 있으면 댓글 부탁드리겠습니다.\r\n※ 전체 로드맵 생성 후 네비 테스트를 해봤는데 이상하게 나옵니다. 길 안내를 꼼꼼하게 넣어 놨으니 네비는 잘 나오시는 분은 쓰시고, 이상하게 나오는 분은 사용하지 않는 것을 추천합니다.\r\n※ 경남철도마이스터고등학교는 실존하는 학교가 아닙니다.\r\n※ Express 91.06 DLC가 필수로 설치되어 있어야합니다.",
+      "version": "1.0",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "BLACKPINK_Silkroad_Jinju-v1.0",
+      "publishedAt": "2025-11-16T11:11:21Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/BLACKPINK_Silkroad_Jinju-v1.0/Silkroad.Jinju.7z",
+      "fileName": "Silkroad.Jinju.7z",
+      "size": 2006911151,
+      "sizeMB": 1913.9,
+      "assets": [
+        {
+          "fileName": "Silkroad.Jinju.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/BLACKPINK_Silkroad_Jinju-v1.0/Silkroad.Jinju.7z",
+          "size": 2006911151
+        }
+      ],
+      "mapParts": [
+        "maps",
+        "sceneryobjects",
+        "splines",
+        "vehicles"
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/34045",
+      "installedBytes": 20929592804
+    },
+    {
+      "id": "CGBS_Busan",
+      "name": "[Map] 부산광역시",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "책걸밥상",
+      "description": "안녕하세요?책걸밥상 입니다.\r\n평행세계의 부산광역시에 오신것을 환영합니다.\r\n\r\n1.우선 기초적인 파일은 모두 동봉하였으니,요것은 여러분께서 설치된 omsi폴더에 올바르게 설치부터 해 주세요.\r\n\r\n2.현대애드온 4.0AI파일도 포함되어 있으나,설치방법이 다르므로 꼭 읽어주세요!!!\r\n\r\n2-1.저의 대우버스도 포함되어 있습니다.\r\nVehicles\\Daewoo\\Model\\BS106속에 있는 모든 내용물을 복사를 하셔서\r\nSceneryobjects\\qjtmqkrtk\\bus\\model에 붙혀넣기 하셔야 올바르게 게임이 실행이 됩니다.\r\n만약 이 방법을 무시할 경우,현대애드온 4.0기반 AI파일을 찾을 수 없게 됩니다.\r\n\r\n2-2.그러고 난 후 게임을 실행하여 현수막을 찾으세요.\r\n여러가지 현수막 중에 그중 딱 한곳에만 힌트가 있으므로,\r\n반드시 현수막 내용을 잘 읽고,그대로 따라주시면 됩니다.\r\n\r\n3.시간관계상 아직 안내화살표가 설치되어 있지 않습니다.\r\n우선 AI차량을 따라가거나,동봉된 모든정류장 정차 리스트 파일을 확인하시어 네이버 또는 다음 지도로 확인 후 운행코스를 숙지하신 후 플레이하여 주시길 바랍니다.\r\n\r\n4.현재 알려진 버그는 다음과 같습니다.\r\n4-1.사하경찰서쪽의 타일이 꼬였습니다.\r\n그 타일 주변까지 영향이 있는거 같은데,신호가 파란불이더라도 AI가 가지 않는 경우가 있습니다.\r\n실제로 AI가 움직일때가 진짜 신호이니,훼이크신호에 주의하여 주세요.\r\n\r\n5.이스터에그가 군데군데 있습니다. 시각적과 음성적이 있는데, 음성적이 좀더 많습니다.\r\n특히 다대포차고지에서 이상한 음악이 들릴 수 있습니다.이건 그냥 힌트이니 무시하셔도 좋습니다.\r\n(하단동에 이스터에그 천지 입니다.잘 찾아보세요ㅎㅎ)\r\n\r\n6.앞서 언급하였듯이,평행세계의 부산광역시 맵입니다.\r\n절대로 100%현실로 만들기에 다소 무리가 있어서 현실과 상당히 다른부분이 많습니다.\r\n\r\n7.현대애드온4.0기반 AI 차량은,말 그대로 AI를 위한 차량 입니다. 4.0 텍스쳐 등등 호환이 되오니 참고바랍니다.\r\n\r\n8.모든 노선의 첫차가 4:50분입니다.",
+      "version": "1.0",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "CGBS_Busan-v1.0",
+      "publishedAt": "2025-11-14T15:15:37Z",
+      "assets": [
+        {
+          "fileName": "Busan.3.7z.001",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/CGBS_Busan-v1.0/Busan.3.7z.001",
+          "size": 1610612736
+        },
+        {
+          "fileName": "Busan.3.7z.002",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/CGBS_Busan-v1.0/Busan.3.7z.002",
+          "size": 1610612736
+        },
+        {
+          "fileName": "Busan.3.7z.003",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/CGBS_Busan-v1.0/Busan.3.7z.003",
+          "size": 1610612736
+        },
+        {
+          "fileName": "Busan.3.7z.004",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/CGBS_Busan-v1.0/Busan.3.7z.004",
+          "size": 301549406
+        }
+      ],
+      "size": 5133387614,
+      "sizeMB": 4895.6,
+      "sourceUrl": "https://cafe.naver.com/omsikorea/32325",
+      "installedBytes": 47694029392
+    },
+    {
+      "id": "PUREUNNARAE_Yulcheon",
+      "name": "[Map] 율천 1.45 pre",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "푸른나래",
+      "description": "Yulcheon 1.45 preview Version\r\n\r\n맵 제작 : 푸른나래\r\n스플라인 : Arctic님\r\n오브젝트 : 푸른나래,Arctic님,그 외 여러 분들\r\n차량 도색 : 푸른나래\r\n운행 시간표 : 푸른나래",
+      "version": "1.45",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "PUREUNNARAE_Yulcheon-v1.45",
+      "publishedAt": "2025-12-24T13:54:27Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/PUREUNNARAE_Yulcheon-v1.45/Yulcheon.1.45.7z",
+      "fileName": "Yulcheon.1.45.7z",
+      "size": 1081686091,
+      "sizeMB": 1031.6,
+      "assets": [
+        {
+          "fileName": "Yulcheon.1.45.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/PUREUNNARAE_Yulcheon-v1.45/Yulcheon.1.45.7z",
+          "size": 1081686091
+        }
+      ],
+      "mapParts": [
+        "maps",
+        "sceneryobjects",
+        "splines",
+        "texture",
+        "vehicles"
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/21141",
+      "installedBytes": 5552625809
+    },
+    {
+      "id": "ereNity_Yulcheon_Byeokha",
+      "name": "[Map] 율천벽하 V3.5",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "SereNity",
+      "description": "율천벽하 v3.0과 달라진 점입니다.\r\n- 1개 노선 추가(18: 수정동 ~ 문원2리 ~ 하완마을입구)\r\n- 2개 노선 경로 변경(904,906)\r\n- 율천IC ~  IT밸리입구 ~ 시청 ~ 율천종합버스터미널 중앙 버스 전용차로 제거 후 왕복 8차로 일반 도로로 전환\r\n- 율천컨벤션센터입구 앞 도로 구조 변경, 율천종합버스터미널 육거리 -> 오거리 변환\r\n- 12, 52, 901번 크뤼거 LED 오류 수정\r\n- 수소 유니버스 4.5 버전 도색틀 추가\r\n- 스플라인 교체로 인한 도로 텍스쳐 질감 향상\r\n\r\n주의사항\r\n- 기본적으로 율천맵 1.45의 준수사항을 따릅니다.\r\n- 원본 재배포시에는 해당 게시글 링크를 첨부하는 방식으로 배포하시기 바랍니다.\r\n- 모든 수정이 가능하며 수정 후 재배포도 가능합니다. 수정 후 맵 이름을 변경해주시기 바랍니다. 단 다른 수정 없이 cfg만 변경 후 맵을 배포하는 것을 자제해주세요.\r\n- 구글 드라이브에 탑재된 기본 도색틀, AI도색틀, 크뤼거 LED, 행선판은 모든 수정 및 자유로운 사용이 가능합니다.\r\n- AI 버스는 현대 뉴슈퍼 Final 버전(3.0), 기아 그랜버드 슈퍼프리미엄 실크로드 차량이 필요합니다.\r\n- 배포 게시글에는 v3.5로 배포를 하지만, hof파일 / 맵 파일 등 맵 전반적인 부분은 v3.0으로 표기가 되어 있습니다.\r\n- 기존 율천벽하 3.0을 다운받았다면, 스플라인과 hof, 맵 파일만 새로 다운 받으시면 됩니다.\r\n- NCC, NCCR, ARMR맵과 완벽하게 호환 가능합니다. 만약 호환이 안 된다면 댓글에 어디 부분이 호환 안되는지 달아주세요. 바로 조치하겠습니다.",
+      "version": "3.5",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "ereNity_Yulcheon_Byeokha-v3.5",
+      "publishedAt": "2025-12-24T15:09:35Z",
+      "assets": [
+        {
+          "fileName": "Yulcheon.Byeokha.3.0.7z.001",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/ereNity_Yulcheon_Byeokha-v3.5/Yulcheon.Byeokha.3.0.7z.001",
+          "size": 2040109465
+        },
+        {
+          "fileName": "Yulcheon.Byeokha.3.0.7z.002",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/ereNity_Yulcheon_Byeokha-v3.5/Yulcheon.Byeokha.3.0.7z.002",
+          "size": 2021987087
+        }
+      ],
+      "size": 4062096552,
+      "sizeMB": 3873.9,
+      "mapParts": [
+        "maps",
+        "sceneryobjects",
+        "splines",
+        "texture",
+        "vehicles"
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/35909",
+      "installedBytes": 37187589757
+    },
+    {
+      "id": "incheon_map",
+      "name": "[Map] 인천광역시",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "메르는안조아",
+      "description": "안녕하세요. 간만의 인천맵입니다. 오늘은 조금은 아쉬운 소식으로 인사드리게 되었네요.\r\n원래는 이번 버전에 인천공항 연장 업데이트가 이루어질 예정이었으나 저의 현생이 맵 제작할 시간을 투자할 수 있을만큼 여유롭지 못해서\r\n더이상의 제작은 어려울 것 같아 인천광역시 제작을 마치려고 합니다.\r\n가장 큰 이유는 본가가 인천을 떠나 다른곳으로 이사한게 가장 크지 않을까 싶습니다. 몸이 멀어진 만큼 마음도 멀어진게 아닐까 싶네요,,\r\n아쉽게도 지금 공개하는 버전을 마지막으로 공식 업데이트는 없을 것 같습니다. 기다려주신 모든 분들께 죄송한 마음입니다.\r\n\r\n✅ 더이상 업데이트는 없기에 해당 자료는 안내방송을 제외한 모든 자료가 오픈소스로 개방됩니다.\r\n 출처만 남겨주시면 자유롭게 수정 및 재배포 가능합니다.\r\n✅ 배포하실 때 출처만 남겨주신다면 스플라인 , 오브젝트 타맵에 사용 가능합니다.\r\n✅ 맵 자체는 오픈소스로 개방하지만 안내방송에는 저 외의 다른분의 자료도 포함되어 있기에 안내방송 재배포는 불가능합니다.\r\n✅ 아직 야간 텍스쳐작업이 거의 안되어 있기 때문에 운행하실 때 야간보다 주간 운행을 추천드립니다!\r\n✅ 무료DLC인 Express 91.06 DLC가 필수로 설치되어 있어야 정상 구동 가능합니다.\r\n✅ 배포파일 용량이 매우 큽니다. 설치하시기 전에 충분한 용량을 확보하시고 설치하시기 바랍니다.\r\n✅ 전체 용량은 약 19.3GB정도 나오나 기존에 인천맵이 있으신 분들은 크게 신경쓰지 않으셔도 될 것 같습니다.\r\n✅ [용량 줄이기 팁](https://cafe.naver.com/mm2love/229998) 미드타운마스터+의 PRASEOD님의 게시글을 참고하셔서 여러분들의 저장소를 보호하세요 :)\r\n✅ 해당 맵의 오류제보 및 건의사항은 더이상 받지 않습니다.\r\n✅ 76번,인천e음88번의 경우 24.05.11 변경될 노선을 반영해 놓았습니다. 변경된 노선도는 [여기](https://bus.incheon.go.kr/bis/notice.view)에서 확인하실 수 있습니다.\r\n✅ 이어서 작업하실 분들이 계시다면 Background 이미지를 적용해 놓았기 때문에 기능 활용하셔서 작업하시면 될 것 같습니다.\r\n\r\nThanks To.\r\nSceneryobjects : Suya117, Arcticwp346, isjy0511, Poddol, TecnoKing, Narod 外\r\nSplines : Arcticwp346 外\r\n",
+      "version": "2.5.1",
+      "category": "맵",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "incheon_map-v2.5.1",
+      "publishedAt": "2025-11-10T06:43:21Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
+      "fileName": "2.5.Dev.7z",
+      "size": 1726014748,
+      "sizeMB": 1646.1,
+      "assets": [
+        {
+          "fileName": "2.5.Dev.7z",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
+          "size": 1726014748
+        }
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/31333",
+      "installedBytes": 20666706928
+    },
+    {
       "id": "Cheongju",
       "name": "[Map] 청주시 v2.0 프로토타입",
       "author": "Devilanc",
@@ -573,6 +1008,31 @@
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea/34262",
       "installedBytes": 682865924
+    },
+    {
+      "id": "KGMC110",
+      "name": "[Bus] KGM C110",
+      "author": "Lulurala3119",
+      "displayAuthor": "Lulurala",
+      "description": "KGM C110 26년식 차량입니다.",
+      "version": "1.0",
+      "category": "버스",
+      "repo": "Lulurala3119/ichmachediemodsfuromsi2",
+      "releaseTag": "KGMC110-v1.0",
+      "publishedAt": "2026-01-25T12:00:33Z",
+      "downloadUrl": "https://github.com/Lulurala3119/ichmachediemodsfuromsi2/releases/download/KGMC110-v1.0/C110.zip",
+      "fileName": "C110.zip",
+      "size": 599789250,
+      "sizeMB": 572,
+      "assets": [
+        {
+          "fileName": "C110.zip",
+          "downloadUrl": "https://github.com/Lulurala3119/ichmachediemodsfuromsi2/releases/download/KGMC110-v1.0/C110.zip",
+          "size": 599789250
+        }
+      ],
+      "sourceUrl": "https://cafe.naver.com/f-e/cafes/25883809/menus/160",
+      "installedBytes": 728835249
     },
     {
       "id": "Lulurala_KGM_Smart110",
