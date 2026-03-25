@@ -1,0 +1,112 @@
+{
+  "addons": [
+    {
+      "addonId": "incheon_map",
+      "displayName": "인천광역시",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "Runny_NPOR",
+      "displayName": "NPOR 0.2.0",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "Runny_KINT",
+      "displayName": "KINT 0.1.2",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "Runny_NCCR",
+      "displayName": "NCCR 2.0.5",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "Runny_ARMR",
+      "displayName": "ARMR",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "Leehyundo_Jukju",
+      "displayName": "Jukju 0.1",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "suya117_AnrakMunsan",
+      "displayName": "Anrak&Munsan",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "BLACKPINK_Silkroad_Jinju",
+      "displayName": "Silkroad Jinju",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "BLACKPINK_Gyeongnam_Intercity",
+      "displayName": "Gyeongnam Intercity",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "BLACKPINK_Segang_Alpha",
+      "displayName": "Segang Alpha",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "ereNity_Yulcheon_Byeokha",
+      "displayName": "율천벽하 V3.5",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "PUREUNNARAE_Yulcheon",
+      "displayName": "율천 1.45 pre",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "CGBS_Busan",
+      "displayName": "부산광역시",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "NCC_Official",
+      "displayName": "NCC Official",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "CheongjuExam",
+      "displayName": "청주운전면허시험장",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "Cheongju",
+      "displayName": "청주시 v2.0 프로토타입",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "unified_objects",
+      "displayName": "통합 오브젝트",
+      "resources": [
+      ]
+    },
+    {
+      "addonId": "unified_splines",
+      "displayName": "통합 스플라인",
+      "resources": [
+      ]
+    }
+  ]
+}
