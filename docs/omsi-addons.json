@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T14:22:28.099Z",
+  "generatedAt": "2026-05-14T14:29:56.430Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -355,20 +355,20 @@
       "author": "OMSI2Merzoa",
       "displayAuthor": "Poddol",
       "description": "",
-      "version": "1.0",
+      "version": "1.1",
       "category": "AI 차량",
       "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "Poddol_Hyundai_Palisade-v1.0",
-      "publishedAt": "2026-02-25T08:47:17Z",
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Palisade-v1.0/Hyundai.Palisade.zip",
+      "releaseTag": "Poddol_Hyundai_Palisade-v1.1",
+      "publishedAt": "2026-05-14T14:28:49Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Palisade-v1.1/Hyundai.Palisade.zip",
       "fileName": "Hyundai.Palisade.zip",
-      "size": 2797336,
+      "size": 2798204,
       "sizeMB": 2.7,
       "assets": [
         {
           "fileName": "Hyundai.Palisade.zip",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Palisade-v1.0/Hyundai.Palisade.zip",
-          "size": 2797336
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Palisade-v1.1/Hyundai.Palisade.zip",
+          "size": 2798204
         }
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea",
