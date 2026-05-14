@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T12:18:38.266Z",
+  "generatedAt": "2026-05-14T14:21:20.729Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -223,6 +223,29 @@
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea",
       "installedBytes": 18743296
+    },
+    {
+      "id": "Poddol_Hyundai_Grandeur",
+      "name": "[AI] 현대 그랜져 GN7",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Poddol",
+      "description": "",
+      "version": "1.0",
+      "category": "AI 차량",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Poddol_Hyundai_Grandeur-v1.0",
+      "publishedAt": "2026-05-14T14:20:25Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Grandeur-v1.0/Hyundai.Grandeur.zip",
+      "fileName": "Hyundai.Grandeur.zip",
+      "size": 2091897,
+      "sizeMB": 2,
+      "assets": [
+        {
+          "fileName": "Hyundai.Grandeur.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Grandeur-v1.0/Hyundai.Grandeur.zip",
+          "size": 2091897
+        }
+      ]
     },
     {
       "id": "Poddol_Hyundai_Nexo_2",
