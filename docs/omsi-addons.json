@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T14:21:20.729Z",
+  "generatedAt": "2026-05-14T14:22:28.099Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -245,7 +245,9 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Grandeur-v1.0/Hyundai.Grandeur.zip",
           "size": 2091897
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "installedBytes": 34955395
     },
     {
       "id": "Poddol_Hyundai_Nexo_2",
