@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T06:09:35.239Z",
+  "generatedAt": "2026-06-29T06:10:41.220Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -245,7 +245,9 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_Tasman-v1.0/Kia.Tasman.zip",
           "size": 2457992
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "installedBytes": 30517051
     },
     {
       "id": "Poddol_Hyundai_Grandeur",
