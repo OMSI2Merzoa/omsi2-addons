@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T01:54:01.211Z",
+  "generatedAt": "2026-06-29T06:09:35.239Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -223,6 +223,29 @@
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea",
       "installedBytes": 18743296
+    },
+    {
+      "id": "Poddol_Kia_Tasman",
+      "name": "[AI] 기아 타스만",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Poddol",
+      "description": "",
+      "version": "1.0",
+      "category": "AI 차량",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Poddol_Kia_Tasman-v1.0",
+      "publishedAt": "2026-06-29T06:08:37Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_Tasman-v1.0/Kia.Tasman.zip",
+      "fileName": "Kia.Tasman.zip",
+      "size": 2457992,
+      "sizeMB": 2.3,
+      "assets": [
+        {
+          "fileName": "Kia.Tasman.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Kia_Tasman-v1.0/Kia.Tasman.zip",
+          "size": 2457992
+        }
+      ]
     },
     {
       "id": "Poddol_Hyundai_Grandeur",
