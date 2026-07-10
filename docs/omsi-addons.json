@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T01:08:16.677Z",
+  "generatedAt": "2026-07-10T04:22:45.743Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -858,6 +858,31 @@
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea/31333",
       "installedBytes": 20666706928
+    },
+    {
+      "id": "Cheongju",
+      "name": "[Map] 청주시 v2.0 프로토타입",
+      "author": "Devilanc",
+      "displayAuthor": "데블랑",
+      "description": "일부 권역 (용정/금천, 내수읍 화하리) 에 한해서 구현된 프로토타입 청주시입니다.",
+      "version": "0.0.3",
+      "category": "맵",
+      "repo": "Devilanc/Cheongju-2.0",
+      "releaseTag": "Cheongju_2.0-v0.0.3",
+      "publishedAt": "2025-11-15T03:35:09Z",
+      "downloadUrl": "https://github.com/Devilanc/Cheongju-2.0/releases/download/Cheongju_2.0-v0.0.3/Cheongju.City.v2.zip",
+      "fileName": "Cheongju.City.v2.zip",
+      "size": 2714312,
+      "sizeMB": 2.6,
+      "assets": [
+        {
+          "fileName": "Cheongju.City.v2.zip",
+          "downloadUrl": "https://github.com/Devilanc/Cheongju-2.0/releases/download/Cheongju_2.0-v0.0.3/Cheongju.City.v2.zip",
+          "size": 2714312
+        }
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/25891",
+      "installedBytes": 207373119
     },
     {
       "id": "CheongjuExam",
