@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T12:53:39.697Z",
+  "generatedAt": "2026-07-14T14:50:51.469Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -864,21 +864,21 @@
       "name": "[Map] 청주시 v2.0 프로토타입",
       "author": "Devilanc",
       "displayAuthor": "데블랑",
-      "description": "일부 권역 (용정/금천, 내수읍 화하리) 에 한해서 구현된 프로토타입 청주시입니다.",
-      "version": "0.0.3",
+      "description": "0.0.4 릴리즈 노트\r\n\r\n804번 노선 (가상) 개통을 위한 도로 작업중\r\n봉명종점 - 송절중학교 - 신봉동 - 보성아파트 - 시영아파트사거리 - 덕벌초등학교 - 북부시장 - 시청 신청사 예정지 - 육거리 - 금천동 - 동부종점\r\n\r\n내수 노선 (12번) 개통, 다만 시간표 및 노선 운행은 미구현\r\n구간 테스트를 위해 실제로 청주시에 존재하지 않는 노선도 구현 예정\r\n사직대로 및 상당로 위주의 구현이 중점이 될 예정",
+      "version": "0.0.4",
       "category": "맵",
       "repo": "Devilanc/Cheongju-2.0",
-      "releaseTag": "Cheongju_2.0-v0.0.3",
-      "publishedAt": "2025-11-15T03:35:09Z",
-      "downloadUrl": "https://github.com/Devilanc/Cheongju-2.0/releases/download/Cheongju_2.0-v0.0.3/Cheongju.City.v2.zip",
+      "releaseTag": "Cheongju_2.0-v0.0.4",
+      "publishedAt": "2026-07-14T14:04:13Z",
+      "downloadUrl": "https://github.com/Devilanc/Cheongju-2.0/releases/download/Cheongju_2.0-v0.0.4/Cheongju.City.v2.zip",
       "fileName": "Cheongju.City.v2.zip",
-      "size": 2714312,
-      "sizeMB": 2.6,
+      "size": 3248089,
+      "sizeMB": 3.1,
       "assets": [
         {
           "fileName": "Cheongju.City.v2.zip",
-          "downloadUrl": "https://github.com/Devilanc/Cheongju-2.0/releases/download/Cheongju_2.0-v0.0.3/Cheongju.City.v2.zip",
-          "size": 2714312
+          "downloadUrl": "https://github.com/Devilanc/Cheongju-2.0/releases/download/Cheongju_2.0-v0.0.4/Cheongju.City.v2.zip",
+          "size": 3248089
         }
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea/25891",
