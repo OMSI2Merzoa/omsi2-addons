@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T13:27:30.284Z",
+  "generatedAt": "2026-08-02T13:38:22.564Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -46,7 +46,7 @@
           "size": 1726856
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
       "installedBytes": 43359400
     },
     {
@@ -96,7 +96,7 @@
           "size": 2732145
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
       "installedBytes": 31133696
     },
     {
@@ -121,7 +121,7 @@
           "size": 2629518
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
       "installedBytes": 31076352
     },
     {
@@ -146,7 +146,7 @@
           "size": 1255843
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
       "installedBytes": 18456576
     },
     {
@@ -171,7 +171,7 @@
           "size": 1279303
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
       "installedBytes": 18489344
     },
     {
@@ -196,7 +196,7 @@
           "size": 6156289
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
       "installedBytes": 35254272
     },
     {
@@ -221,7 +221,7 @@
           "size": 1401186
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
       "installedBytes": 18743296
     },
     {
@@ -246,33 +246,33 @@
           "size": 2457992
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
       "installedBytes": 30517051
     },
     {
       "id": "Poddol_Hyundai_Grandeur",
-      "name": "[AI] 현대 그랜져 GN7",
+      "name": "[AI] 현대 그랜져",
       "author": "OMSI2Merzoa",
       "displayAuthor": "Poddol",
-      "description": "",
-      "version": "1.0",
+      "description": "현대 그랜저 GN7과 IG PE모델을 포함합니다.\r\n\r\n그랜저 (IG PE)의 경우 전면 주간주행등 및 방향지시등이 추가적으로 구현되었습니다.",
+      "version": "1.1",
       "category": "AI 차량",
       "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "Poddol_Hyundai_Grandeur-v1.0",
-      "publishedAt": "2026-05-14T14:20:25Z",
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Grandeur-v1.0/Hyundai.Grandeur.zip",
+      "releaseTag": "Poddol_Hyundai_Grandeur-v1.1",
+      "publishedAt": "2026-08-02T13:35:27Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Grandeur-v1.1/Hyundai.Grandeur.zip",
       "fileName": "Hyundai.Grandeur.zip",
-      "size": 2091897,
-      "sizeMB": 2,
+      "size": 5795612,
+      "sizeMB": 5.5,
       "assets": [
         {
           "fileName": "Hyundai.Grandeur.zip",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Grandeur-v1.0/Hyundai.Grandeur.zip",
-          "size": 2091897
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Grandeur-v1.1/Hyundai.Grandeur.zip",
+          "size": 5795612
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea",
-      "installedBytes": 34955395
+      "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
+      "installedBytes": 81406140
     },
     {
       "id": "Poddol_Hyundai_Nexo_2",
@@ -296,7 +296,7 @@
           "size": 3788626
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
       "installedBytes": 33603584
     },
     {
@@ -346,7 +346,7 @@
           "size": 2426791
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
       "installedBytes": 35352576
     },
     {
@@ -371,7 +371,7 @@
           "size": 3192915
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
       "installedBytes": 35307520
     },
     {
@@ -396,7 +396,7 @@
           "size": 2798204
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
       "installedBytes": 40983182
     },
     {
@@ -421,7 +421,7 @@
           "size": 2953481
         }
       ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea",
+      "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
       "installedBytes": 12800000
     },
     {
