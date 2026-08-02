@@ -111,7 +111,8 @@
       "assetPriority": [".7z", ".zip"],
       "prerelease": true,
       "addons": [
-        { "id": "KGMC110", "category": "Bus", "tagPrefix": "KGMC110-v", "displayAuthor": "Lulurala" }
+        { "id": "KGMC110", "category": "Bus", "tagPrefix": "KGMC110-v", "displayAuthor": "Lulurala" },
+        { "id": "KGM E-STANA(C070)", "category": "Bus", "tagPrefix": "E-STANA-V", "displayAuthor": "Lulurala" }
       ]
     },
     {
