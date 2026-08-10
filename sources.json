@@ -112,7 +112,7 @@
       "prerelease": true,
       "addons": [
         { "id": "KGMC110", "category": "Bus", "tagPrefix": "KGMC110-v", "displayAuthor": "Lulurala" },
-        { "id": "ESTANA", "category": "Bus", "tagPrefix": "ESTANA-V", "displayAuthor": "Lulurala" }
+        { "id": "E-STANA", "category": "Bus", "tagPrefix": "E-STANA-V", "displayAuthor": "Lulurala" }
       ]
     },
     {
