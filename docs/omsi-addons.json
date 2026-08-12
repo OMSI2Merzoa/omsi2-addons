@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T00:00:22.476Z",
+  "generatedAt": "2026-08-12T00:03:18.213Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -1108,6 +1108,29 @@
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea/32607",
       "installedBytes": 320183832
+    },
+    {
+      "id": "KGME-STANA(C070)",
+      "name": "[Bus] KGME-STANA(C070)",
+      "author": "Lulurala3119",
+      "displayAuthor": "Lulurala",
+      "description": "KGM 이스타나(C070)입니다. \r\n마을버스 사양만 존재 좌석버스 사양 없음",
+      "version": "1.0",
+      "category": "버스",
+      "repo": "Lulurala3119/ichmachediemodsfuromsi2",
+      "releaseTag": "KGME-STANA(C070)-v1.0",
+      "publishedAt": "2026-07-31T08:28:31Z",
+      "downloadUrl": "https://github.com/Lulurala3119/ichmachediemodsfuromsi2/releases/download/KGME-STANA%28C070%29-v1.0/E-Stana.zip",
+      "fileName": "E-Stana.zip",
+      "size": 387959204,
+      "sizeMB": 370,
+      "assets": [
+        {
+          "fileName": "E-Stana.zip",
+          "downloadUrl": "https://github.com/Lulurala3119/ichmachediemodsfuromsi2/releases/download/KGME-STANA%28C070%29-v1.0/E-Stana.zip",
+          "size": 387959204
+        }
+      ]
     },
     {
       "id": "BS106",
