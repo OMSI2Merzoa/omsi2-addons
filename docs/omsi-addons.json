@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T11:58:48.596Z",
+  "generatedAt": "2026-08-15T12:11:44.290Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -1130,7 +1130,9 @@
           "downloadUrl": "https://github.com/Lulurala3119/ichmachediemodsfuromsi2/releases/download/KGME-STANA%28C070%29-v1.0/E-Stana.zip",
           "size": 387959204
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/38829",
+      "installedBytes": 453137693
     },
     {
       "id": "BS106",
