@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T06:36:43.471Z",
+  "generatedAt": "2026-09-27T11:40:25.581Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -348,6 +348,29 @@
       ],
       "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
       "installedBytes": 35352576
+    },
+    {
+      "id": "Poddol_Hyundai_Xcient",
+      "name": "[AI] 현대 엑시언트",
+      "author": "OMSI2Merzoa",
+      "displayAuthor": "Poddol",
+      "description": "",
+      "version": "1.0",
+      "category": "AI 차량",
+      "repo": "OMSI2Merzoa/omsi2-addons",
+      "releaseTag": "Poddol_Hyundai_Xcient-v1.0",
+      "publishedAt": "2026-09-27T11:39:15Z",
+      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Xcient-v1.0/Hyundai.Xcient.zip",
+      "fileName": "Hyundai.Xcient.zip",
+      "size": 6189332,
+      "sizeMB": 5.9,
+      "assets": [
+        {
+          "fileName": "Hyundai.Xcient.zip",
+          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Xcient-v1.0/Hyundai.Xcient.zip",
+          "size": 6189332
+        }
+      ]
     },
     {
       "id": "Poddol_Casper_Electric",
