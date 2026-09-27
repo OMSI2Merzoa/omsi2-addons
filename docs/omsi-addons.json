@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T11:40:25.581Z",
+  "generatedAt": "2026-09-27T11:41:06.421Z",
   "addons": [
     {
       "id": "poddol_Lacetti",
@@ -370,7 +370,9 @@
           "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/Poddol_Hyundai_Xcient-v1.0/Hyundai.Xcient.zip",
           "size": 6189332
         }
-      ]
+      ],
+      "sourceUrl": "https://cafe.naver.com/omsikorea/37828",
+      "installedBytes": 67016781
     },
     {
       "id": "Poddol_Casper_Electric",
