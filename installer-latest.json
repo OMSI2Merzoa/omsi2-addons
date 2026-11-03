@@ -1,6 +1,6 @@
 {
-  "version": "1.0.9.2",
-  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/OMSI2AddonInstaller-v1.0.9.2/OMSI2Installer_v1.0.9.2.zip",
+  "version": "1.1.0.0",
+  "packageUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/OMSI2AddonInstaller-v1.1.0.0/OMSI2Installer_v1.1.0.0.zip",
   "exeName": "OMSI2Installer.exe",
-  "changelog": "- 통합오브젝트 설치가 안되는 문제 해결\n- 미싱자료를 제대로 찾아내지 못했던 맵 진단기를 개선"
+  "changelog": "- \uC804\uCCB4\uC801\uC778 UI \uB300\uAC1C\uD3B8\n- \uBC1D\uC740\uD14C\uB9C8,\uC5B4\uB450\uC6B4\uD14C\uB9C8 \uC9C0\uC6D0\r\n- AI\uB9AC\uC2A4\uD2B8 \uD3B8\uC9D1 \uAE30\uB2A5 \uCD94\uAC00\r\n- \uC124\uCE58 \uBC31\uC5C5 \uBC0F \uCDE8\uC18C \uAE30\uB2A5 \uAC1C\uC120\r\n- \uC5C5\uB370\uC774\uD2B8 \uBC29\uC2DD \uBCC0\uACBD"
 }
