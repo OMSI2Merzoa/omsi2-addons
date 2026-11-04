@@ -860,31 +860,6 @@
       "installedBytes": 37187589757
     },
     {
-      "id": "incheon_map",
-      "name": "[Map] 인천광역시",
-      "author": "OMSI2Merzoa",
-      "displayAuthor": "메르는안조아",
-      "description": "안녕하세요. 간만의 인천맵입니다. 오늘은 조금은 아쉬운 소식으로 인사드리게 되었네요.\r\n원래는 이번 버전에 인천공항 연장 업데이트가 이루어질 예정이었으나 저의 현생이 맵 제작할 시간을 투자할 수 있을만큼 여유롭지 못해서\r\n더이상의 제작은 어려울 것 같아 인천광역시 제작을 마치려고 합니다.\r\n가장 큰 이유는 본가가 인천을 떠나 다른곳으로 이사한게 가장 크지 않을까 싶습니다. 몸이 멀어진 만큼 마음도 멀어진게 아닐까 싶네요,,\r\n아쉽게도 지금 공개하는 버전을 마지막으로 공식 업데이트는 없을 것 같습니다. 기다려주신 모든 분들께 죄송한 마음입니다.\r\n\r\n✅ 더이상 업데이트는 없기에 해당 자료는 안내방송을 제외한 모든 자료가 오픈소스로 개방됩니다.\r\n 출처만 남겨주시면 자유롭게 수정 및 재배포 가능합니다.\r\n✅ 배포하실 때 출처만 남겨주신다면 스플라인 , 오브젝트 타맵에 사용 가능합니다.\r\n✅ 맵 자체는 오픈소스로 개방하지만 안내방송에는 저 외의 다른분의 자료도 포함되어 있기에 안내방송 재배포는 불가능합니다.\r\n✅ 아직 야간 텍스쳐작업이 거의 안되어 있기 때문에 운행하실 때 야간보다 주간 운행을 추천드립니다!\r\n✅ 무료DLC인 Express 91.06 DLC가 필수로 설치되어 있어야 정상 구동 가능합니다.\r\n✅ 배포파일 용량이 매우 큽니다. 설치하시기 전에 충분한 용량을 확보하시고 설치하시기 바랍니다.\r\n✅ 전체 용량은 약 19.3GB정도 나오나 기존에 인천맵이 있으신 분들은 크게 신경쓰지 않으셔도 될 것 같습니다.\r\n✅ [용량 줄이기 팁](https://cafe.naver.com/mm2love/229998) 미드타운마스터+의 PRASEOD님의 게시글을 참고하셔서 여러분들의 저장소를 보호하세요 :)\r\n✅ 해당 맵의 오류제보 및 건의사항은 더이상 받지 않습니다.\r\n✅ 76번,인천e음88번의 경우 24.05.11 변경될 노선을 반영해 놓았습니다. 변경된 노선도는 [여기](https://bus.incheon.go.kr/bis/notice.view)에서 확인하실 수 있습니다.\r\n✅ 이어서 작업하실 분들이 계시다면 Background 이미지를 적용해 놓았기 때문에 기능 활용하셔서 작업하시면 될 것 같습니다.\r\n\r\nThanks To.\r\nSceneryobjects : Suya117, Arcticwp346, isjy0511, Poddol, TecnoKing, Narod 外\r\nSplines : Arcticwp346 外\r\n",
-      "version": "2.5.1",
-      "category": "맵",
-      "repo": "OMSI2Merzoa/omsi2-addons",
-      "releaseTag": "incheon_map-v2.5.1",
-      "publishedAt": "2025-11-10T06:43:21Z",
-      "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
-      "fileName": "2.5.Dev.7z",
-      "size": 1726014748,
-      "sizeMB": 1646.1,
-      "assets": [
-        {
-          "fileName": "2.5.Dev.7z",
-          "downloadUrl": "https://github.com/OMSI2Merzoa/omsi2-addons/releases/download/incheon_map-v2.5.1/2.5.Dev.7z",
-          "size": 1726014748
-        }
-      ],
-      "sourceUrl": "https://cafe.naver.com/omsikorea/31333",
-      "installedBytes": 20666706928
-    },
-    {
       "id": "Cheongju",
       "name": "[Map] 청주시 v2.0 프로토타입",
       "author": "Devilanc",
