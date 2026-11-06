@@ -2,170 +2,508 @@
   "repos": [
     {
       "repo": "OMSI2Merzoa/omsi2-addons",
-      "assetPriority": [".7z", ".zip"],
+      "assetPriority": [
+        ".7z",
+        ".zip"
+      ],
       "prerelease": true,
       "addons": [
-        { "id": "Runny_NPOR",    "category": "Map", "tagPrefix": "Runny_NPOR-v", "displayAuthor": "별,Runny", "mapParts": ["maps", "vehicles"] },
-        { "id": "Runny_KINT",    "category": "Map", "tagPrefix": "Runny_KINT-v", "displayAuthor": "별,Runny", "mapParts": ["maps", "sceneryobjects"] },
-        { "id": "Runny_NCCR",    "category": "Map", "tagPrefix": "Runny_NCCR-v", "displayAuthor": "별,Runny", "mapParts": ["maps", "vehicles"] },
-        { "id": "Runny_ARMR",    "category": "Map", "tagPrefix": "Runny_ARMR-v", "displayAuthor": "suya117,Runny", "mapParts": ["maps", "vehicles"] },
-        { "id": "Leehyundo_Jukju",    "category": "Map", "tagPrefix": "Leehyundo_Jukju-v", "displayAuthor": "산남분평남이현도", "mapParts": ["maps", "sceneryobjects", "splines", "vehicles"] },
-        { "id": "suya117_AnrakMunsan",    "category": "Map", "tagPrefix": "suya117_AnrakMunsan-v", "displayAuthor": "suya117", "mapParts": ["maps", "sceneryobjects","texture", "vehicles"] },
-        { "id": "BLACKPINK_Silkroad_Jinju",    "category": "Map", "tagPrefix": "BLACKPINK_Silkroad_Jinju-v", "displayAuthor": "BLACKPINK", "mapParts": ["maps", "sceneryobjects", "splines", "vehicles"] },
-        { "id": "BLACKPINK_Gyeongnam_Intercity",    "category": "Map", "tagPrefix": "BLACKPINK_Gyeongnam_Intercity-v", "displayAuthor": "BLACKPINK", "mapParts": ["maps", "sceneryobjects", "splines", "vehicles"] },
-        { "id": "BLACKPINK_Segang_Alpha",    "category": "Map", "tagPrefix": "BLACKPINK_Segang_Alpha-v", "displayAuthor": "BLACKPINK", "mapParts": ["maps", "sceneryobjects", "splines", "texture", "vehicles"] },
-        { "id": "ereNity_Yulcheon_Byeokha",    "category": "Map", "tagPrefix": "ereNity_Yulcheon_Byeokha-v", "displayAuthor": "SereNity", "mapParts": ["maps", "sceneryobjects", "splines", "texture", "vehicles"] },
-        { "id": "PUREUNNARAE_Yulcheon",    "category": "Map", "tagPrefix": "PUREUNNARAE_Yulcheon-v", "displayAuthor": "푸른나래", "mapParts": ["maps", "sceneryobjects", "splines", "texture", "vehicles"] },
-        { "id": "CGBS_Busan",    "category": "Map", "tagPrefix": "CGBS_Busan-v", "displayAuthor": "책걸밥상" },
-        { "id": "NCC_Official",        "category": "Map", "tagPrefix": "NCC_Official-v", "displayAuthor": "Arcticwp346,별,백문,메르는안조아" }
+        {
+          "id": "Runny_NPOR",
+          "category": "Map",
+          "tagPrefix": "Runny_NPOR-v",
+          "displayAuthor": "\uBCC4,Runny",
+          "mapParts": [
+            "maps",
+            "vehicles"
+          ]
+        },
+        {
+          "id": "Runny_KINT",
+          "category": "Map",
+          "tagPrefix": "Runny_KINT-v",
+          "displayAuthor": "\uBCC4,Runny",
+          "mapParts": [
+            "maps",
+            "sceneryobjects"
+          ]
+        },
+        {
+          "id": "Runny_NCCR",
+          "category": "Map",
+          "tagPrefix": "Runny_NCCR-v",
+          "displayAuthor": "\uBCC4,Runny",
+          "mapParts": [
+            "maps",
+            "vehicles"
+          ]
+        },
+        {
+          "id": "Runny_ARMR",
+          "category": "Map",
+          "tagPrefix": "Runny_ARMR-v",
+          "displayAuthor": "suya117,Runny",
+          "mapParts": [
+            "maps",
+            "vehicles"
+          ]
+        },
+        {
+          "id": "Leehyundo_Jukju",
+          "category": "Map",
+          "tagPrefix": "Leehyundo_Jukju-v",
+          "displayAuthor": "\uC0B0\uB0A8\uBD84\uD3C9\uB0A8\uC774\uD604\uB3C4",
+          "mapParts": [
+            "maps",
+            "sceneryobjects",
+            "splines",
+            "vehicles"
+          ]
+        },
+        {
+          "id": "suya117_AnrakMunsan",
+          "category": "Map",
+          "tagPrefix": "suya117_AnrakMunsan-v",
+          "displayAuthor": "suya117",
+          "mapParts": [
+            "maps",
+            "sceneryobjects",
+            "texture",
+            "vehicles"
+          ]
+        },
+        {
+          "id": "BLACKPINK_Silkroad_Jinju",
+          "category": "Map",
+          "tagPrefix": "BLACKPINK_Silkroad_Jinju-v",
+          "displayAuthor": "BLACKPINK",
+          "mapParts": [
+            "maps",
+            "sceneryobjects",
+            "splines",
+            "vehicles"
+          ]
+        },
+        {
+          "id": "BLACKPINK_Gyeongnam_Intercity",
+          "category": "Map",
+          "tagPrefix": "BLACKPINK_Gyeongnam_Intercity-v",
+          "displayAuthor": "BLACKPINK",
+          "mapParts": [
+            "maps",
+            "sceneryobjects",
+            "splines",
+            "vehicles"
+          ]
+        },
+        {
+          "id": "BLACKPINK_Segang_Alpha",
+          "category": "Map",
+          "tagPrefix": "BLACKPINK_Segang_Alpha-v",
+          "displayAuthor": "BLACKPINK",
+          "mapParts": [
+            "maps",
+            "sceneryobjects",
+            "splines",
+            "texture",
+            "vehicles"
+          ]
+        },
+        {
+          "id": "ereNity_Yulcheon_Byeokha",
+          "category": "Map",
+          "tagPrefix": "ereNity_Yulcheon_Byeokha-v",
+          "displayAuthor": "SereNity",
+          "mapParts": [
+            "maps",
+            "sceneryobjects",
+            "splines",
+            "texture",
+            "vehicles"
+          ]
+        },
+        {
+          "id": "PUREUNNARAE_Yulcheon",
+          "category": "Map",
+          "tagPrefix": "PUREUNNARAE_Yulcheon-v",
+          "displayAuthor": "\uD478\uB978\uB098\uB798",
+          "mapParts": [
+            "maps",
+            "sceneryobjects",
+            "splines",
+            "texture",
+            "vehicles"
+          ]
+        },
+        {
+          "id": "CGBS_Busan",
+          "category": "Map",
+          "tagPrefix": "CGBS_Busan-v",
+          "displayAuthor": "\uCC45\uAC78\uBC25\uC0C1"
+        }
       ]
     },
     {
       "repo": "OMSI2Merzoa/omsi2-addons",
-      "assetPriority": [".7z", ".zip"],
+      "assetPriority": [
+        ".7z",
+        ".zip"
+      ],
       "prerelease": true,
       "addons": [
-        { "id": "hyundai_series", "category": "Bus", "tagPrefix": "hyundai_series-v", "displayAuthor": "Bus1997,구자윤,태화 外" },
-        { "id": "Aviatree_Higer",    "category": "Bus", "tagPrefix": "Aviatree_Higer-v", "displayAuthor": "Aviatree" },
-        { "id": "Mulberry_Eleccity",    "category": "Bus", "tagPrefix": "Mulberry_Eleccity-v", "displayAuthor": "멀베리즙" },
-        { "id": "Lulurala_Apollo1100_25",    "category": "Bus", "tagPrefix": "Lulurala_Apollo1100_25-v", "displayAuthor": "Lulurala" },
-        { "id": "Lulurala_Apollo1100_21",    "category": "Bus", "tagPrefix": "Lulurala_Apollo1100_21-v", "displayAuthor": "Lulurala" },
-        { "id": "Lulurala_KGM_C090",    "category": "Bus", "tagPrefix": "Lulurala_KGM_C090-v", "displayAuthor": "Lulurala" },
-        { "id": "Lulurala_KGM_Smart110",    "category": "Bus", "tagPrefix": "Lulurala_KGM_Smart110-v", "displayAuthor": "Lulurala" },
-        { "id": "Lulurala_Lestar",    "category": "Bus", "tagPrefix": "Lulurala_Lestar-v", "displayAuthor": "Lulurala" },
-        { "id": "TechnoKing_Bluecity",    "category": "Bus", "tagPrefix": "TechnoKing_Bluecity-v", "displayAuthor": "테크노킹" },
-        { "id": "Raccon_Universe_Luxury",    "category": "Bus", "tagPrefix": "Raccon_Universe_Luxury-v", "displayAuthor": "요격감자" },
-        { "id": "Raccon_Universe_Prime",    "category": "Bus", "tagPrefix": "Raccon_Universe_Prime-v", "displayAuthor": "요격감자" },
-        { "id": "Raccon_Universe_Elegance",    "category": "Bus", "tagPrefix": "Raccon_Universe_Elegance-v", "displayAuthor": "요격감자" },
-        { "id": "Raccon_Universe_Comfort",    "category": "Bus", "tagPrefix": "Raccon_Universe_Comfort-v", "displayAuthor": "요격감자" },
-        { "id": "Raccon_Universe_EX",    "category": "Bus", "tagPrefix": "Raccon_Universe_EX-v", "displayAuthor": "요격감자" },
-        { "id": "Daejeon_Granbird_SuperPremium",    "category": "Bus", "tagPrefix": "Daejeon_Granbird_SuperPremium-v", "displayAuthor": "대전광역시" },
-        { "id": "Daejeon_Universe_Noble",    "category": "Bus", "tagPrefix": "Daejeon_Universe_Noble-v", "displayAuthor": "대전광역시" },
-        { "id": "Daejeon_Granbird_inovation",    "category": "Bus", "tagPrefix": "Daejeon_Granbird_inovation-v", "displayAuthor": "대전광역시" },
-        { "id": "Daejeon_BX212",    "category": "Bus", "tagPrefix": "Daejeon_BX212-v", "displayAuthor": "대전광역시" },
-        { "id": "Jackson_Universe_FCEV",    "category": "Bus", "tagPrefix": "Jackson_Universe_FCEV-v", "displayAuthor": "Jackson" },
-        { "id": "Taehwa_Daewoo_Series",    "category": "Bus", "tagPrefix": "Taehwa_Daewoo_Series-v", "displayAuthor": "태화" },
-        { "id": "G240_E_fibird",    "category": "Bus", "tagPrefix": "G240_E_fibird-v", "displayAuthor": "G240,The human,저상" },
-        { "id": "Sindosaek_EleccityI",    "category": "Bus", "tagPrefix": "Sindosaek_EleccityI-v", "displayAuthor": "신도색" }
+        {
+          "id": "hyundai_series",
+          "category": "Bus",
+          "tagPrefix": "hyundai_series-v",
+          "displayAuthor": "Bus1997,\uAD6C\uC790\uC724,\uD0DC\uD654 \u5916"
+        },
+        {
+          "id": "Aviatree_Higer",
+          "category": "Bus",
+          "tagPrefix": "Aviatree_Higer-v",
+          "displayAuthor": "Aviatree"
+        },
+        {
+          "id": "Mulberry_Eleccity",
+          "category": "Bus",
+          "tagPrefix": "Mulberry_Eleccity-v",
+          "displayAuthor": "\uBA40\uBCA0\uB9AC\uC999"
+        },
+        {
+          "id": "Lulurala_Apollo1100_25",
+          "category": "Bus",
+          "tagPrefix": "Lulurala_Apollo1100_25-v",
+          "displayAuthor": "Lulurala"
+        },
+        {
+          "id": "Lulurala_Apollo1100_21",
+          "category": "Bus",
+          "tagPrefix": "Lulurala_Apollo1100_21-v",
+          "displayAuthor": "Lulurala"
+        },
+        {
+          "id": "Lulurala_KGM_C090",
+          "category": "Bus",
+          "tagPrefix": "Lulurala_KGM_C090-v",
+          "displayAuthor": "Lulurala"
+        },
+        {
+          "id": "Lulurala_KGM_Smart110",
+          "category": "Bus",
+          "tagPrefix": "Lulurala_KGM_Smart110-v",
+          "displayAuthor": "Lulurala"
+        },
+        {
+          "id": "Lulurala_Lestar",
+          "category": "Bus",
+          "tagPrefix": "Lulurala_Lestar-v",
+          "displayAuthor": "Lulurala"
+        },
+        {
+          "id": "TechnoKing_Bluecity",
+          "category": "Bus",
+          "tagPrefix": "TechnoKing_Bluecity-v",
+          "displayAuthor": "\uD14C\uD06C\uB178\uD0B9"
+        },
+        {
+          "id": "Raccon_Universe_Luxury",
+          "category": "Bus",
+          "tagPrefix": "Raccon_Universe_Luxury-v",
+          "displayAuthor": "\uC694\uACA9\uAC10\uC790"
+        },
+        {
+          "id": "Raccon_Universe_Prime",
+          "category": "Bus",
+          "tagPrefix": "Raccon_Universe_Prime-v",
+          "displayAuthor": "\uC694\uACA9\uAC10\uC790"
+        },
+        {
+          "id": "Raccon_Universe_Elegance",
+          "category": "Bus",
+          "tagPrefix": "Raccon_Universe_Elegance-v",
+          "displayAuthor": "\uC694\uACA9\uAC10\uC790"
+        },
+        {
+          "id": "Raccon_Universe_Comfort",
+          "category": "Bus",
+          "tagPrefix": "Raccon_Universe_Comfort-v",
+          "displayAuthor": "\uC694\uACA9\uAC10\uC790"
+        },
+        {
+          "id": "Raccon_Universe_EX",
+          "category": "Bus",
+          "tagPrefix": "Raccon_Universe_EX-v",
+          "displayAuthor": "\uC694\uACA9\uAC10\uC790"
+        },
+        {
+          "id": "Daejeon_Granbird_SuperPremium",
+          "category": "Bus",
+          "tagPrefix": "Daejeon_Granbird_SuperPremium-v",
+          "displayAuthor": "\uB300\uC804\uAD11\uC5ED\uC2DC"
+        },
+        {
+          "id": "Daejeon_Universe_Noble",
+          "category": "Bus",
+          "tagPrefix": "Daejeon_Universe_Noble-v",
+          "displayAuthor": "\uB300\uC804\uAD11\uC5ED\uC2DC"
+        },
+        {
+          "id": "Daejeon_Granbird_inovation",
+          "category": "Bus",
+          "tagPrefix": "Daejeon_Granbird_inovation-v",
+          "displayAuthor": "\uB300\uC804\uAD11\uC5ED\uC2DC"
+        },
+        {
+          "id": "Daejeon_BX212",
+          "category": "Bus",
+          "tagPrefix": "Daejeon_BX212-v",
+          "displayAuthor": "\uB300\uC804\uAD11\uC5ED\uC2DC"
+        },
+        {
+          "id": "Jackson_Universe_FCEV",
+          "category": "Bus",
+          "tagPrefix": "Jackson_Universe_FCEV-v",
+          "displayAuthor": "Jackson"
+        },
+        {
+          "id": "Taehwa_Daewoo_Series",
+          "category": "Bus",
+          "tagPrefix": "Taehwa_Daewoo_Series-v",
+          "displayAuthor": "\uD0DC\uD654"
+        },
+        {
+          "id": "G240_E_fibird",
+          "category": "Bus",
+          "tagPrefix": "G240_E_fibird-v",
+          "displayAuthor": "G240,The human,\uC800\uC0C1"
+        },
+        {
+          "id": "Sindosaek_EleccityI",
+          "category": "Bus",
+          "tagPrefix": "Sindosaek_EleccityI-v",
+          "displayAuthor": "\uC2E0\uB3C4\uC0C9"
+        }
       ]
     },
     {
       "repo": "OMSI2Merzoa/omsi2-addons",
-      "assetPriority": [".7z", ".zip"],
+      "assetPriority": [
+        ".7z",
+        ".zip"
+      ],
       "prerelease": true,
       "addons": [
-        { "id": "TechnoKing_Torres",    "category": "Ai", "tagPrefix": "TechnoKing_Torres-v", "displayAuthor": "테크노킹" },
-        { "id": "TechnoKing_Staria",    "category": "Ai", "tagPrefix": "TechnoKing_Staria-v", "displayAuthor": "테크노킹" },
-        { "id": "poddol_Lacetti",    "category": "Ai", "tagPrefix": "poddol_Lacetti-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Casper_Electric",    "category": "Ai", "tagPrefix": "Poddol_Casper_Electric-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Hyundai_Nexo_2",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_Nexo_2-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Hyundai_Porter_2",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_Porter_2-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Hyundai_SantaFe_2",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_SantaFe_2-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Hyundai_Palisade",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_Palisade-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Hyundai_Grandeur",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_Grandeur-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Hyundai_Xcient",    "category": "Ai", "tagPrefix": "Poddol_Hyundai_Xcient-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Kia_Carnival_2",    "category": "Ai", "tagPrefix": "Poddol_Kia_Carnival_2-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Kia_EV3_2",    "category": "Ai", "tagPrefix": "Poddol_Kia_EV3_2-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Kia_EV4",    "category": "Ai", "tagPrefix": "Poddol_Kia_EV4-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Kia_Tasman",    "category": "Ai", "tagPrefix": "Poddol_Kia_Tasman-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Kia_EV6",    "category": "Ai", "tagPrefix": "Poddol_Kia_EV6-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Kia_K9",    "category": "Ai", "tagPrefix": "Poddol_Kia_K9-v", "displayAuthor": "Poddol" },
-        { "id": "poddol_Musso",    "category": "Ai", "tagPrefix": "poddol_Musso-v", "displayAuthor": "Poddol" },
-        { "id": "Poddol_Kia_Ray",    "category": "Ai", "tagPrefix": "Poddol_Kia_Ray-v", "displayAuthor": "Poddol" }
+        {
+          "id": "TechnoKing_Torres",
+          "category": "Ai",
+          "tagPrefix": "TechnoKing_Torres-v",
+          "displayAuthor": "\uD14C\uD06C\uB178\uD0B9"
+        },
+        {
+          "id": "TechnoKing_Staria",
+          "category": "Ai",
+          "tagPrefix": "TechnoKing_Staria-v",
+          "displayAuthor": "\uD14C\uD06C\uB178\uD0B9"
+        },
+        {
+          "id": "poddol_Lacetti",
+          "category": "Ai",
+          "tagPrefix": "poddol_Lacetti-v",
+          "displayAuthor": "Poddol"
+        },
+        {
+          "id": "Poddol_Casper_Electric",
+          "category": "Ai",
+          "tagPrefix": "Poddol_Casper_Electric-v",
+          "displayAuthor": "Poddol"
+        },
+        {
+          "id": "Poddol_Hyundai_Nexo_2",
+          "category": "Ai",
+          "tagPrefix": "Poddol_Hyundai_Nexo_2-v",
+          "displayAuthor": "Poddol"
+        },
+        {
+          "id": "Poddol_Hyundai_Porter_2",
+          "category": "Ai",
+          "tagPrefix": "Poddol_Hyundai_Porter_2-v",
+          "displayAuthor": "Poddol"
+        },
+        {
+          "id": "Poddol_Hyundai_SantaFe_2",
+          "category": "Ai",
+          "tagPrefix": "Poddol_Hyundai_SantaFe_2-v",
+          "displayAuthor": "Poddol"
+        },
+        {
+          "id": "Poddol_Hyundai_Palisade",
+          "category": "Ai",
+          "tagPrefix": "Poddol_Hyundai_Palisade-v",
+          "displayAuthor": "Poddol"
+        },
+        {
+          "id": "Poddol_Hyundai_Grandeur",
+          "category": "Ai",
+          "tagPrefix": "Poddol_Hyundai_Grandeur-v",
+          "displayAuthor": "Poddol"
+        },
+        {
+          "id": "Poddol_Hyundai_Xcient",
+          "category": "Ai",
+          "tagPrefix": "Poddol_Hyundai_Xcient-v",
+          "displayAuthor": "Poddol"
+        },
+        {
+          "id": "Poddol_Kia_Carnival_2",
+          "category": "Ai",
+          "tagPrefix": "Poddol_Kia_Carnival_2-v",
+          "displayAuthor": "Poddol"
+        },
+        {
+          "id": "Poddol_Kia_EV3_2",
+          "category": "Ai",
+          "tagPrefix": "Poddol_Kia_EV3_2-v",
+          "displayAuthor": "Poddol"
+        },
+        {
+          "id": "Poddol_Kia_EV4",
+          "category": "Ai",
+          "tagPrefix": "Poddol_Kia_EV4-v",
+          "displayAuthor": "Poddol"
+        },
+        {
+          "id": "Poddol_Kia_Tasman",
+          "category": "Ai",
+          "tagPrefix": "Poddol_Kia_Tasman-v",
+          "displayAuthor": "Poddol"
+        },
+        {
+          "id": "Poddol_Kia_EV6",
+          "category": "Ai",
+          "tagPrefix": "Poddol_Kia_EV6-v",
+          "displayAuthor": "Poddol"
+        },
+        {
+          "id": "Poddol_Kia_K9",
+          "category": "Ai",
+          "tagPrefix": "Poddol_Kia_K9-v",
+          "displayAuthor": "Poddol"
+        },
+        {
+          "id": "poddol_Musso",
+          "category": "Ai",
+          "tagPrefix": "poddol_Musso-v",
+          "displayAuthor": "Poddol"
+        },
+        {
+          "id": "Poddol_Kia_Ray",
+          "category": "Ai",
+          "tagPrefix": "Poddol_Kia_Ray-v",
+          "displayAuthor": "Poddol"
+        }
       ]
     },
     {
       "repo": "ssw0948/Merzoa_addon",
-      "assetPriority": [".7z", ".zip"],
+      "assetPriority": [
+        ".7z",
+        ".zip"
+      ],
       "prerelease": true,
       "addons": [
-        { "id": "testbus", "category": "Bus", "tagPrefix": "testbus-v", "displayAuthor": "메르는안조아" }
+        {
+          "id": "testbus",
+          "category": "Bus",
+          "tagPrefix": "testbus-v",
+          "displayAuthor": "\uBA54\uB974\uB294\uC548\uC870\uC544"
+        }
       ]
     },
     {
       "repo": "PC28K/CheongjuExam",
-      "assetPriority": [".7z", ".zip"],
+      "assetPriority": [
+        ".7z",
+        ".zip"
+      ],
       "prerelease": true,
       "addons": [
-        { "id": "CheongjuExam", "category": "Map", "tagPrefix": "CheongjuExam-v", "displayAuthor": "PC28K" }
+        {
+          "id": "CheongjuExam",
+          "category": "Map",
+          "tagPrefix": "CheongjuExam-v",
+          "displayAuthor": "PC28K"
+        }
       ]
     },
     {
       "repo": "HYB1022/dnb106dwcphmp",
-      "assetPriority": [".7z", ".zip"],
+      "assetPriority": [
+        ".7z",
+        ".zip"
+      ],
       "prerelease": true,
       "addons": [
-        { "id": "BS106", "category": "Bus", "tagPrefix": "BS106-v", "displayAuthor": "The human" }
+        {
+          "id": "BS106",
+          "category": "Bus",
+          "tagPrefix": "BS106-v",
+          "displayAuthor": "The human"
+        }
       ]
     },
     {
       "repo": "HYB1022/kngbiss14",
-      "assetPriority": [".7z", ".zip"],
+      "assetPriority": [
+        ".7z",
+        ".zip"
+      ],
       "prerelease": true,
       "addons": [
-        { "id": "gbiss", "category": "Bus", "tagPrefix": "gbiss-v", "displayAuthor": "The human" }
+        {
+          "id": "gbiss",
+          "category": "Bus",
+          "tagPrefix": "gbiss-v",
+          "displayAuthor": "The human"
+        }
       ]
     },
     {
       "repo": "Lulurala3119/ichmachediemodsfuromsi2",
-      "assetPriority": [".7z", ".zip"],
+      "assetPriority": [
+        ".7z",
+        ".zip"
+      ],
       "prerelease": true,
       "addons": [
-        { "id": "KGMC110", "category": "Bus", "tagPrefix": "KGMC110-v", "displayAuthor": "Lulurala" },
-        { "id": "KGME-STANA(C070)", "category": "Bus", "tagPrefix": "KGME-STANA(C070)-v", "displayAuthor": "Lulurala" }
+        {
+          "id": "KGMC110",
+          "category": "Bus",
+          "tagPrefix": "KGMC110-v",
+          "displayAuthor": "Lulurala"
+        },
+        {
+          "id": "KGME-STANA(C070)",
+          "category": "Bus",
+          "tagPrefix": "KGME-STANA(C070)-v",
+          "displayAuthor": "Lulurala"
+        }
       ]
     },
     {
       "repo": "Devilanc/Cheongju-2.0",
-      "assetPriority": [".7z", ".zip"],
+      "assetPriority": [
+        ".7z",
+        ".zip"
+      ],
       "prerelease": true,
       "addons": [
-        { "id": "Cheongju", "category": "Map", "tagPrefix": "Cheongju_2.0-v", "displayAuthor": "데블랑" }
+        {
+          "id": "Cheongju",
+          "category": "Map",
+          "tagPrefix": "Cheongju_2.0-v",
+          "displayAuthor": "\uB370\uBE14\uB791"
+        }
       ]
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
